@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Software Engineer with 2+ years in full-stack development, skilled in Java, React, and Spring Boot. Proven track record in delivering scalable web apps, improving performance by 30\%. Experienced in Agile environments and CI/CD pipelines. Adept at database design, REST API integration, and cross-functional teamwork to drive project success.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, Java, SQL, HTML/CSS, Bash
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express.js, Django, Bootstrap, jQuery
+
+\textbf{Database \& Data Management:} MySQL, PostgreSQL, MongoDB, DynamoDB
+
+\textbf{Cloud \& DevOps:} AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD, GitLab, GitHub Actions
+
+\textbf{Software Development Practices:} Agile methodology, Scrum, Test Driven Development, pair programming, SDLC, debugging
+
+\textbf{Computer Science Fundamentals:} Object Oriented Programming, Data Structures, Algorithms, Design Patterns
+
+\textbf{Systems \& Networking:} RESTful APIs, microservices architecture, Unix/Linux environments, security best practices
+
+\textbf{Soft Skills:} Team collaboration, mentoring, problem solving, communication, continuous learning
+
+\vspace{6pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Developed scalable web applications using Spring Boot and React, improving user load times by 30\%.
+\item Collaborated with cross-functional teams in Agile sprints to deliver features ahead of schedule.
+\item Implemented RESTful APIs that reduced response latency by 25\%, enhancing client satisfaction.
+\item Optimized SQL queries for MySQL databases, improving data retrieval speed by 40\%.
+\item Created automated unit and integration tests, increasing code coverage to 85\% using JUnit.
+\item Deployed containerized applications with Docker on AWS, reducing downtime by 20\%.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Assisted in developing front-end features using React.js, boosting UI responsiveness by 15\%.
+\item Participated in bug fixing and code reviews, improving code quality and reducing defects by 10\%.
+\item Supported backend API development in Java Spring, contributing to a 20\% reduction in errors.
+\item Collaborated with team members in daily stand-ups, fostering effective communication and planning.
+\item Gained hands-on experience with Git version control and CI/CD pipeline implementation.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-commerce Web Application} --- \textit{Personal Project}
+
+\vspace{1pt}
+
+Built a full-stack e-commerce site using React and Spring Boot integrating secure payment gateways.
+
+\begin{itemize}
+\item Developed product listing and search functionalities with React to enhance user browsing experience.
+\item Implemented backend services using Spring Boot, enabling smooth order processing and tracking.
+\item Integrated Stripe API for secure payment processing, achieving 99.9\% uptime during launch phase.
+\item Optimized database schema in MySQL, reducing query time by 35\% and improving scalability.
+\end{itemize}
+
+\textbf{Inventory Management System} --- \textit{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{1pt}
+
+Created a responsive inventory system to track stock levels and automate reorder alerts.
+
+\begin{itemize}
+\item Designed RESTful APIs using Java Spring Boot to manage stock data and update records efficiently.
+\item Built front-end dashboard with React, improving real-time stock monitoring and user interaction.
+\item Automated email notifications for low stock, reducing manual checks by 50\% and avoiding shortages.
+\item Implemented authentication and authorization protocols ensuring data security and access control.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
