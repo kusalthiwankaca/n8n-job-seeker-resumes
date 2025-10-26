@@ -1,0 +1,156 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Versatile software developer with over 5 years of experience building scalable web applications and APIs. Adept at full-stack development using modern frameworks and cloud platforms, with a strong focus on clean code and collaboration. Skilled in agile methodologies and dedicated to delivering high-quality solutions that align with business goals and enhance user experiences.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, Java, TypeScript, C\#, SQL
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express, Django, Angular, Bootstrap
+
+\textbf{Database Management:} MySQL, PostgreSQL, MongoDB, Redis, Microsoft SQL Server
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Azure, Docker, Kubernetes, GitLab CI/CD, CircleCI
+
+\textbf{Development Practices:} Agile methodology, Scrum, Test-Driven Development, Continuous Integration, Code Reviews, SDLC
+
+\textbf{CS Fundamentals:} Object-Oriented Programming, Design Patterns, Data Structures, Algorithms, RESTful API Design
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Senior Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Led development of customer-facing web app using React and Node.js, enhancing user engagement significantly.
+\item Collaborated with cross-functional teams to define and implement scalable APIs improving backend performance.
+\item Implemented CI/CD pipelines with Docker and Kubernetes, reducing deployment time and errors.
+\item Mentored junior developers on coding best practices and agile workflows, boosting team efficiency.
+\item Optimized SQL queries and database schemas to improve data retrieval speed and application responsiveness.
+\item Contributed to system architecture discussions, ensuring maintainability and scalability of solutions.
+\end{itemize}
+
+\textbf{Software Engineer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed RESTful services with Django, supporting multiple client apps and third-party integrations.
+\item Collaborated on front-end development with Angular, enhancing UI responsiveness and accessibility.
+\item Wrote unit and integration tests that increased code coverage and reduced bugs in production.
+\item Participated in daily stand-ups and sprint planning, promoting agile best practices across the team.
+\item Assisted in migration of legacy systems to cloud infrastructure, improving scalability and uptime.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Platform Revamp}
+
+\vspace{-1pt}
+
+Migrated and redesigned an existing e-commerce platform to modern tech stack to boost scalability.
+\vspace{-1pt}
+\begin{itemize}
+\item Rebuilt front-end with React and Redux, improving user experience and page load performance significantly.
+\item Designed and developed RESTful APIs with Node.js and Express to streamline data handling processes.
+\item Deployed application using Docker containers orchestrated with Kubernetes on AWS infrastructure.
+\item Integrated payment gateway and third-party analytics tools ensuring secure and compliant transactions.
+\end{itemize}
+
+\textbf{Real-Time Analytics Dashboard}
+
+\vspace{-1pt}
+
+Created a real-time user analytics dashboard for monitoring and reporting key metrics efficiently.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed backend services in Python and Django to aggregate and process high-volume data streams.
+\item Implemented WebSocket-based real-time data updates in frontend using Angular and RxJS.
+\item Configured PostgreSQL database optimizations and indexing to ensure fast query responses.
+\item Collaborated with UX designers to create an intuitive interface that enhanced user data insights.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
