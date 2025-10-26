@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented software engineer with over 5 years of experience designing scalable web applications and optimizing performance. Skilled in full-stack development, cloud services, and agile environments. Proven ability to collaborate across teams and deliver high-quality software solutions aligned with business goals. Passionate about continuous learning and adopting new technologies to improve software reliability and user experience.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, Java, SQL, TypeScript, HTML5, CSS3, Bash
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express, Django, Spring Boot, jQuery, Bootstrap
+
+\textbf{Database Management:} MySQL, PostgreSQL, MongoDB, Redis, Oracle
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Azure, Docker, Kubernetes, GitLab CI/CD, GitHub Actions, Terraform
+
+\textbf{Development Practices:} Agile methodology, Scrum, Test-Driven Development (TDD), Unit Testing, Code Reviews, Continuous Integration
+
+\textbf{CS Fundamentals:} Data Structures, Algorithms, Object-Oriented Programming (OOP), Design Patterns, Microservices Architecture
+
+\textbf{Systems \& Networking:} Linux/Unix environments, Networking basics, Security best practices, Scripting automation
+
+\textbf{Soft Skills:} Critical thinking, problem-solving, technical documentation, effective communication, cross-functional collaboration
+
+\vspace{6pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Developed and maintained scalable web applications using React and Node.js in an Agile environment with cross-functional teams.
+\item Improved backend API response times by 30\% through efficient database querying and code optimization strategies.
+\item Implemented unit and integration tests in Jest and Mocha to increase code coverage and reduce bugs before deployment.
+\item Collaborated with DevOps to containerize applications using Docker, enhancing deployment consistency and scalability.
+\item Participated in sprint planning, peer code reviews, and documentation to ensure delivery of high-quality software products.
+\item Mentored junior developers on best coding practices, design patterns, and agile workflows to boost team productivity.
+\end{itemize}
+
+\textbf{Junior Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Assisted in developing features for customer-facing web applications using JavaScript and React under senior guidance.
+\item Wrote efficient SQL queries and helped optimize database indexes to improve data retrieval speeds.
+\item Supported QA team by creating detailed bug reports and collaborating to reproduce and fix issues promptly.
+\item Contributed to automation scripts in Bash to streamline deployment and integration tasks across environments.
+\item Engaged in daily standups and sprint retrospectives to continuously improve team processes and communication.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-commerce Platform Optimization} --- \textit{Personal Project}
+
+\vspace{1pt}
+
+Enhanced an e-commerce platform with improved search functionality and streamlined checkout using React and Node.js.
+\vspace{-1pt}
+\begin{itemize}
+\item Redesigned search algorithms to deliver relevant results faster, increasing user satisfaction and retention rates.
+\item Implemented server-side pagination and caching strategies to reduce load times during peak usage hours.
+\item Collaborated with UI/UX designers to enhance checkout flow, reducing cart abandonment by 15\%.
+\item Deployed microservices architecture to isolate and scale components independently using Docker and Kubernetes.
+\end{itemize}
+
+\textbf{Cloud Migration and CI/CD Pipeline Setup} --- \textit{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{1pt}
+
+Led migration of legacy services to AWS cloud and established CI/CD pipelines for faster and reliable releases.
+\vspace{-1pt}
+\begin{itemize}
+\item Analyzed existing infrastructure and designed cloud architecture optimized for scalability and cost efficiency.
+\item Automated build and deployment processes using GitLab CI/CD, reducing manual errors and accelerating delivery cycles.
+\item Configured monitoring and alerting tools to maintain system health and quickly respond to outages.
+\item Trained development team on new cloud-native tools and best practices to ensure smooth adoption and knowledge transfer.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
