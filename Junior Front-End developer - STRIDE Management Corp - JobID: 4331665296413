@@ -1,0 +1,154 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with 2+ years in developing scalable solutions using Java and Spring Boot. Skilled in microservices design, REST APIs, and MongoDB, improving system efficiency by 30\%. Adept in AWS deployment and Agile methodologies. Proven ability to reduce error rates by 15\% and enhance application performance across distributed systems.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Java, Python, JavaScript, C++
+
+\textbf{Frameworks \& Libraries:} Spring Boot, React, Node.js, Hibernate
+
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Oracle
+
+\textbf{Tools \& Platforms:} AWS, Docker, Kubernetes, Git, Jenkins
+
+\textbf{Methodologies:} Agile, Scrum, TDD, Continuous Integration
+
+\vspace{6pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Designed and implemented microservices using Spring Boot, improving application scalability by 30\%.
+\item Developed RESTful APIs with Java, reducing response time by 20\% and enhancing client integration.
+\item Collaborated with cross-functional teams in Agile environment to deliver four major releases on time.
+\item Optimized MongoDB queries which increased data retrieval speed by 25\% and reduced latency.
+\item Deployed applications on AWS cloud infrastructure, cutting deployment time by 40\%.
+\item Implemented unit and integration tests with JUnit, increasing code coverage to 85\% and reducing bugs.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Developed Java backend components for web applications, improving processing speed by 18\%.
+\item Assisted in designing REST APIs and integrating third-party services to enhance functionality.
+\item Participated in code reviews and refactoring, improving code maintainability and readability.
+\item Automated build and deployment processes using Jenkins, decreasing errors by 30\%.
+\item Collaborated in Agile sprint planning, contributing to timely delivery of two projects.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Microservices Platform} --- \textit{Personal Project}
+
+\vspace{1pt}
+
+Developed a scalable e-commerce backend using microservices architecture and Spring Boot.
+
+\begin{itemize}
+\item Designed microservices that handled user authentication, catalog, and order management effectively.
+\item Implemented RESTful APIs enabling secure and efficient communication between frontend and backend.
+\item Optimized database schema using MongoDB, achieving 35\% faster query response times.
+\item Deployed the entire platform on AWS, ensuring 99.9\% uptime and seamless scalability.
+\end{itemize}
+
+\textbf{Real-time Chat Application} --- \textit{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{1pt}
+
+Built a real-time chat app using Node.js, React, and WebSocket to enable instant messaging.
+
+\begin{itemize}
+\item Developed backend services with Node.js for managing user connections and message routing.
+\item Created responsive React frontend which boosted user engagement by 25\%.
+\item Integrated WebSocket technology for low-latency, bi-directional communication.
+\item Implemented MongoDB for chat history storage, ensuring data consistency and quick retrieval.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
