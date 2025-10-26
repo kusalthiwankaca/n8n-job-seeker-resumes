@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with expertise in MERN stack, REST APIs, and Agile methodologies. Skilled in delivering scalable, maintainable code and improving performance through collaboration and TDD. Proven ability to translate requirements into functional solutions optimizing UX and backend operations. Seeking to leverage diverse technical skills in a growth-focused team to contribute to cutting-edge software solutions.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, Java, HTML5, CSS3, SQL, TypeScript
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express, Redux, jQuery, Bootstrap, Spring Boot
+
+\textbf{Database Management:} MongoDB, MySQL, PostgreSQL, Redis
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Docker, Jenkins, Git, GitHub Actions
+
+\textbf{Development Practices:} Agile, Scrum, Test-Driven Development, Code Reviews, CI/CD
+
+\textbf{CS Fundamentals:} Data Structures, Algorithms, Object-Oriented Programming, Design Patterns
+
+\textbf{Systems \& Networking:} Linux, Unix, Networking Concepts, Security Best Practices
+
+\textbf{Soft Skills:} Critical Thinking, Problem Solving, Effective Communication, Collaboration
+
+\vspace{6pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Developed and maintained REST APIs using Node.js and Express, enhancing application performance by 30\%.
+\item Implemented React components with Redux for state management, improving frontend responsiveness by 25\%.
+\item Collaborated with cross-functional teams in Agile sprints to deliver features on-time with high quality.
+\item Optimized MongoDB queries that reduced average data retrieval times by 40\% across key application areas.
+\item Wrote unit and integration tests using Jest, increasing code coverage by 70\% and reducing production bugs.
+\item Participated in code reviews and mentoring, improving team productivity and codebase consistency.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Assisted in developing CRUD operations with Python and Django, contributing to backend efficiency improvements.
+\item Collaborated with senior engineers to refactor legacy code bases, improving readability and maintainability.
+\item Implemented basic frontend interfaces using HTML, CSS, and JavaScript, enhancing user experience clarity.
+\item Conducted manual and automated test cases, helping increase testing coverage by 50\% during the internship.
+\item Documented technical procedures and workflows, improving knowledge sharing and onboarding speed.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Web Application} --- \textit{Personal Project}
+
+\vspace{1pt}
+
+Designed a full-stack e-commerce platform using MERN stack with payment gateway integration.
+\vspace{-1pt}
+\begin{itemize}
+\item Built responsive React UI components ensuring seamless checkout and browsing experiences on all devices.
+\item Developed RESTful APIs with Node.js and Express, handling over 1,000 daily concurrent users reliably.
+\item Integrated Stripe API for secure payment processing, increasing transaction success rates by 20\%.
+\item Implemented user authentication and role-based access control improving security and data protection.
+\end{itemize}
+
+\textbf{Real-Time Chat Application} --- \textit{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{1pt}
+
+Created a scalable chat app using Socket.io and React for real-time messaging and notifications.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed WebSocket-based communication backend enabling instant message delivery with 99.9\% uptime.
+\item Implemented React front-end with message history and user presence indicators enhancing usability.
+\item Utilized MongoDB for message storage and retrieval optimizing performance during peak traffic times.
+\item Deployed the app on AWS EC2 instances automating CI/CD pipelines improving release frequency.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
