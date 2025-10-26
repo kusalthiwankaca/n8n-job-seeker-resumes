@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Experienced software developer with a strong background in full-stack development and cloud technologies. Skilled in designing scalable applications, optimizing performance, and collaborating across teams. Adept at applying Agile methodologies, solving complex problems, and delivering user-centric solutions aligned with business needs.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, Java, TypeScript, SQL, HTML5, CSS3, Bash
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express, Django, Bootstrap, jQuery
+
+\textbf{Database Management:} MySQL, PostgreSQL, MongoDB, Redis, SQL Server
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Azure, Docker, Kubernetes, Jenkins, GitLab CI/CD, Terraform
+
+\textbf{Development Practices:} Agile, Scrum, Test-Driven Development, Unit Testing, Code Reviews, Continuous Integration
+
+\textbf{CS Fundamentals:} Data Structures, Algorithms, Object-Oriented Programming, Design Patterns, RESTful APIs
+
+\textbf{Systems \& Networking:} Linux/Unix, Networking Basics, Security Best Practices, Shell Scripting
+
+\textbf{Soft Skills:} Problem Solving, Effective Communication, Technical Documentation, Team Collaboration, Critical Thinking
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and developed scalable full-stack web applications using React, Node.js, and PostgreSQL to meet client requirements.
+\item Led Agile ceremonies and collaborated with cross-functional teams to ensure timely delivery of software features.
+\item Improved application performance by optimizing RESTful API endpoints and database queries for faster response times.
+\item Implemented CI/CD pipelines via GitLab and Jenkins to streamline deployment and reduce integration issues.
+\item Collaborated with QA teams to design automated unit and integration tests enhancing code coverage and quality.
+\item Monitored and troubleshot cloud infrastructure on AWS, ensuring high availability and security compliance.
+\end{itemize}
+
+\textbf{Junior Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported development of web-based tools using JavaScript, HTML5, and CSS3, enhancing user experience and responsiveness.
+\item Maintained and updated backend services built with Python and Django to improve reliability and scalability.
+\item Participated in code reviews and debugging sessions to identify and resolve software defects collaboratively.
+\item Created technical documentation and user guides to assist team members and end users effectively.
+\item Assisted in database schema design and query optimization for improved data integrity and application speed.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Inventory Management System}
+
+\vspace{-1pt}
+
+Developed an efficient web app for inventory tracking using React and Node.js with real-time data updates.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed front-end components with React to provide intuitive user interfaces and seamless navigation.
+\item Implemented secure REST API endpoints with Node.js to handle CRUD operations and user authentication.
+\item Integrated PostgreSQL for robust data storage and optimized queries to reduce latency during peak loads.
+\item Deployed the application on AWS with automated backups, enhancing reliability and disaster recovery.
+\end{itemize}
+
+\textbf{Cloud-Based Analytics Dashboard}
+
+\vspace{-1pt}
+
+Built a scalable analytics dashboard leveraging AWS services to visualize performance metrics dynamically.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered backend ETL pipelines to process and aggregate data for insightful analytics display.
+\item Utilized AWS Lambda and S3 for serverless functions and efficient data storage solutions.
+\item Designed interactive visualization components using JavaScript libraries to empower user decisions.
+\item Collaborated with data scientists to translate business KPIs into actionable visual reports.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
