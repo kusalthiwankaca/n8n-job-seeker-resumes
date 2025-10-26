@@ -1,0 +1,152 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Software Engineer with 3+ years experience developing scalable applications using Java, Spring Boot, and SQL. Proven ability to optimize backend processes and enhance system performance by 20\%. Skilled in RESTful API design, Agile methodologies, and collaborative cross-team projects. Dedicated to delivering high-quality software solutions aligned with business goals and user needs.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Java, Python, JavaScript, SQL
+
+\textbf{Frameworks \& Libraries:} Spring Boot, Hibernate, React, Node.js
+
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB
+
+\textbf{Tools \& Platforms:} Git, Docker, Jenkins, AWS
+
+\vspace{6pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Developed and maintained Java-based backend services improving API response times by 20\% using Spring Boot framework.
+\item Designed RESTful APIs consumed by front-end teams, increasing application integration efficiency by 25\%.
+\item Collaborated with cross-functional teams to define software requirements and deliverables under Agile methodologies.
+\item Implemented database schema optimizations that improved query performance by 30\% in PostgreSQL environments.
+\item Led code reviews ensuring compliance with best practices, reducing bugs by 15\% in released versions.
+\item Deployed containerized applications on AWS using Docker and Jenkins, streamlining CI/CD pipelines.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{1pt}
+
+\begin{itemize}
+\item Assisted in developing features using Java and Spring Boot, contributing to two major release cycles.
+\item Conducted unit and integration tests improving code coverage from 70\% to 85\%.
+\item Participated in daily stand-ups and sprint planning to ensure timely delivery of assigned tasks.
+\item Enhanced application logging and monitoring, reducing error troubleshooting time by 20\%.
+\item Collaborated with senior developers on bug fixes and performance tuning.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Inventory Management System} --- \textit{Personal Project}
+
+\vspace{1pt}
+
+Developed an inventory management web app improving stock tracking and reporting efficiency.
+
+\begin{itemize}
+\item Built RESTful APIs using Spring Boot facilitating real-time inventory updates across multiple warehouses.
+\item Implemented front-end features with React optimizing user workflow and decreasing data entry errors by 15\%.
+\item Integrated MySQL database ensuring secure and consistent data storage with automated backups.
+\item Deployed Docker containers on AWS improving system uptime to 99.9\% with scalable performance.
+\end{itemize}
+
+\textbf{Employee Performance Tracker} --- \textit{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{1pt}
+
+Created a performance tracking tool to analyze and report employee metrics accurately and timely.
+
+\begin{itemize}
+\item Developed back-end services in Java to calculate KPIs and generate reports for management review.
+\item Designed responsive UI using React, enhancing user experience and increasing adoption by 30\%.
+\item Automated data synchronization with HR systems via API integrations reducing manual input errors.
+\item Implemented role-based access control securing sensitive employee data across the platform.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
