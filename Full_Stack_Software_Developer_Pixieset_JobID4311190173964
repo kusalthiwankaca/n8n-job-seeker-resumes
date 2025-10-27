@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented software developer with strong experience in web applications, backend systems, and API integrations. Proficient in JavaScript, Python, and cloud infrastructure with a proven record of delivering scalable solutions. Collaborates well in Agile teams and contributes across the development lifecycle. Seeking to leverage technical skills to drive impactful outcomes.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, C\#, SQL, PHP, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Bootstrap, jQuery, Express, Flask
+
+\textbf{Database Management:} PostgreSQL, MySQL, MongoDB, SQL Server
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Docker, GitHub Actions, CI/CD pipelines
+
+\textbf{Development Practices:} Agile methodology, Scrum, Test-Driven Development (TDD), Unit Testing, Code Reviews, Version Control
+
+\textbf{CS Fundamentals:} Data Structures, Algorithms, Object-Oriented Programming (OOP), Design Patterns
+
+\textbf{Systems \& Networking:} Linux environments, HTTP/HTTPS protocols, REST APIs, Web servers, Command-line scripting
+
+\textbf{Soft Skills:} Analytical thinking, clear communication, collaboration, technical writing, independent learning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive web interfaces using React, improving load performance and user engagement for critical workflows.
+\item Implemented scalable RESTful APIs in Node.js and Express that streamlined data operations across cloud-native environments.
+\item Integrated third-party services and internal tools using OAuth and webhooks to enable secure data sharing and automation.
+\item Deployed applications to AWS using Docker and CI/CD pipelines, trimming deployment inefficiencies by 30\% over three months.
+\item Conducted performance tuning on back-end queries, improving average request latency by 45\% during high-traffic events.
+\item Participated in Agile sprints, handled peer code reviews, wrote test suites, and resolved bugs collaboratively within deadlines.
+\end{itemize}
+
+\textbf{Backend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built database schemas and optimized SQL queries in PostgreSQL that significantly improved response times and data integrity.
+\item Created secure authentication flows and access control mechanisms using JWT and role-based permissions in Python-Flask apps.
+\item Worked with product managers to refine technical requirements and iterated feature development within defined sprint cycles.
+\item Integrated logging and monitoring tools, reducing mean time to recovery (MTTR) on incidents through real-time diagnostics.
+\item Wrote clear internal documentation and API reference guides used by cross-functional teams and external partners consistently.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{IoT Fleet Management Dashboard}
+
+\vspace{-1pt}
+
+Developed a full-stack dashboard for real-time fleet tracking and diagnostics using MERN stack and MQTT integration.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed a responsive React dashboard to visualize live GPS, fuel usage, and maintenance alerts, improving manageability.
+\item Built Node.js backend with Express to handle MQTT messages and persist telemetry data into MongoDB with validation logic.
+\item Secured APIs with JWT-based auth and built user-role access flows to ensure data isolation and reduce unauthorized views.
+\item Deployed app to AWS using Docker and Nginx, optimizing container startup and load-balancing for consistent availability.
+\end{itemize}
+
+\textbf{Customer Feedback Analyzer}
+
+\vspace{-1pt}
+
+Text sentiment analysis pipeline that classifies customer reviews using Python NLP techniques and dashboard visualization.
+\vspace{-1pt}
+\begin{itemize}
+\item Gathered and preprocessed textual reviews, applying tokenization, stop-word removal, and stemming for cleaner inputs.
+\item Built a classification model using scikit-learn and TF-IDF features, achieving high precision in classifying sentiment types.
+\item Created Python Flask APIs to serve predictions and integrated results into a web dashboard using Chart.js visuals.
+\item Instrumented logging and exception handling to monitor input payloads, model accuracy, and user activity effectively.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
