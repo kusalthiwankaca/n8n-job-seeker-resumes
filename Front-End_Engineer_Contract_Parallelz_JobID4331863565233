@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven software engineer with a strong foundation in full-stack web development, cloud technologies, and user-focused design. Proficient in JavaScript, Python, and scalable architecture with AWS \& Docker. Proven track record in cross-functional collaboration, agile development, and building web solutions that enhance efficiency and user engagement across multiple platforms.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, Java, TypeScript, SQL, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} React.js, Node.js, Express.js, Flask, Bootstrap, jQuery
+
+\textbf{Database Management:} PostgreSQL, MySQL, MongoDB, SQLite, Oracle DB
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Docker, Heroku, GitLab CI/CD, Git, GitHub Actions
+
+\textbf{Development Practices:} Agile methodology, Scrum, Version control, Unit Testing, Code Reviews
+
+\textbf{CS Fundamentals:} Data Structures, Algorithms, Object-Oriented Programming, Design Patterns
+
+\textbf{Systems \& Networking:} Cloud computing, REST APIs, Linux command line, Networking basics
+
+\textbf{Soft Skills:} Problem solving, Adaptability, Communication, Team collaboration, Technical writing
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and built full-stack applications using React and Node.js, optimizing performance and user experience across platforms.
+\item Developed RESTful APIs with Express.js and integrated external services like Stripe and Twilio to enhance application features.
+\item Led frontend refactoring efforts, reducing load times by 40\% through code splitting and dynamic component rendering techniques.
+\item Implemented CI/CD pipelines using GitHub Actions and Docker for seamless automated deployments to AWS-hosted environments.
+\item Collaborated with designers and stakeholders to translate requirements into responsive UIs tailored to user accessibility needs.
+\item Wrote comprehensive unit and integration tests with Jest and Supertest, achieving 85\% test coverage across backend services.
+\end{itemize}
+
+\textbf{Junior Software Engineer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing internal dashboards using React and Flask, improving workflow visibility for cross-functional teams.
+\item Maintained SQL queries and optimized database indexes in PostgreSQL, leading to faster report generation performance.
+\item Wrote documentation and onboarding guides for features, ensuring smooth knowledge transfer within the development team.
+\item Participated in agile ceremonies, including sprint planning, retrospectives, and daily standups to align team objectives.
+\item Conducted peer code reviews to uphold coding standards and reduce production bugs across backend Python components.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Analytics Dashboard}
+
+\vspace{-1pt}
+
+Developed a dynamic dashboard to analyze e-commerce sales data using React, Node.js, PostgreSQL, and Chart.js.
+\vspace{-1pt}
+\begin{itemize}
+\item Built backend services in Node.js that processed transactional data and exposed detailed analytics through RESTful endpoints.
+\item Designed interactive UI in React with customizable filters for visualizing sales trends, inventory, and customer behavior.
+\item Integrated PostgreSQL for structured data storage and wrote optimized queries for fast data aggregation on large datasets.
+\item Containerized components with Docker and deployed to AWS EC2 with CI/CD automation for versioned product releases.
+\end{itemize}
+
+\textbf{Remote Interview Scheduler}
+
+\vspace{-1pt}
+
+Created a scheduling web app using React, Flask, and PostgreSQL to streamline remote interview management.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented secure user authentication and role-based access control using JWT for admins, candidates, and interviewers.
+\item Built Flask services that handled time slot matching logic, automated reminders, and time zone conversions in real time.
+\item Developed responsive frontend in React, enabling mobile-friendly scheduling with real-time updates across all users.
+\item Deployed app on Heroku using Docker, with PostgreSQL add-ons and custom domain routing for public availability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
