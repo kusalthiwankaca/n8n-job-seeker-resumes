@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented junior web developer with hands-on experience delivering full stack applications using JavaScript, React, and Node.js. Passionate about building responsive, scalable UIs and maintaining clean backend APIs. Skilled in HTML5, CSS3, Express.js, and Git workflows. Familiar with cloud tools like Firebase and AWS, and always committed to writing collaborative, high-quality code in Agile teams.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, PHP, SQL, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} React, Redux, React Query, Node.js, Express.js, Next.js, Bootstrap, Material UI
+
+\textbf{Databases:} MongoDB, MySQL, PostgreSQL, Firebase, DynamoDB, SQLite
+
+\textbf{Cloud \& DevOps:} AWS, GCP, Azure, Docker, Kubernetes, GitHub Actions, CI/CD, Terraform
+
+\textbf{Web \& API Development:} REST APIs, GraphQL, OAuth, JWT, API Security, OpenAPI, HTTPS
+
+\textbf{Development Practices:} Agile, Scrum, Code Reviews, Version Control, Unit Testing, TDD, Clean Architecture
+
+\textbf{Tools \& Workflow:} Git, GitHub, Jira, Slack, VS Code, Postman, Docker Compose
+
+\textbf{Soft Skills:} Problem-solving, Collaboration, Communication, Time Management, Adaptability, Documentation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Web Developer Intern -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and enhanced React-based components with state management using Redux and React Query, improving UI responsiveness overall.
+\item Collaborated with backend engineers on REST API integration and applied secure auth flows using JWT and OAuth standards.
+\item Converted Figma designs into responsive UIs with HTML5, CSS3, and Material UI, improving usability across mobile and desktop.
+\item Implemented form validation and local storage using JavaScript features that sped up workflows and boosted data handling.
+\item Worked within GitHub for version control, branching strategies, and pair programming to support multiple sprints per month.
+\item Participated in Agile daily standups and sprint reviews, contributing to planning, QA testing, and post-deployment feedback.
+\end{itemize}
+
+\textbf{Junior Full Stack Developer (Freelance) -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and deployed full stack web solutions for startup clients using MERN stack to support initial MVP functionality goals.
+\item Designed REST APIs using Express.js and MongoDB to handle user sessions, account creation, and secure CRUD operations.
+\item Set up deployment environments using Firebase Hosting with GitHub CI workflows for automated previews and production flows.
+\item Utilized Sass and Bootstrap to build visually consistent, responsive layouts reflecting the clients' brand and usability focus.
+\item Created documentation and code annotations tailored to non-technical stakeholders, allowing easy post-handoff management.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Founder Portal Dashboard}
+
+\vspace{-1pt}
+
+A user dashboard prototype for SaaS founders to manage products, payments, insights, and automated onboarding tasks.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed responsive React components integrated with Context API for dynamic theming, live metrics, and component states.
+\item Connected dashboard to Node.js backend via REST APIs secured with JWT auth to handle user sessions and permissions.
+\item Used MongoDB and Mongoose schemas to structure product, subscription, and analytics datasets for faster API reads.
+\item Styled the entire portal using SCSS and Tailwind CSS, enabling rapid UI iteration while supporting fully branded themes.
+\end{itemize}
+
+\textbf{LaunchPad - SaaS MVP Generator}
+
+\vspace{-1pt}
+
+A boilerplate generator to help SaaS founders spin up React/Node.js web apps with backend auth and analytics prebuilt.
+\vspace{-1pt}
+\begin{itemize}
+\item Automated project scaffolding using JavaScript CLI and file templates for frontend, backend, and Docker-based deployment.
+\item Implemented Express routes and Firebase Auth tools to spin up secure login systems in under five minutes from launch.
+\item Bundled CI/CD pipeline starter (GitHub Actions) for auto-linting, build, deploy, and test environments across stages.
+\item Created onboarding docs and example pages for users, enabling faster MVPs and complete walkthroughs in under 30 minutes.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
