@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Data Analyst with over 2 years of experience leveraging SQL, Power BI, and Excel to deliver accurate, timely reports. Skilled in translating stakeholder data requirements into actionable insights, managing recurring reporting workflows, and maintaining data governance. Excels in communication, prioritization, and building positive relationships in cross-functional and remote environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} SQL, Python, JavaScript, PHP, HTML5, CSS3
+
+\textbf{Data \& Reporting Tools:} Power BI, Excel, Google Sheets, Chart.js, Google Data Studio, PowerPoint
+
+\textbf{Database Technologies:} PostgreSQL, MySQL, MongoDB, SQLite, DynamoDB
+
+\textbf{Data Processing \& Integration:} ETL Pipelines, Data Warehousing, REST API, FastAPI, Serverless Functions
+
+\textbf{Development Practices:} Agile, Scrum, Code Reviews, SDLC, Version Control
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Azure, Docker, GitHub Actions, CI/CD Pipelines
+
+\textbf{Soft Skills:} Communication, Time Management, Analytical Thinking, Problem Solving, Documentation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Data Analyst Intern -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Wrote SQL queries to generate recurring business reports using MySQL and PostgreSQL databases, focusing on data accuracy.
+\item Created dashboards in Power BI to visualize KPIs and trends, enabling faster business decision-making by stakeholders.
+\item Prioritized simultaneous data requests from cross-functional teams by urgency and aligned delivery with reporting cycles.
+\item Collaborated with analysts to define data governance rules and ensure consistency across multiple datasets and sources.
+\item Prepared summary decks in Excel and PowerPoint for weekly reporting updates and ad hoc analysis presentations.
+\item Supported change implementation by documenting historical metrics and highlighting impact of data model adjustments.
+\end{itemize}
+
+\textbf{Business Intelligence Support Assistant -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in tracking, cleaning, and importing operational customer data used by finance and support teams in quarterly cycles.
+\item Documented and maintained a centralized library of recurring reporting queries and Power BI report configurations.
+\item Handled first-line data support requests by reviewing logs, rerunning SQL scripts, or escalating to development teams.
+\item Contributed to SLA monitoring by flagging delayed data updates and anomalies discovered in daily scheduled report runs.
+\item Collaborated across internal departments to build strong relationships and ensure clear mutual understanding of needs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Group Benefits Reporting Suite}
+
+\vspace{-1pt}
+
+Developed custom Power BI dashboards and SQL reports to serve group benefit analytics and recurring report needs.
+\vspace{-1pt}
+\begin{itemize}
+\item Gathered data requirements from internal users and translated them into filtered SQL queries targeting right datapoints.
+\item Built dimensional reporting in Power BI with slicers and drill-downs, aligning reports with diverse data perspectives.
+\item Automated SQL jobs and Excel data exports to reduce reporting prep time while improving refresh accuracy significantly.
+\item Maintained structured documentation of all reports and query changes to streamline auditing and onboarding processes.
+\end{itemize}
+
+\textbf{Claims Request Audit Tracker}
+
+\vspace{-1pt}
+
+Created an automated spreadsheet tracking and visualizing audit resolution across different group claim categories.
+\vspace{-1pt}
+\begin{itemize}
+\item Used advanced Excel formulas and Power Query to merge, clean, and flag daily request data pulled from two systems.
+\item Designed summary views charting claim approval delays segmented by week, category, and assigned resolution team.
+\item Introduced data validation and dropdown controls to ensure accurate entries by internal auditing and QA teams.
+\item Distributed final report package weekly to stakeholders via scheduled email automation using office suite macros.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
