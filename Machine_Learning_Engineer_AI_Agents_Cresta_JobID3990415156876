@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Machine Learning Engineer with 3+ years of experience building scalable NLP and AI systems across cloud environments. Skilled in deploying LLM-based models, vector databases, prompt optimization techniques, and GenAI workflows. Adept at integrating intelligent agents with APIs and distributed systems to solve real-world problems and scale AI solutions efficiently in production-grade architectures.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, SQL, PHP, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} FastAPI, Flask, Django, React, Node.js, Hugging Face, LangChain, TensorFlow
+
+\textbf{Machine Learning Tools:} LLM API, Prompt Engineering, ChatGPT API, NumPy, Scikit-learn, Machine Learning APIs
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Azure, GCP, Docker, Kubernetes, GitHub Actions, Terraform, CI/CD
+
+\textbf{Data Systems \& Infrastructure:} PostgreSQL, MongoDB, Redis, DynamoDB, ETL Pipelines, BigQuery, Vector Databases
+
+\textbf{Security \& Networking:} IAM, OAuth, SSO, API Gateway, TLS, IAM Policies, Zero Trust, Encryption
+
+\textbf{Development Practices:} Agile, Scrum, TDD, Unit Testing, System Design, Documentation, Version Control
+
+\textbf{Soft Skills:} Analytical Thinking, Problem-Solving, Team Collaboration, Mentorship, Communication, Strategic Planning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Machine Learning Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built production-ready LLM integrations using FastAPI and LangChain to power intelligent assistants for enterprise tools.
+\item Optimized multi-agent workflows using vector search and memory modules to enhance performance, speed, and stability.
+\item Engineered pipeline automation for prompt design testing at scale using n8n and serverless functions for structured flow.
+\item Integrated LLM outputs with third-party APIs, enabling autonomous task completion for end-user actions in live systems.
+\item Worked closely with backend and DevOps to scale AI infrastructure across AWS Lambda, K8s, and containerized services.
+\item Collaborated with product teams to design agent interfaces for B2B clients, aligning model behavior with real use cases.
+\end{itemize}
+
+\textbf{AI Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed full-stack tools using Python, React, and GraphQL to visualize AI model outputs and improve interface UX.
+\item Managed prompt testing across OpenAI, Cohere, and Anthropic APIs by comparing latency, cost, and reasoning capabilities.
+\item Deployed containerized inference pipelines on cloud instances with GPU support for rapid iteration and evaluation.
+\item Documented evaluation benchmarks for task completion, reliability, and semantic coherence across agent-generated responses.
+\item Participated in architecting custom embeddings indexing workflows with Pinecone and Weaviate for contextual awareness.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{LLM-Powered Customer Support Agent}
+
+\vspace{-1pt}
+
+Built an AI agent with LLM and tools integration that autonomously resolved customer issues with contextual accuracy.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented OpenAI and Anthropic LLM flows using LangChain agents and vector memory backing in PostgreSQL and Redis.
+\item Created scalable prompts and evaluation harnesses to test summarization, query routing, and long-context responses.
+\item Used FastAPI and WebSockets for real-time user-agent interaction, logging conversations and triggering backend tasks.
+\item Deployed container-based agent architecture across AWS Lambda and integrated with Helpdesk API for automated actions.
+\end{itemize}
+
+\textbf{Agent Orchestration \& Evaluation Platform}
+
+\vspace{-1pt}
+
+Developed framework for orchestrating multi-agent LLM workflows and automated performance evaluations at scale.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed agent evaluation metrics for coherence, task success, and API utilization with weight-based scoring systems.
+\item Engineered test suite with mocked integrations simulating real workflows and toggling tool access conditionally.
+\item Utilized Pinecone for knowledge retrieval and embedded memory while testing RAG-based improvements in agent recall.
+\item Built internal dashboard using React, Next.js, and GraphQL to monitor real-time token usage and latency per tool.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
