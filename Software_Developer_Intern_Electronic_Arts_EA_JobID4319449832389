@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Software Developer Intern with strong knowledge of JavaScript, TypeScript, and React. Skilled in full-stack web development using Node.js, NestJS, and PostgreSQL. Proven ability to build scalable features, write maintainable code, and collaborate with agile teams. Passionate about user-focused design, reusable components, and contributing to code quality through testing and documentation.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, SQL, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} React, Next.js, Redux, Node.js, NestJS, FastAPI, Bootstrap, Material UI, Storybook
+
+\textbf{Database Management:} PostgreSQL, MySQL, MongoDB, Redis, SQLite
+
+\textbf{Development Tools:} Git, GitHub, Docker, Jest, Postman, CI/CD, VS Code
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Azure, Google Cloud Platform, Kubernetes, Terraform
+
+\textbf{Development Practices:} Agile, Scrum, Unit Testing, Integration Testing, Code Reviews, Version Control
+
+\textbf{Systems \& API:} REST APIs, GraphQL, WebSockets, OAuth, JWT, Caching, Serverless Functions
+
+\textbf{Soft Skills:} Collaboration, Communication, Problem Solving, Adaptability, Time Management, Documentation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Developer Intern -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive UI components using React, TypeScript, and Material UI in support of enterprise-grade dashboard apps.
+\item Integrated frontend with REST APIs powered by Node.js and NestJS, ensuring seamless data flow and API reliability.
+\item Utilized Storybook to manage shared components and contribute to a scalable, reusable design system across multiple teams.
+\item Collaborated with backend engineers on design and implementation of caching strategies using Redis and route optimization.
+\item Wrote unit and integration tests with Jest and Testing Library to ensure component-level and interaction coverage.
+\item Participated in peer code reviews, standups, and agile sprints to promote collective ownership and iterative feedback.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported development of full-stack features using JavaScript, PostgreSQL, and FastAPI in a small cross-functional team.
+\item Contributed to RESTful API development and handled frontend data bindings and state with Redux and React Query.
+\item Built interactive user forms and validation components in React, handling accessibility and responsiveness concerns.
+\item Led issue triage and debugging across staging environments, improving reliability across local-to-prod CI workflows.
+\item Documented key architecture diagrams and Git workflows to onboard new interns and reduce repository friction.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Headless Blog Platform}
+
+\vspace{-1pt}
+
+Built a headless CMS-powered blog app using Contentful, Next.js, and TypeScript with SSR and reusable UI components.
+\vspace{-1pt}
+\begin{itemize}
+\item Configured Contentful space, schema, and GraphQL queries to integrate dynamic content into Next.js pages via API.
+\item Developed client and server features with TypeScript, adding SEO routes, pagination, and media asset rendering modules.
+\item Implemented component library using Storybook with reusable form and layout features for future scalability.
+\item Wrote unit tests with Jest and automated builds via GitHub Actions for CI validation before deployment to Vercel.
+\end{itemize}
+
+\textbf{Dev Portfolio \& Dashboard}
+
+\vspace{-1pt}
+
+Designed a personal developer dashboard combining analytics, API tools, and chart components with Next.js and Node.js.
+\vspace{-1pt}
+\begin{itemize}
+\item Built full-stack features integrating backend Node.js with Redis caching and REST endpoints consumed by React pages.
+\item Integrated open APIs for GitHub activity, visitor tracking, and email submissions using OAuth-secured routes.
+\item Created custom chart and analytics components using Chart.js and Tailwind for visualizing user engagement events.
+\item Deployed via Docker to a cloud VM, optimizing performance using server-side caching and image delivery techniques.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
