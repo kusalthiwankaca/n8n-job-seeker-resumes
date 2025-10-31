@@ -1,0 +1,160 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Junior Project Coordinator with 2+ years of experience supporting documentation, client onboarding, and stakeholder engagement across cross-functional teams. Skilled in scheduling, requirements tracking, communication, and reporting. Proficient at managing multiple deliverables while maintaining accurate documentation and improving operational efficiency in hybrid environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Project Management Tools:} Jira, Slack, Trello, Confluence, GitHub, Microsoft Teams
+
+\textbf{Documentation \& Reporting:} Technical documentation, Project charters, Status reports, Change logs, Procurement records
+
+\textbf{Project Coordination:} Stakeholder communication, Client onboarding, Scheduling, Ticket management, Progress tracking
+
+\textbf{Data Tools \& Platforms:} Microsoft Excel, Power BI, Google Sheets, Notion, Airtable
+
+\textbf{Cloud \& Infrastructure:} AWS, Azure, Docker, CI/CD pipelines, Linux environments
+
+\textbf{Web \& Backend:} React, Node.js, Django, MySQL, MongoDB, REST API, Git
+
+\textbf{Security Concepts:} OAuth, JWT, SSO, IAM, TLS, Security policies, Zero Trust Architecture
+
+\textbf{Soft Skills:} Collaboration, Problem-solving, Time management, Attention to detail, Adaptability, Communication
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Project Support Coordinator -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Coordinated onboarding sessions, scheduled demos, and tracked completion of client agreements across 20+ partner orgs.
+\item Maintained project artifacts and change logs; updated deliverable trackers, procurement sheets, and reporting templates.
+\item Monitored onboarding progress and escalated blockers using Jira, increasing response times and issue turnaround rate.
+\item Collaborated cross-functionally to generate SOP documentation, improving transfer of knowledge during process handoffs.
+\item Facilitated clear communication between technical leads, support staff, and clients to ensure seamless project delivery.
+\item Assisted in compiling weekly status reports, condensing updates from multiple workstreams into executive-level summaries.
+\end{itemize}
+
+\textbf{Technical Operations Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported the implementation of internal tooling by capturing technical requirements and coordinating team feedback loops.
+\item Created and maintained task trackers, ticket queues, and onboarding logs across multiple cloud-based collaboration tools.
+\item Built basic scripts to query database activity logs, supporting the audit of client onboarding documentation accuracy.
+\item Drafted internal knowledge base articles and standard operating procedures to streamline recurring support workflows.
+\item Participated in daily standups and retrospectives using Agile methodology, contributing process improvements iteratively.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Client Onboarding Tracker System}
+
+\vspace{-1pt}
+
+Designed a centralized dashboard to track onboarding activities, service compliance, and documentation status at scale.
+\vspace{-1pt}
+\begin{itemize}
+\item Created a custom database schema and interface using Airtable and React for managing client onboarding data flows.
+\item Designed UI components with filters and aggregates for manager visibility into onboarding compliance at org-wide level.
+\item Implemented automated reminders using n8n workflows for pending agreements, cutting manual outreach time by 40\%.
+\item Integrated Slack API and email to notify onboarding teams of overdue tickets based on escalation thresholds.
+\end{itemize}
+
+\textbf{Service Access Request Workflow}
+
+\vspace{-1pt}
+
+Developed an automated workflow system for processing internal service requests via structured request forms and Jira APIs.
+\vspace{-1pt}
+\begin{itemize}
+\item Built form templates for access provisioning covering SSO, endpoints, and IAM using secure, predefined field schemas.
+\item Developed GitHub Actions scripts that captured form data and pushed structured tickets to defined project queues.
+\item Created dashboards that surfaced request status and timing bottlenecks to assist managers in performance analysis.
+\item Documented request types, SLA per asset group, and linked escalation procedures for easy onboarding and reference.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
