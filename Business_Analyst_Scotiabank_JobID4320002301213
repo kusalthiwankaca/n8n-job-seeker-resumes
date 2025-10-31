@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Business Analyst with 3+ years of experience translating business needs into technical solutions. Skilled in documenting requirements, performing data flow analysis, supporting UAT, and collaborating cross-functionally with dev teams. Experienced in producing business process diagrams, impact reports, and user instructions to deliver projects efficiently and aligned with stakeholder goals.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Business \& Reporting Tools:} Microsoft Excel, Power BI, Word, Google Sheets, PowerPoint, iFAST (basic familiarity)
+
+\textbf{Databases \& Querying:} SQL, PostgreSQL, MySQL, SQLite, ETL Pipelines, Data Warehousing
+
+\textbf{Frameworks \& Libraries:} React, Django, FastAPI, Bootstrap, Node.js, Flask
+
+\textbf{Development Practices:} Agile, Scrum, SDLC, Version Control, Code Review, Release Management
+
+\textbf{Documentation \& Analysis:} Process Diagrams, Business Rules, Requirements Specification, Functional Requirements Docs, Test Cases
+
+\textbf{Cloud \& DevOps:} AWS, Azure, CI/CD, Docker, Terraform, GitHub Actions
+
+\textbf{Soft Skills:} Analytical Thinking, Effective Communication, Team Collaboration, Time Management, Problem-Solving
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Business Analyst -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Documented detailed business requirements for web applications and coordinated reviews with developers and stakeholders.
+\item Created user flow diagrams and system interaction charts to visualize proposed enhancements and technical impacts.
+\item Led requirement-gathering sessions, translating user needs into functional specs and Agile-ready feature tickets.
+\item Collaborated with QA to prepare test cases, track bugs, and support user acceptance testing during release cycles.
+\item Worked with backend teams to assess data models and validate field-level mappings from legacy to new platforms.
+\item Authored training documentation and internal wiki content to support post-deployment transitions and end users.
+\end{itemize}
+
+\textbf{Junior Business Analyst -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in requirement documentation for multiple financial web tools by writing user stories and acceptance criteria.
+\item Created visual dashboards in Excel and Power BI for internal analysis of service-level KPIs and issue triaging trends.
+\item Performed impact analysis on change requests, flagging conflicts across channels, platforms, and workflows.
+\item Worked with SMEs to verify data accuracy across APIs and spreadsheets used during processing of client requests.
+\item Maintained change logs, meeting notes, and workflow diagrams to ensure traceability throughout project lifecycle.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Client Onboarding Process Optimization}
+
+\vspace{-1pt}
+
+Redesigned onboarding workflows and forms for financial clients, improving processing clarity and reducing delays.
+\vspace{-1pt}
+\begin{itemize}
+\item Interviewed stakeholders to gather pain points and translated insights into actionable business requirements.
+\item Created end-to-end process maps of intake, review, and account setup flows for internal and external platforms.
+\item Worked with developers to finalize field validations and user-facing messaging to reduce support tickets.
+\item Coordinated UAT by drafting test scenarios, logging defects, and managing iterative user feedback sessions.
+\end{itemize}
+
+\textbf{Internal Process Change Logging Tool}
+
+\vspace{-1pt}
+
+Built a tracking app for logging and reviewing operational process changes across departments to improve visibility.
+\vspace{-1pt}
+\begin{itemize}
+\item Gathered functional requirements from four departments and created workflow prototypes in Figma for validation.
+\item Drafted system design specs detailing front-end inputs, workflow notifications, and data capture formats.
+\item Performed QA testing support and resolved feedback cycles to finalize MVP checklist feature scope.
+\item Facilitated documentation ownership transfer with admin and operational teams during sign-off and release.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
