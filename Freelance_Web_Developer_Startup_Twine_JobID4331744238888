@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Versatile Full Stack Web Developer with expertise in JavaScript, React, HTML, CSS, and backend technologies like Python and PHP. Skilled at building responsive, secure web applications from ground up, with practical experience in freelance, startup-style environments. Proficient in agile delivery, APIs, infrastructure setup, and troubleshooting. Strong communicator who thrives remotely and delivers results under tight deadlines.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, PHP, SQL, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} React, Next.js, Django, Flask, Bootstrap, Material UI
+
+\textbf{Backend \& APIs:} Node.js, Express.js, REST APIs, GraphQL, FastAPI, Laravel
+
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, DynamoDB, SQLite, Redis
+
+\textbf{DevOps \& Deployment:} Docker, GitHub Actions, CI/CD, Terraform, AWS, Kubernetes
+
+\textbf{Testing \& Security:} Unit Testing, Integration Testing, OAuth, JWT, TLS, XSS Prevention
+
+\textbf{Soft Skills:} Remote Collaboration, Client Communication, Problem Solving, Agile Methodologies, Time Management
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Freelance Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed full-featured client websites using React, Node.js, and PostgreSQL with a focus on fast delivery and clean UX.
+\item Built custom reusable React components integrated with REST APIs for dynamic data rendering and full responsiveness.
+\item Managed cloud infrastructure using AWS, Docker, and GitHub Actions to ensure automated deployments and uptime.
+\item Collaborated directly with startup founders, translating business specs into actionable development sprints and MVPs.
+\item Handled cross-browser testing and implemented basic SEO best practices to support product visibility from day one.
+\item Provided brief video updates regularly, recorded walkthroughs, and reacted quickly to design feedback via Slack/Zoom.
+\end{itemize}
+
+\textbf{Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built internal tools and micro frontends using React, TypeScript, and Material UI for business workflow applications.
+\item Created API layers with FastAPI and PostgreSQL to support scalable data management for internal web dashboards.
+\item Used agile project management practices via Jira, delivering bi-weekly demo-ready versions for stakeholder review.
+\item Configured CI/CD pipelines on GitHub Actions with Docker containers for consistent development to production flow.
+\item Wrote unit and integration tests covering edge cases and error scenarios to reduce bugs before client hand-off.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Founder Collaboration Site MVP}
+
+\vspace{-1pt}
+
+Responsive web app for a startup founder built from scratch, delivering MVP functionality in one week.
+\vspace{-1pt}
+\begin{itemize}
+\item Converted founder's vision and UX sketches into a working React front end with fully responsive breakpoints.
+\item Developed secure backend using FastAPI with RESTful endpoints for user data handling and authentication flows.
+\item Enabled AWS-based hosting with CI/CD deployment and DNS setup for quick, hands-free go-live within deadline.
+\item Addressed feedback with async standups, resolving UI/UX concerns rapidly and deploying updates iteratively.
+\end{itemize}
+
+\textbf{Remote Portfolio CMS}
+
+\vspace{-1pt}
+
+Headless CMS-style portfolio site for a remote freelancer with dynamic admin editing and media uploading.
+\vspace{-1pt}
+\begin{itemize}
+\item Built reusable React components with Tailwind CSS and coded markdown-powered editable portfolio content areas.
+\item Integrated third-party CMS API for quick content updates, along with Git-based deployment via GitHub Actions.
+\item Secured backend with OAuth and role-based access, separating reader access from creator/admin dashboard routes.
+\item Tested full website on Chrome, Edge, and Firefox and audited load times using Lighthouse to ensure performance.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
