@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full-stack developer with 3 years of experience designing and building scalable web applications using React, Node.js, and Python. Skilled in developing secure, real-time systems and integrating APIs for data-intensive applications. Experienced with CI/CD, cloud infrastructure, and field-tested deployments, seeking to contribute to impactful autonomous aviation missions at Ribbit.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend:} React, TypeScript, JavaScript, Redux, HTML5, CSS3, Next.js
+
+\textbf{Backend:} Node.js, Python, Express, REST APIs, Go, gRPC
+
+\textbf{DevOps \& Cloud:} Docker, CI/CD, AWS (ECS, IAM, S3), Kubernetes, GitHub Actions, EC2
+
+\textbf{Real-Time \& Networking:} WebSockets, WebRTC, Event Streaming, Authentication, RBAC, MFA
+
+\textbf{Testing \& Security:} Unit Testing, Integration Testing, E2E Testing, Jest, Fuzzing, Security Audits
+
+\textbf{Tools \& Practices:} Agile, JIRA, Confluence, Scrum, Git, Design Documentation
+
+\textbf{Soft Skills:} Problem-Solving, Time Management, Team Collaboration, Communication, Feedback-Driven
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented full-stack features for remote monitoring apps, integrating live telemetry and mapping capabilities.
+\item Built secure RESTful APIs using Node.js and Express, connecting real-time frontend dashboards to backend flight data systems.
+\item Integrated WebSockets for real-time status updates and safe command delivery across spotty and mobile networks.
+\item Collaborated with DevOps to deploy CI/CD pipelines using Docker and GitHub Actions for seamless release automation.
+\item Worked alongside testers and flight teams to fine-tune UI behavior under stress-testing and degraded network links.
+\item Contributed to secure design patterns implementing RBAC, user authentication, and role-based workflow confirmations.
+\end{itemize}
+
+\textbf{Frontend Engineer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Implemented responsive, interactive dashboards in React and TypeScript for logistics monitoring and flight visualization.
+\item Connected video and telemetry data feeds using WebRTC and RPC-based backends for near-instantaneous rendering speeds.
+\item Applied OAuth and MFA standards in collaboration with backend teams to ensure secure user authentication flows.
+\item Built geospatial interfaces using Leaflet and Mapbox to display live aircraft positioning and alerts during missions.
+\item Led user-driven redesigns from field feedback, improving usability and reducing friction for flight trial operators.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Autonomous Flight Monitoring Dashboard}
+
+\vspace{-1pt}
+
+Built a real-time interface for monitoring autonomous aircraft telemetry, alerts, and controls over flaky networks.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed a real-time GUI in React with integrated map layers, telemetry feeds, alert cards, and safeguarded actions.
+\item Ingested real-time aircraft state using WebSocket streams, ensuring retries and deduplication on unstable links.
+\item Secured the application with SSO-based login, RBAC controls, rate-limiting, and user command confirmation workflows.
+\item Packaged frontend and backend through Docker, with a CI/CD pipeline deploying to AWS ECS via GitHub Actions.
+\end{itemize}
+
+\textbf{Secure Remote Command Center}
+
+\vspace{-1pt}
+
+Designed a web-based control panel for remotely commanding autonomous systems across field test deployments.
+\vspace{-1pt}
+\begin{itemize}
+\item Built multi-role dashboards using Next.js and Tailwind, supporting mission input forms, real-time updates, and logs.
+\item Integrated gRPC backend services for issuing system commands with response handling and irregular state awareness.
+\item Implemented MFA, encrypted sessions, session timeout, and permissions layers to meet security compliance standards.
+\item Tested application resilience under limited connectivity using progressive enhancement and offline queuing fallback.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
