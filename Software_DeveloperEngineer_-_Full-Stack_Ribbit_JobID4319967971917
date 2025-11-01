@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3+ years’ experience building scalable, secure web platforms using React, TypeScript, Python, and FastAPI. Skilled in deploying cloud-native apps on AWS with Docker, Kubernetes, and CI/CD pipelines. Strong focus on real-time systems, WebSockets, and secure-by-default patterns. Adept at collaborating with cross-functional teams to deliver dependable and high-performance solutions in fast-paced environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, PHP, HTML5, CSS3, SQL
+
+\textbf{Frameworks \& Libraries:} React, Redux, Next.js, Django, FastAPI, Node.js, Express.js
+
+\textbf{Cloud Platforms \& DevOps:} AWS, Google Cloud, Docker, Kubernetes, Terraform, GitHub Actions
+
+\textbf{Databases \& Storage:} PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, SQLite
+
+\textbf{Testing \& Deployment:} Unit Testing, Integration Testing, CI/CD, Load Testing, E2E Testing, Automated Testing
+
+\textbf{Security \& Networking:} OAuth, JWT, SSO, WebSockets, TLS, IAM, API Security, Cloud Networking
+
+\textbf{Soft Skills:} Problem Solving, Communication, Adaptability, Team Collaboration, Time Management, Initiative
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built secure, reactive UIs with React, TypeScript, and Redux, enabling real-time status monitoring for distributed systems.
+\item Created FastAPI services for telemetry handling and command routing with WebSocket communication and retry logic.
+\item Implemented RBAC and SSO authentication using OAuth2 and JWT to enhance access control and user security standards.
+\item Optimized cloud infrastructure with Docker and Kubernetes on AWS, deploying services via GitHub Actions pipelines.
+\item Integrated real-time APIs into mission-critical tools, coordinating with teams to gather field feedback for improvements.
+\item Applied encryption, data validation, and multi-tenant security practices across APIs, websockets and messaging flows.
+\end{itemize}
+
+\textbf{Software Engineer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed REST and GraphQL APIs using Django and Node.js to power analytics dashboards and admin systems reliably.
+\item Optimized database queries and caching strategies in PostgreSQL and Redis to reduce API response latency significantly.
+\item Built containerized microservices with Docker and orchestrated scalable deployments with Kubernetes and Helm charts.
+\item Maintained Agile workflows, participated in regular code reviews, and improved CI pipeline stability for deployments.
+\item Led design and implementation of role-based permissions features with JWT-based session handling for secure APIs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Autonomous Flight Control Dashboard}
+
+\vspace{-1pt}
+
+Web app for monitoring fleet telemetry, status health, and mission plans for autonomous aerial vehicles.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered real-time telemetry interface using React, WebSockets, and Leaflet.js for visualizing aircraft location.
+\item Built backend with FastAPI and PostgreSQL to ingest flight data, structure control commands, and enforce RBAC logic.
+\item Introduced OAuth2 security layer, multi-tenancy logic, and session expiry controls into backend flight APIs.
+\item Automated builds and container deployments using GitHub Actions, Docker Compose, and AWS ECS clusters.
+\end{itemize}
+
+\textbf{Geospatial Mission Planner}
+
+\vspace{-1pt}
+
+Cross-platform planning platform to draw mission zones, define paths, and validate secure execution.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed interactive mission planner UI with React and Mapbox GL JS handling geospatial overlays and zones.
+\item Integrated real-time control features using WebSocket fallbacks with deduplication and network resilience logic.
+\item Implemented PostgreSQL and Redis-backed backend using Django Rest Framework and FastAPI for mission data flow.
+\item Conducted performance load tests, unit/E2E suites, and encryption audits to meet safety and correctness goals.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
