@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Business Intelligence enthusiast with a strong foundation in data analysis, dashboard development, and marketing analytics tools. Proficient in Python, SQL, and Google Cloud services with hands-on experience generating dashboards and delivering actionable insights to support business decisions. Adept at transforming raw data into strategic recommendations in fast-paced environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Tools:} Python, SQL, HTML5, CSS3, JavaScript, R
+
+\textbf{Data Analysis \& Visualization:} Power BI, Google Data Studio, Chart.js, Data Warehousing, Looker Studio, ETL Pipelines
+
+\textbf{Cloud Platforms:} Google Cloud Platform, AWS, Azure, BigQuery, Firebase, Cloud Monitoring
+
+\textbf{Marketing Analytics:} Google Analytics, Adobe Analytics, Brand Tracking, Paid Media, DSP Exposure
+
+\textbf{Database Systems:} MySQL, PostgreSQL, MongoDB, SQLite, DynamoDB
+
+\textbf{Development \& Version Control:} Git, GitHub, VS Code, CI/CD Pipelines, Semantic Versioning, Automation Testing
+
+\textbf{Soft Skills:} Analytical Thinking, Team Collaboration, Time Management, Documentation, Presentation, Adaptability
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Business Intelligence \& Data Analyst -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built marketing dashboards using Power BI and Looker Studio to track KPIs and campaign performance across paid media platforms.
+\item Generated actionable insights from structured and unstructured data to support marketing strategy and improve ROI tracking.
+\item Applied data validation and cleansing on multi-source datasets to ensure consistency, accuracy, and analytics-readiness.
+\item Collaborated with product and engineering to align data pipelines, creating smooth reporting flow from ingestion to reporting.
+\item Utilized Python and SQL to perform exploratory analysis and automate recurring business reports and segmentation insights.
+\item Conducted secondary research to contribute to strategy proposals backed by market trends, social activity, and audience data.
+\end{itemize}
+
+\textbf{Marketing Data Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in building campaign reports on Google Analytics and manually validated engagement metrics via third-party tools.
+\item Supported brand lift studies by synthesizing audience survey results and statistical performance for various ad formats.
+\item Maintained marketing data dashboards and reporting templates using Google Data Studio under senior analyst supervision.
+\item Extracted and cleaned large campaign datasets from CSV exports and SQL queries for reporting and deep dive analysis.
+\item Collaborated with analysts on performance decks, creating concise visuals and bullet-point insights for client delivery.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Social Ad Performance Tracker}
+
+\vspace{-1pt}
+
+Created a dashboard pipeline for paid marketing teams to track ad performance and audience lift across platforms.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed a Google BigQuery pipeline to ingest data from YouTube Ads, Facebook Ads, and Google Ads APIs for reporting.
+\item Designed Looker Studio dashboards with real-time ad metrics aggregated daily, sliced by channel and target audience.
+\item Wrote parameterized SQL queries to compute metrics like CTR, CPM, and conversion rates filtered by campaign goals.
+\item Worked with marketing to define KPI benchmarks and visual indicators for ad performance segmentation over time.
+\end{itemize}
+
+\textbf{Insight Reporting Automation Tool}
+
+\vspace{-1pt}
+
+Built an automated Python tool to generate campaign insight reports integrated with Power BI and internal tools.
+\vspace{-1pt}
+\begin{itemize}
+\item Built Python scripts to automate summary generation from raw JSON and CSV campaign logs and apply visual formatting.
+\item Connected output to Power BI dashboards programmed for daily refreshes and synced with Google Sheets inputs.
+\item Implemented anomaly detection for campaign drops using rule-based thresholds and notification triggers to Slack.
+\item Reduced weekly reporting time by automating template slide population with KPIs and narrative bullet patterns.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
