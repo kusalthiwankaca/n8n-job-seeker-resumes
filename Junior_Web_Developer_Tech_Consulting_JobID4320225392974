@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Web Developer with 3+ years of professional experience building responsive frontends and scalable backends using JavaScript, TypeScript, React, HTML/CSS, and Node.js. Skilled in UI/UX design fundamentals and modern architectural patterns such as MVC and MVVM. Passionate about delivering mobile-first applications with clean code and seamless performance across platforms.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages:} JavaScript, TypeScript, HTML5, CSS3, Python, PHP
+
+\textbf{Frameworks \& Libraries:} React, Redux, Bootstrap, Material UI, Tailwind CSS, Next.js
+
+\textbf{Backend \& APIs:} Node.js, Express.js, Django, Flask, REST API, GraphQL
+
+\textbf{Tools \& Platforms:} VS Code, NPM, YARN, Docker, Git, GitHub
+
+\textbf{Cloud \& DevOps:} AWS, Firebase, CI/CD, Terraform, Serverless, CloudFormation
+
+\textbf{Databases:} MongoDB, MySQL, PostgreSQL, SQLite, DynamoDB
+
+\textbf{Methodologies \& Patterns:} MVC, MVVM, Agile, Scrum, UI/UX Principles, Clean Architecture
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Web Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained scalable React.js applications using TypeScript, Redux, and RESTful APIs for client-facing tools.
+\item Integrated and styled UI components with Material UI and Bootstrap, focusing on accessibility and responsive web design.
+\item Built backend services using Node.js and Express.js, ensuring efficient data flow and user authentication with JWT.
+\item Applied MVC and MVVM patterns to structure frontend and backend systems for maintainability and readability.
+\item Leveraged GitHub Actions and Docker for CI/CD automation and consistent deployments across multiple staging environments.
+\item Partnered with designers to implement UI/UX best practices, improving user journeys and reducing bounce rate across apps.
+\end{itemize}
+
+\textbf{Frontend Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported development of a mobile-first React web app, ensuring cross-browser compatibility and responsive styling.
+\item Collaborated on design handoffs in Figma to build pixel-perfect interfaces using HTML5, CSS3, and JavaScript.
+\item Utilized REST APIs to fetch and render data dynamically, optimizing performance through lazy loading and caching.
+\item Participated in weekly Agile sprints, provided status updates, and contributed to sprint planning and peer code reviews.
+\item Tested components with manual exploratory testing, reported bugs in JIRA, and applied fixes in collaboration with QA team.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Device Inventory Dashboard}
+
+\vspace{-1pt}
+
+Developed a full-featured dashboard to manage and track mobile device inventory using React and Firebase backend.
+\vspace{-1pt}
+\begin{itemize}
+\item Built responsive UI using React, Material UI, and Tailwind CSS to ensure desktop and mobile compatibility across all views.
+\item Integrated Firebase Realtime Database for secure device tracking and inventory management with real-time updates.
+\item Implemented user authentication and role-based access, ensuring only authorized access to sensitive dashboard functionality.
+\item Added search, filters, pagination, and CSV export features to improve usability and reporting for mobile device admins.
+\end{itemize}
+
+\textbf{React Weather App}
+
+\vspace{-1pt}
+
+Created a weather forecast PWA using React and external APIs designed to provide a clean mobile UX experience.
+\vspace{-1pt}
+\begin{itemize}
+\item Used React with functional components and hooks to build dynamic weather components for daily and hourly forecasts.
+\item Fetched and rendered weather conditions using OpenWeatherMap APIs with proper error handling and loading indicators.
+\item Applied mobile-first responsive design principles using CSS Flexbox and Grid for fluid layouts on all screen sizes.
+\item Configured service workers to enable offline caching and installable PWA behavior, enhancing mobile user reliability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
