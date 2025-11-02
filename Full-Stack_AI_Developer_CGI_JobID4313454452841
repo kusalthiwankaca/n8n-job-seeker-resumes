@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack AI Developer with 3+ years of experience building secure, scalable applications integrating AI models using Python, FastAPI, React, and Node.js. Skilled in designing APIs, deploying cloud-native solutions on AWS and Azure, and collaborating across ML, UX, and DevOps teams. Strong in NLP/LLMs, with a sharp eye for UI design, performance, and system reliability.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages:} Python, JavaScript, TypeScript, HTML5, CSS3, SQL
+
+\textbf{Frameworks \& Libraries:} React, Vue.js, FastAPI, Flask, Node.js, Redux
+
+\textbf{AI \& ML Integration:} LLM APIs, ChatGPT API, LangChain, Prompt Engineering, OpenAI API, AI Integration
+
+\textbf{API \& Backend:} GraphQL, REST API, Django, Express.js, NestJS, OAuth
+
+\textbf{Cloud \& DevOps:} AWS, Microsoft Azure, Docker, Terraform, CI/CD, GitHub Actions
+
+\textbf{Databases:} PostgreSQL, MongoDB, MySQL, SQLite, DynamoDB
+
+\textbf{Other Tools \& Concepts:} OpenAPI, JWT, Agile, Clean Architecture, MVC, System Design
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Focused Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed full-stack AI-powered applications in React and FastAPI integrated with LLM APIs for various business solutions.
+\item Created REST and GraphQL APIs to serve AI models with optimized latency, authentication, and response structures.
+\item Designed intuitive frontends with React, Redux, and Material UI, focusing on user experience and accessibility.
+\item Worked with DevOps to containerize services using Docker and deploy to AWS using CI/CD and infrastructure-as-code.
+\item Collaborated with MLOps teams to integrate NLP models and validate inference output on real-world datasets.
+\item Maintained production-grade code adhering to clean architecture principles with unit tests and documentation standards.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built internal dashboards using Flask and Bootstrap to visualize analytics insights and AI processing pipelines.
+\item Developed CRUD REST APIs with Django and PostgreSQL, supporting internal tools and model result ingestion.
+\item Refactored backend services for better modularity and integration into the existing microservices ecosystem.
+\item Tested API endpoints via Postman and automated workflows with GitHub Actions to ensure test compliance on PRs.
+\item Worked closely with UX designers and ML engineers to align frontend usability goals with model behavior outputs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI Chat Assistant Frontend}
+
+\vspace{-1pt}
+
+Built an LLM-integrated web interface supporting natural text queries with response context and role memory.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed the frontend using React, Tailwind CSS, and Component Design principles for a clean chat interface.
+\item Integrated OpenAI’s GPT model via ChatGPT API with memory tokens, session preservation, and conversation flow.
+\item Deployed application to Netlify and connected backend API via Flask hosted on AWS Lambda for scalability.
+\item Implemented error handling, rate limiting, and response fallback logic to manage unpredictable LLM responses.
+\end{itemize}
+
+\textbf{AI Model Delivery Platform}
+
+\vspace{-1pt}
+
+Engineered a platform to expose ML models via secure APIs and serve through automated front-end deployments.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed FastAPI Python services with auto-generated OpenAPI docs and JWT-based user authentication support.
+\item Used Docker Compose for multi-container configuration and AWS S3 integrations for model binary storage.
+\item Built admin dashboard in Vue.js for monitoring model usage, logs, and updating access credentials in real time.
+\item Created workflows using GitHub Actions and Terraform scripts to auto-deploy model endpoints on AWS EC2/CloudFront.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
