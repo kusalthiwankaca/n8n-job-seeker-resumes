@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Data Analyst with strong proficiency in Excel, SQL, and Python, experienced in building dashboards, analyzing trends, and maintaining data integrity. Adept at cross-functional collaboration, creating reports, and visualizing insights through validation and cleansing. Enthusiastic to support data-driven decision-making in hybrid work environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Tools:} Python, SQL, JavaScript, Excel, R
+
+\textbf{Data Analysis \& Visualization:} Power BI, Pivot Tables, Google Data Studio, Chart.js, Data Cleansing, Data Validation
+
+\textbf{Cloud Platforms:} Google Cloud Platform, AWS, Azure, BigQuery
+
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, SQLite, DynamoDB
+
+\textbf{Analytics \& Reporting:} Google Analytics, Workday, ETL Pipelines, I-9 Analysis, Data Warehousing
+
+\textbf{Development Tools:} Git, VS Code, CI/CD Pipelines, Version Control, Automation Testing
+
+\textbf{Soft Skills:} Communication, Team Collaboration, Problem Solving, Time Management, Attention to Detail
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Junior Data Analyst -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Maintained and updated Excel spreadsheets using pivot tables, formulas, and charts to analyze data across departments.
+\item Used SQL to retrieve data, troubleshoot inconsistencies, and conduct quality checks to support internal data pipelines.
+\item Generated reports to highlight trends and recommended corrections from historical datasets and new entries.
+\item Worked with cross-functional teams to collect requirements and deliver targeted reports with actionable insights.
+\item Supported weekly reporting efforts by cleaning, validating, and formatting large datasets from internal databases.
+\item Researched employee-related datasets to complete I-9 analysis and resolve inconsistencies across systems.
+\end{itemize}
+
+\textbf{Data Support Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Extracted and compiled Workday data into structured reports for review by HR and compliance teams.
+\item Created validated spreadsheets that included lookup formulas and dynamic chart visualizations for stakeholders.
+\item Supported ongoing data quality improvement efforts by identifying duplicates, nulls, and malformed entries.
+\item Built consistent report templates to facilitate stakeholder communication and streamline weekly updates.
+\item Participated in cross-team meetings and recorded action items tied to data follow-ups and backlog clean-up.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Employee Reporting Dashboard}
+
+\vspace{-1pt}
+
+Built a centralized Excel dashboard for HR to track employee metrics, I-9 status, and organizational headcount.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed a pivot-based Excel interface for HR metrics, including onboarding figures and Workday field mapping.
+\item Automated VLOOKUPs and conditional rules to highlight expired I-9s and non-compliant records in real time.
+\item Consolidated data from multiple CSV and SQL extracts into a unified tracking sheet used cross-departmentally.
+\item Created dynamic charts and slicers to support HR leadership in evaluating trends split by department or location.
+\end{itemize}
+
+\textbf{Daily Operations Data Tracker}
+
+\vspace{-1pt}
+
+Developed a Python and SQL system to track, cleanse, and visualize operations data for process optimization.
+\vspace{-1pt}
+\begin{itemize}
+\item Used Python scripts and SQLite queries to extract meaningful KPIs from raw process logs and CSV inputs.
+\item Performed data cleaning and normalization routines before exporting datasets to Excel and Power BI reports.
+\item Created formatted Excel files with macros to flag overdue statuses and generate team updates automatically.
+\item Met with stakeholders weekly to gather feedback, update structure, and improve clarity in published trackers.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
