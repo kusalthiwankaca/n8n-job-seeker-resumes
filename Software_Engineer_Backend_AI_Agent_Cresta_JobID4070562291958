@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Backend Software Engineer with 3 years of experience building scalable distributed systems using Python, Django, FastAPI, and AWS. Skilled in designing secure, high-performance APIs, cloud-based microservices, Kubernetes deployments, and integration with AI/LLM services. Passionate about backend optimization, modern DevOps workflows, and bringing innovative AI-based solutions into production environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Frameworks:} Python, Django, Flask, FastAPI, TypeScript, JavaScript
+
+\textbf{Web \& API Technologies:} REST, GraphQL, OpenAPI, gRPC, OAuth, WebSockets
+
+\textbf{Databases:} PostgreSQL, MongoDB, MySQL, SQLite, Redis, DynamoDB
+
+\textbf{Cloud \& DevOps:} AWS, Google Cloud, Azure, Docker, Kubernetes, Terraform
+
+\textbf{Architecture \& Practices:} Microservices, Event-Driven Architecture, Clean Architecture, CI/CD, TDD
+
+\textbf{Monitoring \& Security:} CloudWatch, Logging, Load Balancing, API Security, JWT, IAM
+
+\textbf{AI \& Automation Integration:} LLM APIs, Prompt Engineering, ChatGPT API, Serverless, Workflow Automation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Backend Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained scalable backend systems using Python (FastAPI/Django) to support AI-driven product features.
+\item Designed REST and gRPC APIs to integrate backend services with LLM-based response engines and third-party applications.
+\item Optimized SQL and NoSQL database schema for high-volume, low-latency operations across user interaction services.
+\item Created Docker containers and Kubernetes manifests for microservices powering AI platform’s serverless tasks and APIs.
+\item Implemented CI/CD workflow using GitHub Actions, enabling rapid deployment and rollback for AI models and endpoints.
+\item Collaborated with ML engineers to integrate language models within backend pipelines and expose configurable endpoints.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built backend features with Flask and PostgreSQL, supporting dynamic content rendering and async task execution.
+\item Automated deployment process with Docker and Ansible, streamlining QA environment provisioning across services.
+\item Worked with engineering leads to apply security protocols like OAuth2 and input validation across public endpoints.
+\item Enhanced performance of reporting endpoints through indexing and query optimization in PostgreSQL and MongoDB.
+\item Wrote and maintained unit and integration tests using Pytest and Postman, improving code reliability pre-release.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Intelligent Booking Recommendation System}
+
+\vspace{-1pt}
+
+An AI-powered system that suggests optimized time slots and routes using customer inputs and dynamic data.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed backend service in FastAPI using Python to handle recommendation logic and model-triggered workflows.
+\item Integrated real-time data from Google Maps API and exposed REST/gRPC endpoints for predictive slot suggestions.
+\item Deployed services on AWS ECS and set up autoscaling rules for CPU-bound model inference workloads using CloudWatch.
+\item Designed schema for PostgreSQL and Redis to store configurations, input histories, and cache computation results.
+\end{itemize}
+
+\textbf{LLM-powered Workflow Automation Engine}
+
+\vspace{-1pt}
+
+Built an LLM-based backend system that parses user prompts and triggers cross-platform automated workflows.
+\vspace{-1pt}
+\begin{itemize}
+\item Created a modular backend platform in Django to handle workflow building, prompt parsing, and execution triggers.
+\item Used OpenAI’s GPT API and custom NLP models to interpret user inputs and transform them into action trees.
+\item Implemented Kubernetes deployment, API gateway routing, and logging infrastructure using AWS and Terraform stack.
+\item Designed secure API lifecycle with OAuth2/JWT-based authentication and customizable permission policies via IAM.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
