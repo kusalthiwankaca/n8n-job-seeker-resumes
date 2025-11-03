@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Python Developer with 3 years of hands-on experience delivering robust, scalable web solutions using Python, React, and AWS. Skilled in SDLC best practices, Agile methodologies, CI/CD pipelines, and automated testing. Adept at integrating cloud-native services, building performant APIs, and collaborating across teams to launch secure, reliable applications in enterprise settings.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Frameworks:} Python, JavaScript, TypeScript, Django, Flask, FastAPI, React, Angular
+
+\textbf{Frontend Technologies:} HTML5, CSS3, SASS, Bootstrap, Material UI, Redux, React Query
+
+\textbf{Backend \& API:} REST API, GraphQL, Node.js, Express.js, NestJS, Microservices, Serverless
+
+\textbf{Cloud \& DevOps:} AWS, AWS Lambda, AWS S3, Docker, Kubernetes, Terraform, CI/CD
+
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, SQLite, DynamoDB, Redis
+
+\textbf{Testing \& QA:} Unit Testing, Integration Testing, Postman, OpenAPI, TDD, Automation Testing
+
+\textbf{Tools \& Collaboration:} Git, GitHub, GitLab, Bitbucket, Jira, Confluence, Slack, VS Code
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Python Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed full-stack web applications using React and Python (Django/FastAPI) in AWS environments for enterprise clients.
+\item Set up and maintained CI/CD pipelines using GitHub Actions and Docker, improving deployment workflows and reliability.
+\item Integrated RESTful and GraphQL APIs with robust validations, security protocols, and automated test coverage.
+\item Worked in Agile/Scrum teams, contributing to sprint planning, code reviews, and daily stand-ups using Jira and Confluence.
+\item Implemented unit and integration testing strategies ensuring code stability and reducing production-level defects.
+\item Collaborated across teams to deliver scalable microservices and optimize serverless applications on AWS Lambda.
+\end{itemize}
+
+\textbf{Backend Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built backend services and REST APIs in Flask and Django, integrating PostgreSQL for efficient data handling.
+\item Wrote comprehensive unit tests and API tests using Pytest to ensure functionality and maintain code quality.
+\item Assisted in setting up Docker-based containers and local development environments for rapid iteration.
+\item Contributed to feature documentation and API reference material using OpenAPI standards for team-wide clarity.
+\item Supported migrations of legacy features to microservices architecture for easier deployment and scaling.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Enabled Survey Platform}
+
+\vspace{-1pt}
+
+Developed a dynamic full-stack survey builder integrated with ChatGPT APIs and serverless Python-Bot microservices.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented microservices with FastAPI and AWS Lambda for form rendering, analytics, and data enrichment workflows.
+\item Configured CI/CD pipelines using GitHub Actions and Terraform scripts for instant deployment to AWS infrastructure.
+\item Integrated ChatGPT API to generate dynamic questions and categorize answers into custom logic-based data paths.
+\item Built React frontend with state managed by Redux and React Query, ensuring fast data-driven UI updates at scale.
+\end{itemize}
+
+\textbf{Real-Time Collaboration Platform}
+
+\vspace{-1pt}
+
+Created a real-time content editing tool with user roles, socket communication, and scalable backend infrastructure.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered backend using Django Channels and WebSockets for live sync among multiple authorized collaborators.
+\item Deployed scalable services using Docker on AWS ECS with managed RDS and S3 for persistent user session data.
+\item Integrated Auth via JWTs and OAuth2, applying zero-trust access rules and secure TLS-encrypted channels.
+\item Monitored app lifecycle using AWS CloudWatch and set up alerts to track request latency and infrastructure health.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
