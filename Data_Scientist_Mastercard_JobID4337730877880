@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Data-driven professional with 3 years of experience building scalable Python solutions across finance, analytics, and fraud detection. Proficient in machine learning, SQL optimization, and cloud engineering on AWS and GCP. Adept at collaborating with stakeholders to deliver secure, insight-driven systems for high-integrity environments. Passionate about cybersecurity and advanced analytics.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Frameworks:} Python, SQL, JavaScript, Django, Flask, FastAPI, React
+
+\textbf{Machine Learning \& Analytics:} Scikit-learn, Pandas, Data Visualization, ETL Pipelines, BigQuery, Power BI
+
+\textbf{Data Engineering:} Data Warehousing, Data Modeling, PostgreSQL, MongoDB, MySQL, SQLite
+
+\textbf{Cloud \& DevOps:} AWS, GCP, Azure, Terraform, Docker, Kubernetes
+
+\textbf{Infrastructure \& Security:} TLS, OAuth, JWT, IAM, Encryption, SQL Injection Prevention
+
+\textbf{Software Development:} Git, CI/CD, TDD, Unit Testing, Integration Testing, System Design
+
+\textbf{Soft Skills:} Analytical Thinking, Problem Solving, Communication, Collaboration, Continuous Learning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Machine Learning Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed predictive models in Python for fraud detection pipelines using big data stored in PostgreSQL and MongoDB systems.
+\item Developed automated data pipelines with ETL in Airflow, enabling real-time dashboards for analytics and anomaly detection.
+\item Collaborated cross-functionally with frontend, DevOps, and product teams to deploy ML models into production at scale.
+\item Tuned algorithms using hyperparameter optimization and tracked metrics through MLFlow for monitoring model performance.
+\item Used AWS, Docker, and Kubernetes to build scalable cloud-native applications ensuring fault tolerance and security lock-in.
+\item Documented processes and collaborated in sprint planning to drive stakeholder alignment and version-controlled workflows.
+\end{itemize}
+
+\textbf{Data Analyst Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Cleaned, transformed, and analyzed large structured datasets using Pandas and SQL to uncover fraud transaction trends.
+\item Built visualizations and dashboards in Power BI to share key payment pattern insights with risk and business teams.
+\item Worked with RESTful APIs to ingest merchant activity data used for identifying potential compromise point clusters.
+\item Contributed to internal tools for validating rule-based alerts and testing model assumptions in onboarding phase.
+\item Wrote data documentation and presented findings to engineers and senior analysts during weekly client reviews.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cyber Threat Intelligence Classifier}
+
+\vspace{-1pt}
+
+Engineered a ML model with FastAPI to detect fraudulent activity clusters using structured merchant payment data.
+\vspace{-1pt}
+\begin{itemize}
+\item Built LightGBM-based model in Python for classifying high-risk purchase patterns across global transaction datasets.
+\item Created a RESTful FastAPI service for deploying predictions, integrated with cloud monitoring on AWS and GCP.
+\item Engineered real-time PostgreSQL data pipeline with anomaly triggers linked to risk mitigation dashboards.
+\item Collaborated with cross-functional teams on threat taxonomy and feature insight tracking in model experimentation.
+\end{itemize}
+
+\textbf{Payment Data Anomaly Detector}
+
+\vspace{-1pt}
+
+Developed fraud-focused statistical model with batch and streaming ingestion across anonymized card activity logs.
+\vspace{-1pt}
+\begin{itemize}
+\item Used unsupervised learning and distance metrics to flag unusual clusters within clean card event datasets.
+\item Automated data cleaning and schema validation for incoming merchant JSONs with transactional consistency checks.
+\item Logged detections into a lightweight dashboard using MongoDB and Chart.js for real-time alerting and reporting.
+\item Conducted post-hoc model tests and sensitivity analysis in pandas and SciPy to ensure robustness of signals.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
