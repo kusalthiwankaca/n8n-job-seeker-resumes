@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Back-End Developer with 3 years of experience designing, maintaining, and securing scalable web applications. Skilled in building robust website architecture, integrating APIs, and optimizing server-side performance using Python, PHP, Laravel, and Django. Excels in on-site team collaboration and testing practices ensuring code quality, maintainability, and application reliability.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, PHP, TypeScript, JavaScript, SQL
+
+\textbf{Backend Frameworks:} Django, Laravel, FastAPI, Flask, Node.js, Express.js
+
+\textbf{Frontend Technologies:} HTML5, CSS3, Bootstrap, Material UI, React, Redux
+
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, SQLite, Redis
+
+\textbf{DevOps \& Tools:} Docker, Git, GitHub, CI/CD, Postman, VS Code
+
+\textbf{Software Development:} MVC, Clean Architecture, Testing, Debugging, Agile, Jira
+
+\textbf{Security \& Quality:} OAuth, JWT, OWASP, XSS, SQL Injection, API Security
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Back-End Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed backend logic and integrated website components using Python, Laravel, and REST APIs to support business platforms.
+\item Built and maintained scalable website architecture with modular, secure components using MVC and Clean Architecture patterns.
+\item Tested and modified application code while conducting unit and integration testing for consistent web application behavior.
+\item Collaborated in on-site Agile environment to implement features and fix bugs in production-facing backend web systems.
+\item Optimized database queries and schemas in MySQL and PostgreSQL for faster performance and data integrity improvements.
+\item Researched software tools and evaluated libraries to ensure robust, maintainable software ecosystem across applications.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Wrote and modified website-related backend code in Flask and SQL, supporting dynamic feature delivery and CMS updates.
+\item Built testing scripts and security checkpoints to detect vulnerabilities and reinforce key data workflows in development.
+\item Integrated dynamic templating and backend services for user-facing features using Jinja2, JavaScript, and REST APIs.
+\item Worked alongside developers and QA to debug application logic and maintain code quality across releases and updates.
+\item Performed local deployment and in-office server testing using Git, Docker, and API tools to mimic production behavior.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Multi-Tenant Property Management Platform}
+
+\vspace{-1pt}
+
+A full-stack web platform for landlords and tenants to manage units, payments, and service tickets online.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed backend with Django and PostgreSQL to support user roles, property data models, and recurring transactions.
+\item Designed and tested REST APIs for lease management, with role-based access and audit-ready logging systems.
+\item Handled deployment via Docker and GitHub Actions, enabling version-controlled rollouts and CI/CD build testing.
+\item Wrote unit and integration tests in Pytest and Postman to maintain backend quality throughout development cycles.
+\end{itemize}
+
+\textbf{E-Commerce Storefront \& Order API}
+
+\vspace{-1pt}
+
+Built a backend for an online store using Laravel and MySQL with secure checkout and admin dashboards.
+\vspace{-1pt}
+\begin{itemize}
+\item Created dynamic product catalog and order processing routes with Laravel routing and MySQL transactional logic.
+\item Implemented user registration and login using OAuth2 and JWT including password validation and email verification.
+\item Integrated Stripe API for payments and managed error logging and feedback using Laravel’s exception handlers.
+\item Conducted load testing locally and helped configure on-site server deployment for optimized asset delivery.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
