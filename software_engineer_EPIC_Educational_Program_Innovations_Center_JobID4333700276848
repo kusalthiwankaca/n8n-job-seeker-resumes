@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Software Engineer with 3 years of experience delivering backend solutions through full lifecycle development using Python, Django, and FastAPI. Skilled in analyzing system flows, collecting user requirements, and deploying secure, maintainable applications in Agile environments. Strong focus on testing, documentation, and collaborating with technical and business teams to deliver client-centric software systems.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Frameworks:} Python, TypeScript, PHP, Django, Laravel, FastAPI, Flask
+
+\textbf{Web \& API Technologies:} REST API, GraphQL, OpenAPI, OAuth, WebSockets, JWT
+
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, SQLite, Redis
+
+\textbf{DevOps \& Cloud:} Docker, Kubernetes, AWS, GCP, Azure, CI/CD
+
+\textbf{Security \& Testing:} OWASP, Encryption, SQL Injection, Unit Testing, Integration Testing
+
+\textbf{Design \& Documentation:} Flowcharts, System Design, Clean Architecture, Technical Documentation, UML
+
+\textbf{Soft Skills \& Tools:} Analytical Thinking, Team Collaboration, Jira, Slack, Agile, Version Control
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Collected business and user requirements through team discussions and translated them into flowcharts and diagrams.
+\item Developed backend systems using Django and FastAPI, supporting multiple integrations with external third-party APIs.
+\item Executed full software development lifecycle from planning and coding to testing, deployment, and version control.
+\item Wrote technical documentation and maintained system architecture diagrams for reliable team onboarding and support.
+\item Conducted unit and integration testing and implemented fixes to improve software quality and performance stability.
+\item Provided post-deployment support by consulting users, identifying issues, and planning efficient bug resolutions.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in documenting software flows and generated diagrams to evaluate options for backend system improvements.
+\item Modified and optimized legacy code in Flask and Laravel to resolve bugs and improve performance and usability.
+\item Updated database schemas and wrote queries in MySQL and PostgreSQL to improve data flow and report generation.
+\item Ran security analysis and implemented input sanitization, SQL injection prevention, and endpoint validation.
+\item Performed testing lifecycle processes and created detailed records of outcomes, edge cases, bugs, and fixes.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Educational Progress Tracking Platform}
+
+\vspace{-1pt}
+
+Built a robust backend platform enabling teachers and students to monitor academic progress and assignments.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed Django-based APIs and backend logic for managing assessments, student stats, and teacher dashboards.
+\item Translated user needs into flow diagrams to model modules like progress tracking and real-time feedback alerts.
+\item Tested security and input validation across endpoints; strengthened JWT-based role permissions for safe access.
+\item Wrote API docs using OpenAPI and created onboarding notes for instructors using the platform post-deployment.
+\end{itemize}
+
+\textbf{Client-Support Chat Assistant Dashboard}
+
+\vspace{-1pt}
+
+A customer-facing interface that integrates support tickets, conversation flow, and admin alerting tools.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented REST APIs and real-time WebSocket channels to manage incoming queries and user updates smoothly.
+\item Built backend with FastAPI and PostgreSQL, linking customer inputs to support database triggers and workflows.
+\item Designed system activity charts and log reports to evaluate request volume, reliability, and team responsiveness.
+\item Worked with admin staff post-launch to train users and iterate flowchart design based on real support usage.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
