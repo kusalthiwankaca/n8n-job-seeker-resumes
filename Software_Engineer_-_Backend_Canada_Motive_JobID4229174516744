@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with 3 years of backend experience building scalable APIs, secure services, and distributed systems. Adept at designing data models, integrating cloud-native tools on AWS, and supporting PCI-compliant workflows. Strong collaborator with a focus on maintainability, observability, and production-grade system performance using Python, SQL, and modern dev practices.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Frameworks:} Python, TypeScript, PHP, FastAPI, Django, Laravel
+
+\textbf{Cloud Platforms:} AWS, GCP, Azure, AWS Lambda, AWS EC2, AWS S3
+
+\textbf{Database Systems:} PostgreSQL, DynamoDB, Redis, MongoDB, MySQL
+
+\textbf{DevOps \& CI/CD:} Docker, Kubernetes, Terraform, Jenkins, GitHub Actions
+
+\textbf{Backend Architecture:} Microservices, REST API, Event-Driven Systems, Clean Architecture, Design Patterns
+
+\textbf{Security \& Testing:} OAuth, JWT, Unit Testing, Integration Testing, API Security
+
+\textbf{Collaboration \& Tools:} Jira, Slack, Git, Code Reviews, Agile, Technical Documentation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Backend Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and deployed high-performance backend APIs using FastAPI, PostgreSQL, and AWS to support payment and invoice flows.
+\item Designed scalable data models and storage logic to optimize performance and reliability across transactional workflows.
+\item Integrated third-party APIs for billing and invoicing, including constructing secure RESTful endpoints and logging systems.
+\item Established monitoring and alerting using CloudWatch and custom logs to ensure uptime and service observability.
+\item Improved fault-tolerance and error recovery in microservices through API retry logic, exception tracking, and alerts.
+\item Collaborated cross-functionally to break down requirements and deliver backend features across payment lifecycle teams.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported backend development for internal applications using Flask and Laravel integrated with PostgreSQL databases.
+\item Created and tested new service endpoints and redesigned others to better support cross-service communication at scale.
+\item Implemented caching and performance fixes that helped improve response times on internal-facing transaction routes.
+\item Wrote database migrations and contributed to data consistency and reliability strategies through testing and cleanup.
+\item Participated in agile ceremonies and collaborated with senior engineers to troubleshoot and review code ahead of release.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Financial Transaction Analytics Platform}
+
+\vspace{-1pt}
+
+Developed a backend platform for real-time payment analytics, fraud detection, and multi-source transaction sync.
+\vspace{-1pt}
+\begin{itemize}
+\item Built API layer using Django REST Framework for live transaction ingestion, audit history, and account reconciliation.
+\item Integrated Stripe sandbox and test environment for safe transaction flows and robust webhook validations.
+\item Set up Redis caching strategy to enhance fraud pattern detection and threshold-based blocking logic in production.
+\item Implemented CloudWatch dashboards and logging metrics to proactively monitor high volume transaction anomalies.
+\end{itemize}
+
+\textbf{Cloud-Based Fleet Management API Suite}
+
+\vspace{-1pt}
+
+Created scalable APIs to track vehicles, drivers, and route data in real-time for logistics intelligence platform.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed backend data models for drivers and vehicles using PostgreSQL and aligned schemas across services.
+\item Built REST APIs via FastAPI/Django to expose trip logs and sync with IoT metadata from connected transport devices.
+\item Deployed services using Docker and Kubernetes on AWS, ensuring availability and auto-scale configurations under load.
+\item Wrote integration tests with Pytest and monitored production health through logs and alerts integrated with Slack.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
