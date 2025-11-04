@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented front-end developer with 3 years of hands-on experience building responsive React and TypeScript applications. Skilled in HTML, CSS, Redux, and UI frameworks like Material UI and Bootstrap. Passionate about writing maintainable code, collaborating on design-centric solutions, and following robust development workflows. Dedicated to learning, shipping quality code, and improving the user experience.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Fundamentals:} JavaScript, TypeScript, Python, HTML5, CSS3, Object-Oriented Design
+
+\textbf{Frontend:} React.js, Redux, Material UI, Bootstrap, SASS, Tailwind CSS
+
+\textbf{Testing \& Debugging:} Unit Testing, Integration Testing, Jest, CI/CD, Postman, TDD
+
+\textbf{Dev Tools:} Git, GitHub, VS Code, Jira, Slack, Figma
+
+\textbf{Backend \& API:} Node.js, Express.js, REST API, GraphQL, MongoDB
+
+\textbf{Cloud \& Deployment:} Docker, Firebase, AWS Lambda, Netlify, CI Pipelines, GitHub Actions
+
+\textbf{Soft Skills:} Analytical Thinking, Team Collaboration, Time Management, Continuous Learning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained feature-rich React interfaces paired with TypeScript and Redux to improve usability and functionality.
+\item Coded responsive components using HTML, CSS, and SASS that adapted seamlessly across multiple device and screen sizes.
+\item Worked closely with UX teams to translate Figma wireframes into elegant, maintainable interface components in React.
+\item Collaborated in Git-based workflows, conducted peer code reviews, and ensured consistency through linting and formatting tools.
+\item Performed unit and integration testing using Jest and React Testing Library to prevent regression and ensure feature stability.
+\item Used GitHub Actions and Docker for CI/CD deployments in staging and production environments for frequent releases.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Contributed to developing client-side code within a React component library using Bootstrap and custom CSS utilities.
+\item Participated in daily stand-ups, sprint reviews, and retrospectives as part of an Agile development team improving UI flows.
+\item Integrated RESTful APIs to populate dynamic tables and chart components using Axios and Chart.js within the UI framework.
+\item Assisted QA team with test case automation and functional testing of UI modules using Postman and Cypress workflows.
+\item Documented front-end patterns and best practices to onboard new interns effectively and maintain consistency in designs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Responsive Dashboard Interface}
+
+\vspace{-1pt}
+
+Designed and built a dynamic admin dashboard using React and TypeScript focused on user flows and accessibility.
+\vspace{-1pt}
+\begin{itemize}
+\item Created reusable React components with Material UI and styled-components, emphasizing responsiveness and UX clarity.
+\item Integrated Redux state management to handle filters, preferences, and pagination for dashboard data consistency.
+\item Wrote unit tests with Jest and used React Testing Library to validate UI behaviors and maintain high code reliability.
+\item Set up GitHub Actions pipeline for linting, testing, and deployment, ensuring consistent feature delivery to staging.
+\end{itemize}
+
+\textbf{Portfolio Site Generator}
+
+\vspace{-1pt}
+
+Built a static portfolio generator using React and Bootstrap to showcase projects with live previews and highlights.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed modular React components for project listings, navigation, and contact forms using clean semantic HTML markup.
+\item Implemented routing and lazy-loaded components with React Router to boost performance and reduce initial load time.
+\item Connected Firebase Firestore for storing dynamic content including blogs, links, and submission contact messages.
+\item Configured Deployment via Netlify with continuous integration from GitHub branches, enabling live preview links.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
