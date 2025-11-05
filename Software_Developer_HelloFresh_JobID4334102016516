@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience building responsive, scalable web applications using React, Node.js, and Next.js. Skilled in shaping user experiences, writing maintainable code, and deploying features in agile, cross-functional teams. Excels in delivering customer-facing products while championing code quality, DevOps, and continuous delivery strategies.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} React, Next.js, HTML5, CSS3, JavaScript, TypeScript
+
+\textbf{Backend Development:} Node.js, Express, Nest.js, REST APIs, PostgreSQL, MongoDB
+
+\textbf{Testing \& Quality:} Jest, Cypress, RTL, Integration Testing, Unit Testing, E2E Testing
+
+\textbf{DevOps \& Deployment:} Docker, GitHub Actions, CI/CD, Netlify, Vercel, Heroku
+
+\textbf{Monitoring \& Analytics:} Sentry, Datadog, New Relic, Console Logging, Error Reporting, Performance Audits
+
+\textbf{Team Collaboration:} Agile, Scrum, Pair Programming, Code Reviews, JIRA, Figma
+
+\textbf{Mobile \& Cross-Platform:} React Native, Responsive Design, PWA, iOS/Android Concepts, Expo
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained React and Next.js applications with a focus on responsive UI and performance optimization.
+\item Built Node.js REST APIs to handle business logic, authentication, and integration with cloud-hosted databases.
+\item Collaborated in agile sprints with designers, QA, and stakeholders to define scope and deliver features iteratively.
+\item Implemented unit and integration tests using Jest and React Testing Library to uphold frontend code quality.
+\item Led deployment and monitoring of web services via Vercel and Sentry, ensuring feature uptime and traceability.
+\item Refactored legacy modules for scalability, improving maintainability and aligning codebase to modern standards.
+\end{itemize}
+
+\textbf{Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Contributed to frontend development using React, Redux, and Hooks, delivering enhancements to customer interfaces.
+\item Integrated third-party APIs to provide location services, payments, and real-time user notifications.
+\item Designed mobile-first layouts with Flexbox and CSS Grid, ensuring compatibility across devices and browsers.
+\item Participated in code reviews and paired assignments to promote peer learning and consistent coding practices.
+\item Assisted with debugging and fixing production issues, improving load performance and error tracking pipelines.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Powered Amazon Product Review Analyzer}
+
+\vspace{-1pt}
+
+Built a full-stack app to analyze and visualize Amazon product reviews using machine learning and sentiment scoring.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed a React-based frontend with Chart.js to display review insights, keyword clouds, and sentiment timelines.
+\item Built RESTful API in Node.js to fetch and process Amazon reviews dynamically using Cheerio and NLP libraries.
+\item Integrated Huggingface Transformers for text classification, summarization, and visual tagging of product feedback.
+\item Deployed app using Vercel and implemented Sentry error tracking for performance monitoring and exception handling.
+\end{itemize}
+
+\textbf{DevHunt – Product Hunt Clone for Developers}
+
+\vspace{-1pt}
+
+Created a community-driven platform that lets developers showcase projects and receive reviews from peers.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered frontend with Next.js and Tailwind CSS to enable SEO-friendly project listing and interactive voting.
+\item Implemented backend with Prisma ORM and PostgreSQL for user accounts, comment threads, and upvote systems.
+\item Utilized Clerk.js for authentication and role-based access, ensuring secure login and session management.
+\item Enabled CI/CD workflow using GitHub Actions and deployed to Railway with uptime monitoring via Datadog.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
