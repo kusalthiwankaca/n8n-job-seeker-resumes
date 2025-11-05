@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Backend Developer with 3 years of experience specializing in PHP development, legacy system modernization, and production support. Proven expertise in refactoring monolithic applications, upgrading outdated libraries, and implementing containerized architectures. Skilled in troubleshooting complex Tier 3 issues, optimizing database performance, and collaborating with cross-functional teams to deliver scalable solutions. Proficient in modern PHP frameworks, CI/CD pipelines, and database management with strong problem-solving abilities.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} PHP, JavaScript, TypeScript, Python, SQL
+
+\textbf{Frameworks \& Libraries:} Laravel, Symfony, React, Node.js, Express.js
+
+\textbf{Database Management:} PostgreSQL, MySQL, MongoDB, Database Optimization, Query Performance Tuning
+
+\textbf{DevOps \& Tools:} Docker, Git, CI/CD Pipelines, Linux, Jenkins
+
+\textbf{API Development:} RESTful APIs, SOAP APIs, API Integration, Microservices Architecture
+
+\textbf{Software Engineering:} Object-Oriented Programming, MVC Architecture, Code Refactoring, Legacy System Modernization, Root Cause Analysis
+
+\textbf{Collaboration \& Methodologies:} Agile Development, Cross-functional Collaboration, Technical Documentation, Problem Solving
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Backend Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Maintained and refactored legacy PHP codebases to improve maintainability, scalability, and system performance across platforms.
+\item Resolved complex Tier 3 production issues through root cause analysis and implemented durable solutions to prevent recurrence.
+\item Upgraded outdated PHP libraries and migrated monolithic services into containerized Docker environments for improved deployment.
+\item Developed and maintained RESTful and SOAP APIs integrated with PostgreSQL databases for financial services applications.
+\item Collaborated with DevOps and QA teams to enhance CI/CD pipelines and implement automated testing for code quality assurance.
+\item Enhanced system observability by integrating monitoring tools and performance alerts to proactively identify failure patterns.
+\end{itemize}
+
+\textbf{Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and maintained scalable web applications using Laravel and React with PostgreSQL database integration for client projects.
+\item Optimized backend API performance and database queries, reducing response times and improving overall application efficiency.
+\item Implemented modern development practices including Git version control and Linux-based development environment configurations.
+\item Collaborated with cross-functional teams using Agile methodologies to deliver features aligned with product requirements.
+\item Diagnosed and resolved production bugs through systematic troubleshooting and comprehensive technical documentation processes.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Restaurant Management System}
+
+\vspace{-1pt}
+
+Full-stack restaurant management platform built with Laravel backend and PostgreSQL for operations optimization.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed RESTful API endpoints using Laravel framework with PostgreSQL database for menu management and order processing.
+\item Implemented authentication and authorization system using Laravel middleware to secure administrative and user access levels.
+\item Optimized database queries and indexed PostgreSQL tables to improve system performance for high-volume transaction handling.
+\item Integrated third-party payment gateway APIs and implemented error handling for reliable transaction processing workflows.
+\end{itemize}
+
+\textbf{E-Commerce Platform}
+
+\vspace{-1pt}
+
+Scalable online shopping platform with PHP backend, PostgreSQL database, and modern frontend integration.
+\vspace{-1pt}
+\begin{itemize}
+\item Built backend services using object-oriented PHP with MVC architecture pattern for product catalog and inventory management.
+\item Designed and implemented PostgreSQL database schema with optimized indexes for efficient product search and order tracking.
+\item Created RESTful API endpoints for frontend integration enabling real-time product updates and shopping cart functionality.
+\item Implemented secure payment processing integration and developed comprehensive error logging for production support diagnostics.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
