@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Frontend Developer with 3 years of experience building interactive web interfaces using JavaScript, React, and HTML/CSS. Strong background in problem-solving, working with algorithms, and debugging complex workflows. Adept at evaluating system logic and performance to support intelligent decision-making in AI-driven environments. Passionate about human-AI collaboration and optimizing quality outputs.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, HTML, CSS, SQL, C++
+
+\textbf{Frontend Technologies:} React, Redux, Next.js, HTML5, CSS3, Tailwind CSS
+
+\textbf{Backend \& API:} Node.js, Express.js, REST APIs, MongoDB, Firebase, Prisma
+
+\textbf{Testing \& Debugging:} Jest, React Testing Library, Chrome DevTools, Postman, Unit Testing, Console Debugging
+
+\textbf{Version Control \& Deployment:} Git, GitHub, Vercel, Netlify, Docker, Firebase Hosting
+
+\textbf{Problem Solving \& Tools:} Algorithms, Data Structures, HackerRank, LeetCode, DevTools, VS Code
+
+\textbf{Soft Skills:} Analytical Thinking, Attention to Detail, Communication, Time Management, Independent Work
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and optimized modular React components to support scalable features across multiple client-facing applications.
+\item Debugged complex UI bugs using browser DevTools, strengthening application reliability across user sessions and platforms.
+\item Collaborated cross-functionally to interpret requirements, helping bridge backend integration with dynamic frontend logic.
+\item Refactored legacy JavaScript codebases into modern ES6+ syntax with reusable components, improving maintainability.
+\item Wrote unit and integration tests using React Testing Library and Jest, increasing frontend code quality and stability.
+\item Participated in code reviews and knowledge sharing sessions, enabling a more structured and efficient dev workflow.
+\end{itemize}
+
+\textbf{Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive websites using HTML, CSS, and JavaScript, ensuring accessibility and clean cross-browser rendering.
+\item Integrated REST APIs to fetch and display dynamic content, improving user engagement across multiple product pages.
+\item Utilized version control and Git workflows for collaborative development and safe deployment cycles in staging environments.
+\item Optimized website load times by refactoring images, scripts, and components to improve Core Web Vitals.
+\item Documented development processes and assisted in client handoff, ensuring successful project lifecycle delivery.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI Code Reviewer}
+
+\vspace{-1pt}
+
+Built a React tool that simulates AI reviewing code challenges, highlighting logic, syntax, and performance flaws.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed logic in React to analyze code input, simulate AI feedback, and validate algorithm correctness in real time.
+\item Linked Python and JS code snippets with an AI logic parser to display error highlights and reasoning steps.
+\item Created custom syntax highlighting and code line tracing to teach users how AI evaluates problem-solving steps.
+\item Integrated a scoring system using JS and custom logic to reflect AI-driven accuracy and performance evaluation.
+\end{itemize}
+
+\textbf{Frontend Code Validator}
+
+\vspace{-1pt}
+
+Designed a web-based code environment where users submit problems and receive step-by-step validation.
+\vspace{-1pt}
+\begin{itemize}
+\item Used React and Redux to manage user submissions, track state, and render evaluation feedback with code context.
+\item Implemented Python-based logic evaluation server allowing validation of multiple programming languages via API.
+\item Simulated AI explanations with conditional rendering logic to justify pass/fail decisions for each problem.
+\item Built detailed UI error prompts in JavaScript, helping users revise algorithms with clarity and iterative feedback.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
