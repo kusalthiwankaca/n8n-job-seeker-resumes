@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Data Analyst with 3 years of experience uncovering actionable insights through deep-dive analysis, dashboard reporting, and automation. Strong command of SQL, Excel, and data visualization tools like Tableau and Power BI to support cross-functional decision-making. Adept at translating complex data into clear business strategies and process improvements.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, SQL, JavaScript, HTML, CSS, TypeScript
+
+\textbf{Data Visualization:} Tableau, Power BI, Matplotlib, Seaborn, Plotly
+
+\textbf{Data Manipulation \& Analysis:} Pandas, NumPy, Excel, Google Sheets, EDA, Data Cleaning
+
+\textbf{Database \& Tools:} PostgreSQL, MongoDB, Firebase, Git, Apache Superset, BigQuery
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express, Flask, Next.js
+
+\textbf{Soft Skills:} Analytical Thinking, Collaboration, Problem Solving, Storytelling, Presentation
+
+\textbf{Other Tools:} Jupyter, VS Code, Notion, Figma, Slack, Postman
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Data Analyst -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed interactive dashboards in Tableau to summarize customer behavior trends and operational KPIs for product teams.
+\item Performed root cause analysis on user retention metrics, influencing UX improvements and new feature developments.
+\item Wrote complex SQL queries and leveraged Excel models to support business cases and data-backed decisions.
+\item Partnered with cross-functional teams to build automation scripts that enhanced reporting efficiency by reducing manual steps.
+\item Translated data insights into business strategies through stakeholder-facing presentations and visual storytelling.
+\item Documented analytics procedures and ensured reproducibility of workflows for future team scalability and training.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and maintained full-stack web tools integrating Express, React, and SQL to streamline internal user operations.
+\item Collaborated with PMs and engineers to gather requirements and implement scalable code on high-visibility client features.
+\item Applied Python for backend data transformation, supporting analytics solutions and performance dashboards.
+\item Wrote unit and integration tests to ensure functional integrity and continuous deployment pipelines using GitHub Actions.
+\item Integrated third-party APIs and built custom endpoints to automate workflows and deliver operational insights.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Supply Chain Delay Detector}
+
+\vspace{-1pt}
+
+Built an internal tool to analyze order delays using market and logistics data to flag high-risk areas in the supply chain.
+\vspace{-1pt}
+\begin{itemize}
+\item Used Python and SQL to automate ingestion and processing of vendor and order delay data from internal warehouse systems.
+\item Built interactive Tableau dashboards visualizing delay trends, allowing operations teams to act on real-time insights.
+\item Performed root cause analysis correlating vendor lead times, enabling proactive mitigation strategies for at-risk SKUs.
+\item Collaborated cross-functionally with supply and logistics units to integrate alert flags directly into daily operations.
+\end{itemize}
+
+\textbf{Customer Feedback NLP Analyzer}
+
+\vspace{-1pt}
+
+Analyzed customer review data using NLP techniques to uncover topics driving satisfaction and pain points.
+\vspace{-1pt}
+\begin{itemize}
+\item Preprocessed and cleaned over 10,000 customer reviews using NLTK and spaCy to prepare text for sentiment analysis.
+\item Used TF-IDF and topic modeling to surface emerging themes, aligning qualitative insight with quantitative customer data.
+\item Visualized trends in Tableau, connecting satisfaction topics with product types to support product team priorities.
+\item Presented findings to stakeholders with actionable next steps to enhance customer experience and retention strategies.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
