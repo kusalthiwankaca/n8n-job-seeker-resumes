@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Software Engineer with 3 years of experience building scalable web and mobile applications using React, React Native, Node.js, and TypeScript. Proven expertise in developing user-centric solutions across frontend and backend systems, optimizing conversion flows, and refactoring legacy codebases for performance and maintainability. Skilled in GraphQL API integration, cloud infrastructure on AWS, and collaborating with cross-functional teams to deliver high-impact features that drive user engagement and business growth.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, Java, HTML5, CSS3
+
+\textbf{Frontend Development:} React, React Native, Next.js, Redux, Tailwind CSS, Responsive Design
+
+\textbf{Backend Development:} Node.js, Nest.js, Express.js, RESTful APIs, GraphQL, Microservices Architecture
+
+\textbf{Databases \& Storage:} PostgreSQL, MongoDB, DynamoDB, Redis, SQL, Database Optimization
+
+\textbf{Cloud \& DevOps:} AWS, Docker, CI/CD Pipelines, Lambda, ECS, Git
+
+\textbf{Testing \& Tools:} Jest, Cypress, Unit Testing, Integration Testing, Postman, Asana
+
+\textbf{Methodologies \& Practices:} Agile Development, Code Refactoring, Cross-functional Collaboration, Technical Debt Management, System Design
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built responsive frontend interfaces using React and TypeScript, improving user engagement by streamlining navigation flows.
+\item Developed RESTful and GraphQL APIs with Node.js and Nest.js to support high-traffic insurance marketplace features.
+\item Collaborated with product managers and designers to refactor legacy shopping flows, reducing technical debt significantly.
+\item Integrated AWS services including Lambda and DynamoDB to automate asynchronous data processing for conversion tracking.
+\item Optimized mobile app performance using React Native and Expo, enhancing onboarding completion rates across platforms.
+\item Participated in daily standups and code reviews, mentoring junior developers on best practices and system architecture.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented full-stack features using JavaScript, React, and Express.js for internal business applications.
+\item Maintained PostgreSQL databases and optimized complex queries to improve application response times by reducing latency.
+\item Worked closely with cross-functional teams using Agile methodologies to deliver features on tight timelines consistently.
+\item Debugged production issues and deployed hotfixes using Docker and CI/CD pipelines to maintain system reliability.
+\item Documented technical specifications and conducted knowledge-sharing sessions to improve team collaboration and efficiency.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Powered Book Recommendation Platform}
+
+\vspace{-1pt}
+
+Full-stack web app using OpenAI API to deliver personalized book recommendations with real-time search.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed frontend interface with React and TypeScript, integrating Google Books API for dynamic content rendering.
+\item Built backend services with Node.js and Express.js to handle API requests and manage user session data securely.
+\item Implemented OpenAI GPT integration to generate intelligent book suggestions based on user preferences and behavior.
+\item Deployed application on AWS with containerized microservices, ensuring scalability and high availability for users.
+\end{itemize}
+
+\textbf{Real-Time Inventory Management System}
+
+\vspace{-1pt}
+
+Scalable inventory tracking system with live updates using React, Node.js, and MongoDB for SMBs.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed responsive dashboard using React and Redux for real-time inventory monitoring and transaction management.
+\item Developed RESTful APIs with Node.js and Express.js to enable CRUD operations and ensure data consistency across systems.
+\item Integrated MongoDB for efficient storage and retrieval of product data, optimizing query performance for large datasets.
+\item Implemented automated alerts and notifications to streamline inventory workflows and reduce manual tracking errors.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
