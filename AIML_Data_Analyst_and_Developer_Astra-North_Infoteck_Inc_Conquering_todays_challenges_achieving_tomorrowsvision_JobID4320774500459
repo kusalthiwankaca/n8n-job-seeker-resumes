@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Versatile AI/ML Data Analyst and Developer with 3 years of experience analyzing complex datasets, building models using TensorFlow, and integrating LLMs. Adept at creating data visualizations, dashboards, and actionable insights in collaborative environments. Skilled in streamlining data pipelines and delivering end-to-end machine learning solutions with a focus on model integrity and ethical standards.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, SQL, Java, Bash
+
+\textbf{Machine Learning \& AI:} TensorFlow, scikit-learn, Pandas, NumPy, LLMs
+
+\textbf{Web \& Application Development:} React, Node.js, Express.js, HTML5, CSS3
+
+\textbf{Data Visualization \& Dashboards:} Tableau, Power BI, Matplotlib, Seaborn, D3.js
+
+\textbf{Databases:} MySQL, MongoDB, PostgreSQL, Firebase, SQLite
+
+\textbf{DevOps \& Tools:} Git, Docker, JIRA, Linux, Visual Studio Code
+
+\textbf{Soft Skills:} Collaboration, Problem Solving, Agile, Analytical Thinking, Communication
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented scalable APIs and backend services in Python to support analytics-driven applications and dashboards.
+\item Built custom visualizations using D3.js and React to present business insights derived from large, real-time datasets.
+\item Integrated PostgreSQL and MongoDB with backend systems to streamline multi-source data collection and aggregation.
+\item Collaborated with data analysts to optimize data pipelines and preprocessing routines for machine learning applications.
+\item Used TensorFlow and scikit-learn to prototype classification models for user behavior analytics and trend forecasting.
+\item Maintained high code quality with test coverage, frequent refactoring, and peer reviews in an Agile team environment.
+\end{itemize}
+
+\textbf{Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed frontend components in React and backend services in Node.js to build intuitive tools for internal analytics teams.
+\item Created SQL queries and RESTful APIs to extract multi-source data for use in business intelligence dashboards.
+\item Assisted in deploying recommendation systems and integrating TensorFlow-based models into production environments.
+\item Ensured API security and performance using JWT authentication and optimized middleware across distributed apps.
+\item Participated in daily stand-ups and sprint planning, contributing to cross-functional discussions around ML solutioning.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Powered Document Classifier}
+
+\vspace{-1pt}
+
+Built a scalable NLP system to classify technical documents using supervised ML and cloud-based data pipelines.
+\vspace{-1pt}
+\begin{itemize}
+\item Preprocessed and vectorized text data using NLTK, TF-IDF, and tokenization techniques to improve model input relevance.
+\item Trained logistic regression and decision tree models via scikit-learn to automate document tagging and classification.
+\item Built a React dashboard with charts and filters for users to search, visualize, and validate document categories.
+\item Deployed the system to cloud infrastructure, integrating versioned datasets and automated model retraining pipelines.
+\end{itemize}
+
+\textbf{Real-Time Weather Insights App}
+
+\vspace{-1pt}
+
+Developed a real-time weather app featuring live metrics, map visualizations, and predictive trend models.
+\vspace{-1pt}
+\begin{itemize}
+\item Integrated multiple weather APIs to consolidate real-time data streams into a unified backend system using Express.js.
+\item Built data visualization panels with D3.js and Chart.js to display current and forecast weather trends interactively.
+\item Trained regression models for temperature prediction using historical data and deployed insights to a user dashboard.
+\item Implemented MongoDB for flexible weather data management, indexed by timestamp and location for performance.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
