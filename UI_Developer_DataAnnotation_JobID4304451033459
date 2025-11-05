@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Software Developer with 3 years of experience building responsive web applications using JavaScript, Python, and modern frameworks. Skilled in evaluating code quality, debugging complex systems, and implementing algorithms with a focus on performance optimization. Proficient in UI development with React and Vue.js, experienced in API integration, and adept at solving technical challenges through systematic problem-solving. Strong foundation in data structures and software testing.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, HTML5, CSS3, SQL, TypeScript
+
+\textbf{Frontend Frameworks \& Libraries:} React.js, Vue.js, Redux, jQuery, Bootstrap, Tailwind CSS
+
+\textbf{Backend \& APIs:} Node.js, Express.js, REST APIs, Django, Flask, GraphQL
+
+\textbf{Development Tools:} Git, GitHub, VS Code, npm, Webpack, Babel
+
+\textbf{Testing \& Debugging:} Jest, Mocha, Chai, Chrome DevTools, Unit Testing, Integration Testing
+
+\textbf{Problem Solving \& Algorithms:} Data Structures, Algorithm Design, Code Optimization, Performance Analysis, Debugging Workflows
+
+\textbf{Other Technical Skills:} Responsive Design, Cross-browser Compatibility, Agile Methodology, Code Review, Documentation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{UI Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive user interfaces using React and Vue.js, ensuring cross-browser compatibility and optimal performance.
+\item Evaluated and debugged complex JavaScript codebases to identify logic errors and improve application reliability.
+\item Collaborated with teams to solve coding challenges and implement algorithms for data processing and UI rendering.
+\item Built reusable component libraries following best practices to streamline development workflows and maintain code quality.
+\item Integrated RESTful APIs with frontend applications to deliver dynamic content and enhance user experience.
+\item Conducted code reviews and provided detailed feedback to ensure adherence to coding standards and improve team output.
+\end{itemize}
+
+\textbf{Frontend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Created interactive web applications using JavaScript, HTML5, and CSS3 with focus on user interface excellence.
+\item Implemented data structures and algorithms to optimize frontend performance and reduce page load times significantly.
+\item Debugged and resolved frontend issues using systematic workflows to maintain application stability and user satisfaction.
+\item Worked with Python backend teams to integrate APIs and ensure seamless data flow between frontend and backend systems.
+\item Documented code solutions and technical processes to facilitate knowledge sharing and onboarding of new team members.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Platform}
+
+\vspace{-1pt}
+
+Full-stack web application for online shopping with user authentication and payment integration.
+\vspace{-1pt}
+\begin{itemize}
+\item Built responsive UI components using React and Redux to handle complex state management across multiple user workflows.
+\item Evaluated and optimized JavaScript code performance to ensure fast page loads and smooth user interactions throughout.
+\item Implemented algorithms for product search and filtering functionality to improve user experience and data retrieval speed.
+\item Debugged frontend issues using Chrome DevTools and systematic testing workflows to maintain application reliability.
+\end{itemize}
+
+\textbf{Task Management Application}
+
+\vspace{-1pt}
+
+Web-based tool for organizing tasks with real-time updates and collaborative features for teams.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed interactive UI using Vue.js and JavaScript to enable task creation, editing, and real-time status updates.
+\item Solved complex coding challenges related to data synchronization and state management across multiple user sessions.
+\item Evaluated code quality through rigorous testing and debugging workflows to ensure correctness and optimal performance.
+\item Integrated RESTful APIs with Python backend to facilitate seamless data exchange and collaborative task management.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
