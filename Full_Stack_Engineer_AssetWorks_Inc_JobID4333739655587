@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience specializing in Angular, TypeScript, and C\#/.NET ecosystems. Proven expertise in building scalable web applications, integrating RESTful APIs, and delivering user-centric solutions across front-end and back-end layers. Strong foundation in responsive design, component-based architecture, and SQL database management. Adept at collaborating with cross-functional teams in Agile environments to deliver high-performance applications that meet business objectives.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} Angular, TypeScript, JavaScript, HTML5, CSS3, Bootstrap, Material Design, Responsive Design
+
+\textbf{Backend Development:} C\#, .NET Core, .NET Framework, RESTful APIs, Node.js, Express.js
+
+\textbf{Database Management:} SQL Server, MySQL, PostgreSQL, MongoDB, Oracle
+
+\textbf{Development Tools \& Practices:} Git, Angular CLI, Visual Studio, VS Code, Agile/Scrum, CI/CD Pipelines
+
+\textbf{Testing \& Quality Assurance:} Jasmine, Karma, Jest, Unit Testing, Integration Testing, Browser DevTools
+
+\textbf{Cloud \& DevOps:} AWS, Azure, Docker, Jenkins, GitHub Actions
+
+\textbf{Core Competencies:} Component Architecture, Dependency Injection, Cross-Browser Compatibility, API Integration, Problem Solving, Code Review
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained Angular-based web applications with TypeScript, ensuring high performance and cross-browser compatibility.
+\item Built reusable Angular components, services, and directives following best practices for scalability and code maintainability.
+\item Integrated RESTful APIs with C\# backend services to enable seamless data flow between front-end and back-end systems.
+\item Collaborated with UX designers and backend developers in Agile sprints to deliver user-friendly interfaces and business solutions.
+\item Optimized application performance through lazy loading, caching strategies, and efficient state management with RxJS observables.
+\item Conducted code reviews and mentored junior developers on Angular framework concepts, TypeScript patterns, and debugging techniques.
+\end{itemize}
+
+\textbf{Frontend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed responsive web interfaces using HTML5, CSS3, and Bootstrap framework aligned with modern UI/UX design standards.
+\item Implemented Angular forms with reactive validation and two-way data binding to enhance user interaction and data accuracy.
+\item Debugged front-end issues using Chrome DevTools and resolved cross-browser compatibility challenges across multiple platforms.
+\item Integrated third-party libraries and APIs into Angular applications to extend functionality and improve user engagement.
+\item Participated in daily standups and sprint planning sessions, ensuring timely delivery of features in an Agile development environment.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Platform}
+
+\vspace{-1pt}
+
+Full-stack web application built with Angular and C#/.NET, featuring product catalog and secure checkout workflows.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed Angular components for product browsing, shopping cart, and checkout using TypeScript and Bootstrap for responsive design.
+\item Built RESTful APIs in C\# with .NET Core to handle product inventory, user authentication, and order processing with SQL Server.
+\item Implemented lazy loading and route guards in Angular to optimize application performance and secure authenticated user routes.
+\item Integrated Stripe payment gateway and conducted unit testing with Jasmine to ensure reliability across payment workflows.
+\end{itemize}
+
+\textbf{Real-Time Chat Application}
+
+\vspace{-1pt}
+
+Messaging platform using Angular frontend and Node.js backend with WebSocket support for instant communication.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed Angular chat interface with TypeScript, implementing real-time message rendering and user presence indicators using RxJS.
+\item Developed backend APIs with Node.js and Express.js, managing user sessions and message persistence in MongoDB database.
+\item Integrated Socket.io for WebSocket communication, enabling instant message delivery and synchronization across multiple clients.
+\item Applied responsive CSS3 styling and tested cross-browser compatibility to ensure consistent user experience on desktop and mobile.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
