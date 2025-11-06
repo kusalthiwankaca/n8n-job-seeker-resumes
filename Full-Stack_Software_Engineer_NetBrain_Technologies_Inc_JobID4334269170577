@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full-Stack Software Engineer with 3 years of experience specializing in web frontend development and scalable application architecture. Proven expertise in JavaScript/TypeScript, React, and modern web frameworks, with hands-on experience building large-scale network management interfaces. Skilled in cross-browser HTML5/CSS3, graphic programming with Canvas and WebGL, and backend integration using C\# and Java. Strong foundation in OOP, functional programming, and MVC patterns with a track record of delivering user-centric solutions in collaborative environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Technologies:} JavaScript, TypeScript, React, HTML5, CSS3, AngularJS
+
+\textbf{Programming Paradigms \& Patterns:} Object-Oriented Programming, Functional Programming, MVC/MVVM, Design Patterns, Code Architecture
+
+\textbf{Graphics \& Visualization:} Canvas API, WebGL, D3.js, Go.js, Paper.js, Data Visualization
+
+\textbf{Backend \& Server Technologies:} C\#, Java, RESTful APIs, Node.js, SQL, PostgreSQL
+
+\textbf{Development Tools \& Practices:} Git, GitHub, CI/CD, Code Review, Agile Methodologies, Technical Documentation
+
+\textbf{Performance \& Quality:} Client-Side Performance Tuning, Cross-Browser Compatibility, Unit Testing, Code Optimization, Debugging
+
+\textbf{Collaboration \& Communication:} Cross-Functional Teamwork, Project Planning, Mentoring, Technical Specifications, Mandarin
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full-Stack Web Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented complex functional modules for web-based network management applications using React and TypeScript.
+\item Independently analyzed and resolved moderately complex technical issues across large-scale frontend codebases.
+\item Developed cross-browser compliant interfaces with HTML5, CSS3, and advanced canvas-based graphic programming techniques.
+\item Collaborated with project managers on task allocation and planning, ensuring timely delivery of high-quality features.
+\item Conducted thorough code reviews and provided constructive feedback to maintain code quality and architectural standards.
+\item Mentored junior developers in frontend best practices, sharing knowledge on performance tuning and modern web frameworks.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and maintained scalable web applications using JavaScript frameworks integrated with RESTful APIs and backend services.
+\item Implemented client-side performance optimizations reducing page load times and improving user experience across platforms.
+\item Wrote comprehensive technical documentation including function descriptions and specifications for development workflows.
+\item Participated in agile development cycles, contributing to sprint planning and delivering user-centric solutions iteratively.
+\item Executed code reviews as part of quality assurance processes, ensuring adherence to coding standards and best practices.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Interactive Network Topology Visualizer}
+
+\vspace{-1pt}
+
+Built interactive web-based network visualization tool with Canvas API and D3.js for real-time topology mapping.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed dynamic network topology visualization using Canvas API and D3.js for rendering complex network architectures.
+\item Implemented real-time data updates and interactive node manipulation features with TypeScript and functional programming patterns.
+\item Optimized rendering performance for large-scale network diagrams handling thousands of nodes with efficient data structures.
+\item Integrated RESTful APIs to fetch and display live network status data with cross-browser compatible HTML5 and CSS3 interfaces.
+\end{itemize}
+
+\textbf{Enterprise Dashboard Application}
+
+\vspace{-1pt}
+
+Created comprehensive enterprise dashboard using React and TypeScript with modular component architecture.
+\vspace{-1pt}
+\begin{itemize}
+\item Architected modular React components following MVC patterns for scalable enterprise dashboard with multiple data views.
+\item Implemented responsive design with HTML5 and CSS3 ensuring cross-browser compatibility across Chrome, Firefox, and Edge.
+\item Integrated backend services using RESTful APIs with TypeScript interfaces for type-safe data handling and state management.
+\item Applied performance tuning techniques including code splitting and lazy loading to optimize bundle size and load times.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
