@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience specializing in Angular, TypeScript, and C\#/.NET technologies. Proven expertise in building scalable web applications, integrating RESTful APIs, and delivering high-performance solutions across the full development lifecycle. Strong foundation in responsive design, database management, and Agile methodologies. Passionate about writing clean, maintainable code and collaborating with cross-functional teams to create user-centric applications that drive business value.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3, Responsive Design, Bootstrap, Material Design
+
+\textbf{Backend Development:} C\#, .NET Core, .NET Framework, RESTful APIs, Node.js, Express.js, Microservices
+
+\textbf{Database Management:} SQL Server, PostgreSQL, MongoDB, Oracle, Database Design, Query Optimization
+
+\textbf{Development Tools \& Practices:} Git, Angular CLI, Visual Studio, VS Code, Agile/Scrum, CI/CD Pipelines, Jenkins
+
+\textbf{Testing \& Quality Assurance:} Jasmine, Karma, Jest, Unit Testing, Integration Testing, Browser Developer Tools
+
+\textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, Azure DevOps, Continuous Integration, Deployment Automation
+
+\textbf{Soft Skills:} Problem-Solving, Cross-functional Collaboration, Code Review, Technical Mentorship, Agile Communication, Time Management
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained Angular-based web applications with TypeScript, ensuring cross-browser compatibility and responsiveness.
+\item Built reusable Angular components and services following best practices for dependency injection and modular architecture.
+\item Integrated RESTful APIs with C\#/.NET backend services to enable seamless data flow and real-time application functionality.
+\item Collaborated with UX/UI designers to implement user-friendly interfaces using Bootstrap and Material Design frameworks.
+\item Participated in Agile sprint planning, code reviews, and daily standups to maintain high coding standards and team alignment.
+\item Debugged front-end and backend issues using browser developer tools and Visual Studio, optimizing application performance.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented scalable web applications using Angular, HTML5, CSS3, and TypeScript for diverse client requirements.
+\item Developed backend APIs using C\# and .NET Framework, integrating with SQL Server databases for efficient data management.
+\item Optimized application performance through query tuning, lazy loading, and efficient state management in Angular applications.
+\item Conducted unit testing with Jasmine and Karma, ensuring code reliability and reducing post-deployment bugs by thorough QA.
+\item Worked closely with cross-functional teams in an Agile environment to deliver features on time and adapt to evolving needs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Real-Time Weather Application}
+
+\vspace{-1pt}
+
+Built a responsive Angular weather app with real-time data fetching and dynamic user interface components.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed Angular components with TypeScript to display real-time weather data fetched from RESTful APIs efficiently.
+\item Implemented responsive design using CSS3 and Bootstrap to ensure seamless user experience across mobile and desktop devices.
+\item Integrated external weather APIs with Angular services and RxJS observables for dynamic data binding and state management.
+\item Debugged cross-browser compatibility issues using browser developer tools to ensure consistent application behavior.
+\end{itemize}
+
+\textbf{E-Commerce Platform}
+
+\vspace{-1pt}
+
+Developed a full-featured e-commerce platform with Angular frontend and .NET Core backend for seamless shopping.
+\vspace{-1pt}
+\begin{itemize}
+\item Built modular Angular components for product catalog, shopping cart, and checkout flows using Angular CLI and TypeScript.
+\item Created RESTful APIs with C\# and .NET Core to handle product management, user authentication, and order processing logic.
+\item Integrated SQL Server database with Entity Framework for efficient data storage, retrieval, and transaction management.
+\item Implemented responsive UI with Material Design and optimized application performance through lazy loading and code splitting.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
