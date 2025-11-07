@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience crafting interactive front-end solutions using React, Angular, and TypeScript. Skilled in developing scalable web applications and internal tools that enhance operational workflows. Adept at collaborating in agile teams, integrating RESTful APIs, and maintaining CI/CD pipelines to deliver clean, maintainable code aligned with stakeholder needs in innovative tech environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages \& Frameworks:} JavaScript (ES6+), TypeScript, React, Angular, HTML5, CSS3, Sass
+
+\textbf{Web Technologies:} RESTful APIs, Responsive Design, Cross-Browser Compatibility, Webpack, Babel, Progressive Web Apps
+
+\textbf{Version Control \& CI/CD:} GitHub, Git, CircleCI, Jenkins, Travis CI, GitLab CI
+
+\textbf{Testing \& Debugging:} Jest, React Testing Library, Cypress, Chrome DevTools, Linting, ESLint
+
+\textbf{Mobile Development:} React Native, iOS Development Basics, Android Development Basics, Expo
+
+\textbf{Soft Skills \& Tools:} Agile Methodologies, Scrum, Code Reviews, Technical Documentation, Effective Communication, Collaboration
+
+\textbf{UX/UI Tools:} Figma, Adobe XD, Sketch, Storybook
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Front-End Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained scalable React and Angular frontend features for seamless user experiences.
+\item Collaborated with designers and backend engineers to integrate RESTful APIs in modern web applications.
+\item Implemented CI/CD pipelines enhancing deployment efficiency and reducing release errors.
+\item Participated actively in agile ceremonies, fostering team communication and effective sprint planning.
+\item Contributed to code reviews and architecture discussions, improving code quality and scalability.
+\item Led the adoption of new frontend technologies to pioneer interactive browser-based application features.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built responsive web components using JavaScript and TypeScript to support dynamic UI requirements.
+\item Optimized frontend code for performance and accessibility across multiple browsers and devices.
+\item Worked closely with QA teams to deliver tools that improved product testing and bug tracking workflows.
+\item Managed Git repositories and coordinated release cycles within a continuous integration environment.
+\item Researched and proposed new frameworks and libraries to enhance development productivity and product quality.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Interactive E-commerce Web Application}
+
+\vspace{-1pt}
+
+Developed a React-based e-commerce platform featuring dynamic product filtering and user reviews.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented robust REST API integrations for product catalog and real-time user interactions.
+\item Designed responsive UI components with React and CSS to enhance mobile and desktop experiences.
+\item Maintained clean codebase with TypeScript and enforced standards through rigorous code reviews.
+\item Collaborated with backend teams to streamline data flow and optimize application responsiveness.
+\end{itemize}
+
+\textbf{Internal Workflow Optimization Tools}
+
+\vspace{-1pt}
+
+Created administrative tools leveraging Angular to improve workflow efficiency for product teams.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed interactive dashboards for QA and LiveOps teams to monitor product status in real time.
+\item Integrated CI/CD practices to automate testing and deployment of frontend applications.
+\item Engaged stakeholders in design discussions to tailor tools that address operational bottlenecks.
+\item Enhanced maintainability with modular Angular components and comprehensive technical documentation.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
