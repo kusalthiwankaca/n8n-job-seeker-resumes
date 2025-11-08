@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience designing and implementing scalable web applications using Java, TypeScript, and AWS. Skilled in microservices architecture and system design, focused on clean, well-documented code. Adept at agile collaboration and production support, leveraging strong communication to align cross-functional teams and deliver customer-centric solutions at scale.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Java, Kotlin, JavaScript, TypeScript, Python, SQL
+
+\textbf{Web Technologies:} React, Angular, GraphQL, REST APIs, JSON, HTML5, CSS3
+
+\textbf{Cloud \& DevOps:} AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD, Terraform, CloudWatch
+
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Redis, DynamoDB, Elasticsearch
+
+\textbf{Testing \& Automation:} JUnit, Mockito, Selenium, Cypress, Jenkins, TestNG
+
+\textbf{Software Practices:} Agile Scrum, TDD, Code Reviews, System Design, Microservices, CI/CD Pipelines
+
+\textbf{Collaboration \& Tools:} Git, Jira, Confluence, Slack, RESTful APIs, Postman
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained scalable React and Angular apps integrated with Java/Kotlin backend microservices.
+\item Designed and implemented RESTful APIs and GraphQL services to support diverse client requirements.
+\item Collaborated with cross-functional teams in agile workflows to deliver new features rapidly and reliably.
+\item Built and executed unit and integration tests to ensure high software quality and reduce production bugs.
+\item Monitored AWS production systems using CloudWatch and remediated issues to maintain uptime.
+\item Conducted thorough code reviews promoting best practices and clean, well-documented codebases.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Implemented web applications using JavaScript and TypeScript with a strong emphasis on UI/UX.
+\item Engineered backend services and database schemas supporting high volume transactions.
+\item Collaborated with product and design teams to translate requirements into technical specifications.
+\item Participated in automated testing and CI/CD pipelines for faster and safer deployments.
+\item Provided production support troubleshooting performance issues and deploying patches.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-Commerce Platform Revamp}
+
+\vspace{-1pt}
+
+Led backend redesign using Java microservices and AWS, improving scalability and reliability.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed modular microservices with REST APIs to streamline product catalog and order processing.
+\item Integrated AWS services for scalable storage, computing, and monitoring of high-traffic workloads.
+\item Implemented unit and integration tests ensuring robust feature delivery with minimal defects.
+\item Collaborated with frontend teams to deliver cohesive full stack solutions aligned with business goals.
+\end{itemize}
+
+\textbf{Customer Onboarding Portal}
+
+\vspace{-1pt}
+
+Built a full stack onboarding tool featuring TypeScript frontend and Kotlin backend services.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered frontend UI with React using GraphQL interfaces to enhance customer data interactions.
+\item Designed backend APIs for seamless user onboarding flows and integrated authentication services.
+\item Performed thorough code reviews and wrote technical documentation supporting team knowledge sharing.
+\item Monitored live environment and resolved production bugs using AWS CloudWatch and logs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
