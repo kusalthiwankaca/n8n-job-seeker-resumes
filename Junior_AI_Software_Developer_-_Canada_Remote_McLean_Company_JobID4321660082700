@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience building AI-powered web applications using Python, Ruby on Rails, and JavaScript. Skilled in developing scalable backend services, integrating ML models, and deploying solutions on cloud platforms like Azure. Passionate about crafting clean, efficient code and collaborating across teams to drive impactful AI solutions.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, Ruby, JavaScript, TypeScript, SQL, HTML, CSS
+
+\textbf{Frameworks \& Libraries:} Ruby on Rails, React, Express.js, Node.js, Bootstrap, TensorFlow
+
+\textbf{AI \& Machine Learning:} Natural Language Processing, Neural Networks, Data Preprocessing, Model Deployment, Computer Vision, Scikit-learn
+
+\textbf{Database \& Caching:} MySQL, PostgreSQL, MongoDB, Redis, SQL Optimization
+
+\textbf{DevOps \& Tools:} Git, GitHub, Docker, REST APIs, CI/CD, JIRA
+
+\textbf{Cloud \& Platforms:} Microsoft Azure, OpenAI API, PowerBI, Heroku, Vercel
+
+\textbf{Soft Skills:} Agile Methodologies, Code Review, Problem Solving, Collaboration, Attention to Detail
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and deployed backend APIs in Python and Ruby on Rails, supporting ML-powered features across production systems.
+\item Built NLP-based modules using OpenAI services and integrated them into scalable full-stack applications with CI/CD pipelines.
+\item Collaborated closely with a cross-functional Agile team to estimate, prioritize, and deliver AI features rapidly and efficiently.
+\item Contributed to AI feature design with a focus on neural networks and data preprocessing techniques for improved performance.
+\item Implemented front-end features using JavaScript and integrated PowerBI reports for real-time data visualization workflows.
+\item Improved SQL query efficiency and ensured high system reliability by refactoring legacy logic within relational databases.
+\end{itemize}
+
+\textbf{Full Stack Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported end-to-end development of web apps using Ruby on Rails and React, focusing on clean architecture and code quality.
+\item Developed multiple RESTful APIs and integrated backend ML models for smart recommendations and automated text analysis.
+\item Deployed and maintained scalable cloud apps with Azure and Vercel while automating CI/CD workflows to reduce downtime.
+\item Analyzed and resolved bottlenecks in data pipelines and implemented caching strategies to enhance query performance.
+\item Regularly participated in sprint reviews and retrospectives, contributing ideas to improve sprint planning and team velocity.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Powered Resume Parser}
+
+\vspace{-1pt}
+
+Developed an AI-based resume parser that extracts and structures applicant data using machine learning algorithms.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed NLP pipeline using custom models and OpenAI API to extract information such as skills and experience from PDFs.
+\item Trained classification models to auto-categorize sections of resumes, optimizing performance across unstructured documents.
+\item Developed a backend API using Flask and deployed it on Azure to serve parsed data to frontend applications securely.
+\item Implemented data validation layers and integrated PowerBI for visual performance tracking across applicant groups.
+\end{itemize}
+
+\textbf{ML-Based News Article Classifier}
+
+\vspace{-1pt}
+
+Built a machine learning web app to categorize online news articles using NLP and supervised learning techniques.
+\vspace{-1pt}
+\begin{itemize}
+\item Collected and preprocessed online article datasets, applying tokenization, lemmatization, and stop-word removal techniques.
+\item Used Scikit-learn to train multiple ML classifiers including SVM and naive Bayes, improving accuracy on topical data classes.
+\item Created web frontend using JavaScript and Bootstrap to upload URLs, trigger classification, and render analysis results.
+\item Connected backend with MySQL to store model predictions and user queries, enabling insights on trending media categories.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
