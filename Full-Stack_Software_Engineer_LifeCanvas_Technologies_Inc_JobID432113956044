@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full-stack developer with 3 years of experience building robust front-end and back-end systems across scientific and enterprise domains. Adept in full-stack Javascript/Python, database architecture, and ETL pipelines supporting high-throughput data processing. Passionate about designing scalable, efficient software systems and collaborating closely with researchers and engineers solving real-world challenges.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages:} JavaScript, Python, TypeScript, SQL, HTML, CSS
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Next.js, Express, Tailwind CSS, Redux
+
+\textbf{Data \& Database:} PostgreSQL, MongoDB, MySQL, Prisma, ETL Pipelines, RESTful APIs
+
+\textbf{DevOps \& Tools:} Docker, Git, Jest, CI/CD, Webpack, Linux
+
+\textbf{Cloud \& Hosting:} AWS S3, Vercel, Firebase, Render, Heroku, Cloudinary
+
+\textbf{Soft Skills:} Collaborative, Problem-Solving, Agile Methodologies, Cross-Functional Communication, Detail-Oriented
+
+\textbf{Data \& Analysis:} Data Acquisition, SQL Queries, Scripting, Pipeline Automation, Data Visualization
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built internal applications using React, Express, and PostgreSQL to simplify operations and data flow across departments.
+\item Designed and implemented RESTful APIs, streamlining server-side logic and improving communication between services.
+\item Developed data processing tools and ETL scripts automating ingestion, formatting, and syncing across multiple data systems.
+\item Collaborated with cross-functional teams to align engineering efforts with imaging research and scientific data workflows.
+\item Handled UI/UX development for web dashboards, enabling researchers to interact with complex image data effortlessly.
+\item Maintained robust application architecture with reusable components and modularized back-end services for scalability.
+\end{itemize}
+
+\textbf{Software Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Implemented front-end components using React and Redux to improve user interface responsiveness and accessibility.
+\item Integrated backend functionality via Node.js and MongoDB, reducing latency in data retrieval for search operations.
+\item Created data parsing utilities to assist with preprocessing large imaging datasets for downstream analysis pipelines.
+\item Collaborated closely with product managers and imaging scientists to translate requirements into scalable code solutions.
+\item Conducted unit testing and code reviews to uphold performance standards and ensure long-term maintainability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{SmartScan Microscope Interface}
+
+\vspace{-1pt}
+
+Built a user interface for managing automated microscopy workflows, streamlining scan scheduling and device control.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed dashboard interface using React and Tailwind to handle scheduling, device status, and live image preview seamlessly.
+\item Engineered backend API using Express and MongoDB to manage user inputs, scan configurations, and device metadata persistently.
+\item Integrated camera APIs and scan controllers via Node.js, ensuring synchronization between software and hardware operations.
+\item Optimized state handling and reactivity to provide real-time feedback from scanning devices and data acquisition systems.
+\end{itemize}
+
+\textbf{Biomedical Image Data Pipeline}
+
+\vspace{-1pt}
+
+Designed and implemented ETL pipelines for biomedical image data, enabling automated dataset structuring and analysis.
+\vspace{-1pt}
+\begin{itemize}
+\item Built ETL pipeline in Python for ingesting 3D microscopy images, extracting metadata, and storing in PostgreSQL database.
+\item Implemented image processing processes using OpenCV and SciPy for format conversion, downsampling, and visualization prep.
+\item Created modular scripts to automate syncing data from acquisition machines to central server with integrity checks.
+\item Collaborated with bioinformatics team to align pipeline outputs with analytical tools and downstream research models.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
