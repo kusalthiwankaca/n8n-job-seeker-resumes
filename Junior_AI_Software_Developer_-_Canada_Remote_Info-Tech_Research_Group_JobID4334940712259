@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years designing, building, and integrating AI and web solutions using Python, Ruby on Rails, and JavaScript. Experienced in developing machine learning models, optimizing database systems, and collaborating in Agile teams. Skilled at leveraging AI techniques to solve real-world business problems and improve software quality and architecture.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, Ruby, JavaScript, SQL, HTML, CSS
+
+\textbf{Frameworks \& Libraries:} Ruby on Rails, React.js, Django, Flask, Bootstrap
+
+\textbf{Machine Learning \& AI:} TensorFlow, Keras, scikit-learn, PyTorch, OpenAI API
+
+\textbf{Databases:} MySQL, PostgreSQL, SQLite, NoSQL, MongoDB
+
+\textbf{Cloud \& DevOps:} Azure, AWS, Docker, Git, CI/CD
+
+\textbf{Data Processing \& Visualization:} Pandas, NumPy, PowerBI, Matplotlib, Seaborn
+
+\textbf{Software Development \& Methodologies:} Agile, Test-Driven Development, Scrum, REST APIs, MVC Architecture
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed AI-powered web applications using Python and JavaScript, improving feature deployment speed by 25\%.
+\item Collaborated with cross-functional teams to integrate machine learning models into cloud-based solutions.
+\item Built and maintained RESTful APIs that supported seamless AI functionality integration across platforms.
+\item Optimized database queries and schema to handle large datasets for efficient AI data processing workflows.
+\item Implemented unit and integration tests for backend components, raising code coverage and stability.
+\item Participated actively in Agile ceremonies, contributing to sprint planning and retrospectives for continuous improvement.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and maintained Ruby on Rails applications, focusing on clean architecture and scalable code.
+\item Assisted in developing UI components using JavaScript frameworks to enhance user experience.
+\item Supported deployment pipelines and performed code reviews to ensure adherence to best practices.
+\item Collaborated on data preprocessing tasks for machine learning model training and validation.
+\item Tracked and resolved bugs across development and staging environments improving application reliability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Smart Healthcare Assistant}
+
+\vspace{-1pt}
+
+Developed a healthcare chatbot using NLP techniques to provide accurate patient support information.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented natural language processing models to understand and respond to patient queries effectively.
+\item Integrated chatbot with backend services to fetch and deliver real-time health data securely.
+\item Collaborated with frontend team to ensure responsive and accessible chatbot interface.
+\item Tested AI responses across multiple datasets to improve accuracy and user satisfaction.
+\end{itemize}
+
+\textbf{E-commerce AI Recommendation System}
+
+\vspace{-1pt}
+
+Built a machine learning recommendation engine to personalize product suggestions in e-commerce apps.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed algorithms to analyze user behavior data and generate personalized product recommendations.
+\item Optimized model training pipeline using scalable data processing techniques for large dataset support.
+\item Integrated recommendation engine with existing web platform APIs for seamless user experience.
+\item Collaborated in Agile team to deploy features iteratively and incorporate user feedback efficiently.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
