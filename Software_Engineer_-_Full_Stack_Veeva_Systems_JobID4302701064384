@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3+ years of experience building scalable web applications using Java, React, Spring, and SQL databases. Skilled in end-to-end product development and cross-functional team collaboration. Adept at working in agile environments to deliver high-quality SaaS solutions with performance and usability in mind. Passionate about clean code, continuous learning, and driving customer value.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend:} React, JavaScript, TypeScript, HTML5, CSS3, SASS
+
+\textbf{Backend:} Java, Spring, Spring Boot, REST APIs, Node.js, Express
+
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Oracle, SQL
+
+\textbf{Testing \& QA:} Jest, JUnit, Selenium, Cypress, Mocha
+
+\textbf{Tools \& Platforms:} Git, Docker, Jenkins, JIRA, Postman
+
+\textbf{Cloud \& DevOps:} AWS, Heroku, CI/CD, Nginx, Linux
+
+\textbf{Soft Skills:} Agile Development, Collaboration, Problem Solving, Time Management, Code Review
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained enterprise-grade web apps using Java, Spring Boot, and React across full software lifecycle.
+\item Collaborated with UX designers and QA engineers to release accessible, well-tested features to production biweekly.
+\item Integrated RESTful APIs with front-end interfaces, improving delivery performance and user experience consistency.
+\item Designed and optimized SQL queries for a MySQL-based backend, enhancing data retrieval efficiency and reliability.
+\item Led peer code reviews and mentored junior developers to ensure maintainable, scalable codebase practices were upheld.
+\item Participated in agile ceremonies, providing timely feedback and aligning development with sprint planning and goals.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built dynamic single-page applications using JavaScript, Vue.js, and Node.js for internal operations dashboards.
+\item Contributed backend logic with Java and Express, handling REST API routes and middleware functions for services.
+\item Wrote test cases with JUnit and Cypress to verify core features, improving overall test coverage and reliability.
+\item Maintained Docker configs and CI/CD pipelines for seamless deployment to staging and production environments.
+\item Worked closely with product managers to discuss roadmap requirements, feature estimates, and technical tradeoffs.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Pharma Trial Management System}
+
+\vspace{-1pt}
+
+Developed a full-stack platform to manage pharmaceutical trial schedules, patient data, and compliance workflows.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented user-facing modules in React with reusable components, aligning with accessibility and UX best practices.
+\item Built RESTful services in Spring Boot to manage trial protocols and retrieve patient records from relational databases.
+\item Refactored SQL queries and Hibernate models to reduce API response latency during peak concurrent access scenarios.
+\item Integrated role-based access and session authentication with Spring Security for patient record compliance control.
+\end{itemize}
+
+\textbf{Healthcare Records Portal}
+
+\vspace{-1pt}
+
+Engineered a secure web portal for clinics to manage digital health records, appointments, and prescriptions.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed mobile-responsive UI in React and SASS, enabling clinicians to access records from tablets and desktops.
+\item Integrated backend API services built in Java and MySQL, ensuring real-time sync of updated patient prescriptions.
+\item Added authentication flow with OAuth2 and encrypted tokens for secure user login and record visibility restrictions.
+\item Wrote unit and E2E tests using Jest and Cypress to validate workflows including appointment booking and edits.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
