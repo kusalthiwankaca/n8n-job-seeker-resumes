@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Versatile AI-focused Software Engineer with 3 years of experience in designing, developing, and implementing software solutions, with a focus on AI and machine learning. Proficient in Python, JavaScript, and Ruby on Rails, with a deep understanding of various AI technologies including neural networks, computer vision, and natural language processing. Demonstrated ability to integrate AI solutions into broader system architectures, backed by a strong track record working collaboratively with cross-functional teams to drive technology initiatives and enhance system workflows.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, Ruby, SQL, HTML, CSS
+
+\textbf{Frameworks \& Libraries:} Ruby on Rails, React, Node.js, Azure Services
+
+\textbf{AI Technologies:} Neural Networks, Computer Vision, Natural Language Processing, Reinforcement Learning
+
+\textbf{Data Management:} MySQL, Data Preprocessing Techniques, Large Datasets Management
+
+\textbf{Software Development Practices:} Agile methodology, Requirements Analysis, SDLC, Testing, Debugging, Design Patterns
+
+\textbf{Cloud \& DevOps:} AWS, Azure/OpenAI services, Docker
+
+\textbf{Soft Skills:} Problem Solving, Technical Documentation, Effective Communication, Continuous Improvement
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer  KILATECH (Pvt) Ltd, Sri Lanka (Apr 2020  Dec 2022) -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed scalable AI-enhanced web applications using Python, JavaScript, and Ruby on Rails to enhance system functionality.
+\item Built, tested, and supported development of machine learning models providing valuable insights to stakeholders.
+\item Integrated AI solutions into broader system architectures, improving system functionality and performance.
+\item Collaborated cross-functionally in Agile teams to continually improve processes and promote the use of design patterns and best practices.
+\item Leveraged extensive AI knowledge in areas such as neural networks, computer vision, and natural language processing.
+\item Managed large datasets and performed data preprocessing techniques to facilitate smoother AI and machine learning processes.
+\end{itemize}
+
+\textbf{Software Engineer Trainee  FMI (Pvt) Ltd, Sri Lanka (Apr 2019  Dec 2019) -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Contributed to the development of AI-focused enterprise-level web and mobile applications.
+\item Worked closely with cross-functional teams to gather requirements and support software deployment phases.
+\item Gained hands-on experience in full stack development, software testing, and secure coding within Agile workflows.
+\item Engaged in project reviews to identify improvements in system performance, scalability, and code maintainability.
+\item Enhanced technical skillset focusing on AI and machine learning solutions, setting foundation for future roles.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System}
+
+\vspace{-1pt}
+
+Developed a robust learning management system leveraging cloud-based AI technologies to enhance user experience.
+\vspace{-1pt}
+\begin{itemize}
+\item Integrated AI solutions with the LMS to provide a personalized learning experience for users.
+\item Worked with large, complex datasets performing data preprocessing techniques for optimal AI operations.
+\item Optimized backend processes including AI functionalities for improved application responsiveness.
+\item Deployed application on cloud, ensuring seamless accessibility and performance under high loads.
+\end{itemize}
+
+\textbf{PROSPR  Real-Time Chat Application for Accessibility}
+
+\vspace{-1pt}
+
+Crafted an inclusive chat application integrating AI technology for real-time communication enhancements.
+\vspace{-1pt}
+\begin{itemize}
+\item Incorporated Azure AI services into the chat application to facilitate text-to-speech and speech-to-text features.
+\item Devised a robust backend using Python and AI algorithms, enhancing real-time communication.
+\item Followed best practices and design patterns to develop accessible, secure, and reliable application.
+\item Ensured smooth deployment on cloud infrastructure for optimal scalability and performance.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
