@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience designing and implementing AI and ML solutions. Skilled in Python, Ruby on Rails, and data processing, I build scalable applications integrating AI models. Adept at collaborating within Agile teams to enhance workflows, solve complex problems, and deliver reliable, efficient software aligned with strategic goals.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, Ruby on Rails, JavaScript, SQL, HTML, CSS
+
+\textbf{AI \& Machine Learning:} Neural Networks, Deep Learning Frameworks, Computer Vision, Natural Language Processing, Reinforcement Learning
+
+\textbf{Databases:} MySQL, Relational Database Design, SQL Optimization, Data Preprocessing
+
+\textbf{Frameworks \& Tools:} Ruby on Rails MVC, React, Django, PowerBI, MS-Fabric
+
+\textbf{Cloud \& DevOps:} Azure, AWS, Git, CI/CD, Source Control
+
+\textbf{Methodologies:} Agile Development, Scrum, Retrospectives, Continuous Improvement
+
+\textbf{Soft Skills:} Problem Solving, Team Collaboration, Analytical Thinking, Effective Communication
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained AI-enhanced features using Python integrated with web application frameworks.
+\item Collaborated with team members in Agile ceremonies to prioritize tasks and estimate project timelines.
+\item Optimized machine learning model integrations ensuring seamless deployment within existing systems.
+\item Implemented RESTful APIs to support AI functionalities and improve data flow across platforms.
+\item Monitored system performance and troubleshot technical issues proactively to maintain uptime.
+\item Documented design patterns and best practices to support maintainable and scalable codebases.
+\end{itemize}
+
+\textbf{Junior Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in building dynamic front-end interfaces using JavaScript and CSS for responsive web apps.
+\item Contributed to back-end development in Ruby on Rails, focusing on database interactions and routing.
+\item Participated in code reviews to ensure standards compliance and promote knowledge sharing.
+\item Performed data preprocessing and cleaning to support accurate AI model training datasets.
+\item Supported continuous integration cycles by automating build and deployment processes.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Powered Inventory Management System}
+
+\vspace{-1pt}
+
+Designed an AI-driven inventory system to optimize stock levels and automate reordering.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented machine learning algorithms in Python to predict inventory demands based on trends.
+\item Integrated AI models with Ruby on Rails backend ensuring smooth data exchange and system stability.
+\item Developed data preprocessing pipelines handling large datasets to maintain model accuracy.
+\item Collaborated with front-end developers to deliver a user-friendly interface for inventory control.
+\end{itemize}
+
+\textbf{Customer Sentiment Analysis Tool}
+
+\vspace{-1pt}
+
+Developed an NLP-based tool to analyze and classify customer feedback from multiple sources.
+\vspace{-1pt}
+\begin{itemize}
+\item Built natural language processing models using Python to extract insights from textual data.
+\item Created APIs to expose sentiment analysis results for integration with company dashboards.
+\item Optimized processing workflows to handle high-volume data with improved latency and throughput.
+\item Participated in agile planning to refine project goals and adjust to stakeholder feedback.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
