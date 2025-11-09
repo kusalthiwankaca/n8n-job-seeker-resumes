@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Frontend Developer with 3 years of experience building scalable, responsive, and accessible interfaces using React, Redux, and REST APIs. Strong foundation in HTML, CSS, and JavaScript, with hands-on experience bringing elegant user experiences to life across modern browsers. Passionate about creating intuitive, high-performance applications aligned with business needs.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend:} React, Redux, HTML5, CSS3, JavaScript, Next.js
+
+\textbf{Backend \& APIs:} Node.js, Express.js, REST APIs, MongoDB, Firebase, JWT
+
+\textbf{Testing \& Quality:} Jest, React Testing Library, Cypress, Unit Testing, Integration Testing
+
+\textbf{Tools \& Platforms:} Git, GitHub, npm, Vercel, Netlify, Postman
+
+\textbf{Responsive Design:} Tailwind CSS, Bootstrap, Media Queries, Flexbox, Grid, Mobile-First
+
+\textbf{Collaboration:} Agile, Scrum, JIRA, Slack, Code Reviews, Documentation
+
+\textbf{Soft Skills:} Problem Solving, Adaptability, Empathy, Ownership, Communication, Teamwork
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and maintained responsive React components for a consumer dashboard, focusing on accessibility and performance.
+\item Worked closely with product teams to design user-friendly features and deliver seamless UI experiences across browsers.
+\item Integrated RESTful APIs and optimized front-end performance for high user engagement and low latency interactions.
+\item Utilized Redux for application-wide state management and predictable behavior in a dynamic shopping platform.
+\item Collaborated in agile sprints, performing code reviews, writing unit tests, and contributing to CI/CD processes.
+\item Employed accessibility best practices to ensure compliance with WCAG standards and intuitive navigation for all users.
+\end{itemize}
+
+\textbf{Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed UI using HTML, CSS, and JavaScript, delivering fully responsive layouts tested for cross-browser compatibility.
+\item Built reusable components and introduced client-side routing for an e-commerce web platform using React and Next.js.
+\item Worked closely with designers to bring pixel-perfect interfaces into production while optimizing front-end performance.
+\item Created integration tests to validate user flows, ensuring consistent functionality across major browsers and devices.
+\item Improved REST API consumption by debugging data flows, enhancing state updates, and reducing redundant network calls.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{E-commerce Platform}
+
+\vspace{-1pt}
+
+Built a full-featured online shopping platform with a focus on responsive UI, secure auth, and clean user flows.
+\vspace{-1pt}
+\begin{itemize}
+\item Built reusable React components styled with Tailwind CSS to ensure mobile-first responsive layouts and visual consistency.
+\item Implemented Redux for global state handling including cart actions, product filtering, and authenticated user sessions.
+\item Integrated RESTful APIs for product listings, reviews, and user orders, ensuring smooth data flow throughout the app.
+\item Created custom hooks, handled form validations, and tested key components using Jest and React Testing Library.
+\end{itemize}
+
+\textbf{Food Delivery App}
+
+\vspace{-1pt}
+
+Developed a React-based food delivery interface connecting users with restaurants and real-time order tracking.
+\vspace{-1pt}
+\begin{itemize}
+\item Built dynamic client-side routing with React Router and implemented protected routes for authenticated user access.
+\item Created visually clear forms for login/signup with error handling, using localStorage and JWT for session management.
+\item Fetched and displayed real-time data from mock API endpoints with Axios, handling loading states and async errors.
+\item Designed a responsive UI with Tailwind ensuring accessibility, grid layouts, and mobile-first interface polish.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
