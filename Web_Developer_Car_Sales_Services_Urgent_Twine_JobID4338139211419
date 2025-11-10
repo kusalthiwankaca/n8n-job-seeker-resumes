@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Web Developer with 3 years of experience building responsive, user-focused platforms with React, Node.js, and MongoDB. Adept in crafting dynamic interfaces, securing data flows, and integrating intuitive UX for high-impact web applications. Proven ability to ship full-stack features under tight deadlines while maintaining clean code and cross-browser consistency.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend:} React, HTML5, JavaScript, CSS3, Vue.js, Bootstrap
+
+\textbf{Backend:} Node.js, Express.js, PHP, Python, REST APIs, JWT
+
+\textbf{Databases:} MongoDB, PostgreSQL, MySQL, Mongoose, Firebase
+
+\textbf{Dev Tools:} Git, VS Code, Postman, NPM, Webpack, Chrome DevTools
+
+\textbf{Deployment:} Vercel, Netlify, Heroku, cPanel, GitHub Pages
+
+\textbf{Design/UI:} Figma, Responsive Design, Material UI, Tailwind CSS, Adobe XD
+
+\textbf{Soft Skills:} Detail-Oriented, Time Management, Problem Solving, Self-Starter, Collaboration
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Web Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed full-stack web applications using React and Node.js, ensuring responsive UI and secure API integration across views.
+\item Built modular front-end components with React, integrating real-time data and enhancing UX through clean design principles.
+\item Implemented server-side logic in Express.js with authentication flows using JWT and optimized RESTful API endpoints.
+\item Managed MongoDB database architecture including schema design, population strategies, and index optimization for speed.
+\item Ensured mobile-first responsiveness and cross-browser functionality across platforms, improving reach and usability.
+\item Deployed applications to Vercel and Heroku with CI/CD workflows, creating efficient test-deploy pipelines for agile delivery.
+\end{itemize}
+
+\textbf{Front End Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Translated UI/UX wireframes into fully functional interfaces using HTML5, CSS3, and vanilla JavaScript for target browsers.
+\item Enhanced application interactivity using dynamic DOM manipulation and modular JavaScript code structures for scalability.
+\item Collaborated with back-end engineers to consume RESTful APIs, resolving CORS issues and streamlining data rendering.
+\item Tested cross-browser compatibility rigorously, ensuring visual coherence and behavior consistency on all modern devices.
+\item Wrote reusable CSS and JS components, boosting development speed and facilitating clean hand-offs between team members.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AutoHaven – Car Dealership Platform}
+
+\vspace{-1pt}
+
+Designed a web app for car listings with inventory search, user auth, and dealer contact to streamline online auto sales.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed React-based front end with searchable car listings, filters by model/year/price, and optimized UI for dealerships.
+\item Managed Node.js + Express.js back end APIs to fetch, filter, and serve car content with secure JWT-based authentication.
+\item Integrated MongoDB for structured vehicle inventory and user data, ensuring quick access with index optimization.
+\item Configured deployment to Vercel, ensuring cross-browser compatibility, mobile responsiveness, and fast load times.
+\end{itemize}
+
+\textbf{Listingly – Product Listing Site}
+
+\vspace{-1pt}
+
+Built a dynamic listing platform allowing users to create, search, and filter categorized product cards with real-time rendering.
+\vspace{-1pt}
+\begin{itemize}
+\item Utilized React and Material UI to create responsive frontend components for product cards, filters, and search behavior.
+\item Connected Express and MongoDB backend to serve filtered results with optimized queries for fast product card population.
+\item Implemented form validation and user registration logic using React hooks and Express routing for seamless onboarding.
+\item Deployed site on Netlify with GitHub integration for easy updates and provided basic documentation for future scaling.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
