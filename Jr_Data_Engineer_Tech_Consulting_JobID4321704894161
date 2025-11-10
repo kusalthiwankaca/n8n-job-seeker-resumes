@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Software Developer with 3 years of experience crafting scalable backend systems using Python and SQL across cloud platforms. Proficient in big data tools including Spark, Hadoop, and AWS, with a strong grasp of OOP, data governance, and visualization using Power BI. Adept at delivering efficient pipelines and clean architecture to support modern data workflows in high-demand environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, SQL, JavaScript, Java, Scala, Bash
+
+\textbf{Big Data Technologies:} Hadoop, Spark, Hive, Kafka, HDFS, MongoDB
+
+\textbf{Cloud \& DevOps:} AWS, Azure, Docker, Kubernetes, EC2, S3
+
+\textbf{Data Tools \& Libraries:} Airflow, Snowflake, Pandas, NumPy, Tableau, Power BI
+
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, NoSQL, SQL Server, Redis
+
+\textbf{Data Architecture:} ETL Pipelines, Data Warehousing, Data Modeling, Data Lakes, Ingestion Frameworks, Streaming
+
+\textbf{Soft Skills:} Agile Development, Team Collaboration, Problem Solving, Clear Communication, Adaptability, Analytical Thinking
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and maintained Python-based ETL pipelines to support data ingestion and transformation workflows across multiple platforms.
+\item Optimized SQL queries and database indexing strategies to improve performance across PostgreSQL and Snowflake environments.
+\item Worked closely with data analysts to provide clean datasets through automated data pipelines using Airflow and Python scripts.
+\item Integrated Spark jobs running on AWS EMR to handle batch processing for unstructured log data in distributed environments.
+\item Built and deployed Dockerized microservices on AWS to support scalable data access and transformation functionalities.
+\item Collaborated in Agile sprints using Git workflows and Jira to track changes and deliver iterative backend improvements.
+\end{itemize}
+
+\textbf{Backend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed Python-based API endpoints for internal tools that automated dashboard metrics and pipeline monitoring visuals.
+\item Created modular SQL queries and stored procedures to support analytical queries for large-volume reporting dashboards.
+\item Implemented Kafka consumers and producers to stream real-time customer interaction data into MongoDB and Hadoop systems.
+\item Assisted in data migration projects involving schema translation and validation across SQL Server and NoSQL backends.
+\item Regularly conducted code reviews and mentored junior team members on Python OOP and best practices for data governance.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{SmartFarm IoT Dashboard}
+
+\vspace{-1pt}
+
+Built a real-time data dashboard for smart agriculture using IoT sensors, Kafka pipelines, and interactive visualizations.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered data ingestion layer using Kafka to collect IoT data from distributed sensors in real time and route via topic streams.
+\item Processed 750k+ records daily using Spark jobs to clean, aggregate, and store data in a structured format for dashboard use.
+\item Integrated MongoDB for storing unstructured readings and Power BI for building actionable insights shown in a responsive UI.
+\item Deployed Airflow DAGs to manage sensor data ETL pipelines and implemented anomaly checks with Python for data quality.
+\end{itemize}
+
+\textbf{Personalized News Recommender App}
+
+\vspace{-1pt}
+
+Developed a Python-ML-powered web app for delivering personalized news content using user behavior and interest vectors.
+\vspace{-1pt}
+\begin{itemize}
+\item Preprocessed thousands of news articles using NLP libraries and stored vectors in a scalable MongoDB document database.
+\item Applied cosine similarity and collaborative filtering to recommend trending articles based on user interaction history.
+\item Implemented REST APIs in Flask to serve recommendations dynamically; containerized using Docker for scalable deployment.
+\item Scheduled model refresh and data ingestion via custom Airflow DAGs to ensure freshness and system reliability daily.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
