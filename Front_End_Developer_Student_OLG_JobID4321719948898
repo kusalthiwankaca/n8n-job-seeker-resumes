@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Enthusiastic Front-End Developer with 3 years of experience crafting responsive web apps using React, HTML, CSS, and JavaScript. Skilled in translating UI/UX designs into interactive features with reusable components. Eager to contribute in an Agile team, build sleek web experiences, and sharpen technical depth in a collaborative workplace.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} React.js, HTML5, CSS3, JavaScript, Vue.js, Responsive Design
+
+\textbf{Backend \& APIs:} Node.js, Express.js, RESTful APIs, MongoDB, PostgreSQL, Authentication
+
+\textbf{Version Control \& Tools:} Git, GitHub, VS Code, NPM, Webpack, Chrome DevTools
+
+\textbf{UI/UX \& Design:} Figma, Wireframing, Material UI, Accessibility, Cross-Browser Compatibility, Mobile First Design
+
+\textbf{Testing \& Debugging:} Unit Testing, Jest, Chrome Debugger, Postman, Error Handling, Responsive Checks
+
+\textbf{Soft Skills:} Problem Solving, Time Management, Team Collaboration, Communication, Adaptability, Attention to Detail
+
+\textbf{Agile \& Workflow:} Agile, Scrum, Jira, Code Reviews, CI/CD Concepts, Task Prioritization
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Front-End Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built responsive web components using React.js, JavaScript, HTML, and CSS, improving UI consistency across multiple views.
+\item Collaborated with UI/UX teams to interpret wireframes and design interactive front-end flows that enhanced user engagement.
+\item Integrated RESTful API endpoints and executed data rendering in React, improving performance and load times on key views.
+\item Conducted device and browser testing using Chrome DevTools to ensure cross-platform consistency in UI rendering behavior.
+\item Implemented reusable component libraries and modular CSS files for scalable, maintainable frontend development structure.
+\item Participated in sprint planning, code reviews, and feature planning with back-end teams following Agile and collaborative practices.
+\end{itemize}
+
+\textbf{Web Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing mobile-friendly pages using HTML, CSS, and JavaScript to support internal dashboard enhancements.
+\item Worked with senior devs to debug styling and functional issues across different devices, speeding up cross-browser fixes.
+\item Created responsive UI layouts based on design templates using flexbox and grid systems in collaboration with the design team.
+\item Used Git and GitHub for version control across a fast-paced team environment with regular pull request merging and reviews.
+\item Ran unit tests and built testing scenarios to ensure accurate rendering and behavior of dynamic user-facing components.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Resume Builder App}
+
+\vspace{-1pt}
+
+Developed a web application that allows users to build, edit, and export professional resumes through a dynamic UI.
+\vspace{-1pt}
+\begin{itemize}
+\item Built dynamic forms using React and controlled components to capture user data and fill a printable resume template in real-time.
+\item Integrated form validation and default states for optional sections using hooks, creating a responsive and usable experience.
+\item Applied modular SCSS and responsive design to ensure visual consistency and print-readiness across formats and devices.
+\item Packaged the app for deployment on Netlify with settings for persistent state and print/export accessibility features.
+\end{itemize}
+
+\textbf{Movie App}
+
+\vspace{-1pt}
+
+Created an intuitive React-based application to browse and search movies using a third-party public movie API.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented search and filtering functionality using React state and effects to dynamically update results via API calls.
+\item Handled API integration, error handling, and pagination logic to optimize frontend data presentation and user flow.
+\item Styled application with CSS modules and grid layouts to provide smooth mobile responsiveness and clear visual structure.
+\item Organized project structure and API logic into reusable hooks and components for code clarity and maintainability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
