@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full-Stack Developer with 3 years of experience building scalable web apps using React, Node.js, and PostgreSQL. Proficient in modern API integrations, cloud environments like GCP, and test-driven development. Adept at collaborating cross-functionally to build intuitive interfaces and robust backends. Passionate about delivering high-quality code and seamless user experiences.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend:} React, JavaScript, TypeScript, HTML5, CSS3, Redux
+
+\textbf{Backend:} Node.js, Express, NestJS, Python, REST APIs, GraphQL
+
+\textbf{Databases:} PostgreSQL, MongoDB, MySQL, Schema Design, Query Optimization
+
+\textbf{Cloud \& DevOps:} GCP, Docker, App Engine, Cloud SQL, Terraform, CI/CD
+
+\textbf{Testing:} Jest, Cypress, Unit Testing, Integration Testing, End-to-End Testing
+
+\textbf{Version Control:} Git, GitHub, Gitflow, Branching Strategies, Code Reviews
+
+\textbf{Soft Skills:} Collaboration, Ownership, Agile, Problem Solving, Critical Thinking
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built full-stack web apps using React and Node.js, with PostgreSQL as the backend database and RESTful APIs for integration.
+\item Developed and deployed features in a GCP-based environment using App Engine, Docker, and Cloud SQL components.
+\item Refactored legacy frontend code to a modern React stack with customized reusable components and modular design.
+\item Collaborated on API integrations with third-party services, adding GraphQL endpoints and secure auth layers.
+\item Wrote unit and integration tests using Jest and Cypress to ensure feature reliability and reduce regression bugs.
+\item Implemented agile workflows using Gitflow branching, participating in code reviews and daily standups with cross-functional teams.
+\end{itemize}
+
+\textbf{Backend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Created scalable Node.js backends interfacing with PostgreSQL, designed schemas and optimized complex SQL queries.
+\item Spearheaded the design of RESTful microservices to automate business logic, reducing manual workflows for users.
+\item Integrated various APIs including authentication and third-party services, employing token-based auth strategies.
+\item Maintained and deployed backend systems using Docker and continuous deployment pipelines within a cloud setup.
+\item Worked closely with frontend teams, delivering modular and well-tested endpoints with detailed API documentation.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Workflow Automation System}
+
+\vspace{-1pt}
+
+Automated internal operations using a React frontend, Node.js/NestJS APIs, and PostgreSQL on a GCP stack.
+\vspace{-1pt}
+\begin{itemize}
+\item Built responsive web UI in React using TypeScript, custom hooks, global state, and reusable UI components for consistency.
+\item Developed REST and GraphQL APIs with NestJS, handling asynchronous workflows and integrating secure auth layers.
+\item Deployed backend services on GCP App Engine connected to Cloud SQL database for scalability and centralized logs.
+\item Wrote end-to-end tests in Cypress and Jest, catching bugs early and improving confidence in production deployments.
+\end{itemize}
+
+\textbf{Client Portal Platform}
+
+\vspace{-1pt}
+
+Designed a full-stack portal for client onboarding with form validation, custom workflows, and cloud-based services.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented React-based portal UI with dynamic form rendering, validation, and role-based access for client users.
+\item Built backend using Express and Node.js to manage tenant data, workflows, and secure document submissions.
+\item Integrated HubSpot API to sync onboarding status and automated reporting into customizable workflows.
+\item Containerized application with Docker and deployed using GCP services, managing IaaC with Terraform scripts.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
