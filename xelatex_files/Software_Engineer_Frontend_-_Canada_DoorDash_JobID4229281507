@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Frontend Software Engineer with 3 years of expertise building scalable, high-performance web applications using React, Redux, and TypeScript. Proven track record architecting responsive interfaces and seamless API integrations for logistics and e-commerce platforms. Skilled in optimizing user experiences through accessibility standards, cross-browser compatibility, and modern frontend practices. Passionate about delivering elegant solutions at the intersection of product and engineering.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Technologies:} React, Redux, JavaScript (ES6+), TypeScript, HTML5, CSS3
+
+\textbf{Backend \& APIs:} Node.js, Express.js, RESTful APIs, GraphQL, API Integration, Microservices
+
+\textbf{UI/UX \& Design:} Responsive Design, Cross-Browser Compatibility, Accessibility (WCAG), Material-UI, Tailwind CSS, Progressive Enhancement
+
+\textbf{Testing \& Quality:} Jest, React Testing Library, Unit Testing, Integration Testing, End-to-End Testing, Test-Driven Development
+
+\textbf{Development Tools:} Git, GitHub, Webpack, Vite, npm, CI/CD Pipelines
+
+\textbf{Database \& Cloud:} MongoDB, PostgreSQL, Firebase, AWS, Docker, Redis
+
+\textbf{Methodologies:} Agile/Scrum, Code Review, Performance Optimization, Documentation, Mentoring, Collaborative Development
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Architected responsive React applications with Redux state management serving 50,000+ users across multiple platforms.
+\item Implemented RESTful API integrations optimizing data flow and reducing page load times by 40\% through code splitting.
+\item Developed accessible UI components following WCAG standards ensuring cross-browser compatibility across Chrome, Safari, Firefox.
+\item Collaborated with product teams to deliver customer-focused features through iterative development and rigorous testing cycles.
+\item Mentored junior developers on React best practices, code reviews, and frontend architecture patterns for scalable applications.
+\item Built robust unit and integration tests using Jest achieving 85\% code coverage and improving application stability significantly.
+\end{itemize}
+
+\textbf{Full Stack Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and deployed full-stack web applications using React, Node.js, and MongoDB for client-facing business solutions.
+\item Optimized frontend performance implementing lazy loading and caching strategies reducing initial bundle size by 35 percent.
+\item Integrated third-party APIs and backend services enabling seamless data synchronization across distributed system components.
+\item Conducted comprehensive code reviews and implemented documentation standards improving team collaboration and code quality.
+\item Developed progressive web applications with offline capabilities enhancing user experience across varying network conditions.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System}
+
+\vspace{-1pt}
+
+Architected and built a large-scale LMS with React, TypeScript, and Redux serving 6K+ users with responsive design.
+\vspace{-1pt}
+\begin{itemize}
+\item Built scalable frontend architecture using React, Redux, and TypeScript with focus on performance and cross-browser compatibility.
+\item Designed intuitive, accessible UI components following progressive enhancement principles for optimal user experience.
+\item Integrated RESTful backend APIs for real-time data synchronization, authentication, and role-based access control.
+\item Implemented comprehensive unit and integration testing with 85\% code coverage ensuring robust, maintainable codebase.
+\end{itemize}
+
+\textbf{Custom Business Web Solutions}
+
+\vspace{-1pt}
+
+Delivered multiple production-ready web applications using React, vanilla JS, HTML5/CSS3 with product ownership mindset.
+\vspace{-1pt}
+\begin{itemize}
+\item Owned end-to-end product development from requirements gathering to deployment for diverse client-facing applications.
+\item Mastered web fundamentals: vanilla JavaScript, HTML5, CSS3 to build performant, responsive interfaces across all browsers.
+\item Architected frontend systems integrating REST APIs, payment processing, and real-time features with clean, tested code.
+\item Collaborated with technical and business teams to balance user experience with technical constraints and delivery timelines.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
