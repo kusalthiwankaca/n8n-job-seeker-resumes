@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Front-End Developer with 3 years of experience building accessible, responsive web applications using React.js, Next.js, and TypeScript. Specialized in creating WCAG-compliant interfaces and integrating RESTful APIs within Agile environments. Proven ability to translate complex business requirements into scalable, user-focused solutions while collaborating with cross-functional teams. Skilled in modern development practices including CI/CD pipelines, automated testing, and secure authentication methods to deliver enterprise-grade applications.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Front-End Development:} React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, JSX, Responsive Design
+
+\textbf{API \& Integration:} RESTful APIs, Axios, React Query, Swagger-UI, Postman, JSON APIs
+
+\textbf{State Management \& Forms:} Zustand, React Hook Form, Redux Toolkit, Context API
+
+\textbf{Testing \& Quality Assurance:} Jest, React Testing Library, Playwright, Unit Testing, Automation Testing
+
+\textbf{Backend \& Tools:} Node.js, NPM, Spring Boot, Express.js, MongoDB
+
+\textbf{DevOps \& Version Control:} Git, GitHub, CI/CD Pipelines, Docker, Agile/Scrum
+
+\textbf{Security \& Accessibility:} WCAG 2.1, AODA Compliance, OAuth/JWT, OWASP Standards, WAVE, AXE Tools, CORS
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Front-End Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive React.js applications with TypeScript, ensuring WCAG compliance and seamless cross-browser compatibility.
+\item Integrated RESTful APIs using Axios and React Query to fetch and manage data efficiently across enterprise web platforms.
+\item Built accessible, mobile-first interfaces following AODA standards, validated with WAVE and AXE accessibility testing tools.
+\item Collaborated with UX designers and backend developers in Agile sprints to deliver scalable features meeting business needs.
+\item Implemented secure authentication flows using OAuth and JWT, enhancing application security and user session management.
+\item Conducted unit and integration testing with Jest and React Testing Library to maintain high code quality and reliability.
+\end{itemize}
+
+\textbf{Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Created dynamic web interfaces using JavaScript, HTML5, and CSS3, optimizing performance and user engagement across devices.
+\item Worked closely with product managers to translate business requirements into technical implementations within Scrum framework.
+\item Maintained version control workflows using Git, managing branching strategies and conducting thorough code reviews for quality.
+\item Supported production applications by troubleshooting issues, performing bug fixes, and deploying updates through CI/CD pipelines.
+\item Enhanced user experience by implementing responsive design principles and ensuring consistency across multiple browser platforms.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{PROSPR  Real-Time Chat Application for Accessibility}
+
+\vspace{-1pt}
+
+Built accessible real-time chat app with React, ensuring WCAG compliance and inclusive design for diverse user needs.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed responsive, mobile-first React application with TypeScript, implementing modern UI components and state management.
+\item Ensured WCAG 2.1 accessibility compliance through semantic HTML, ARIA attributes, and testing with assistive technologies.
+\item Integrated RESTful APIs and WebSocket connections for real-time data exchange with secure OAuth/JWT authentication patterns.
+\item Collaborated in Agile/Scrum environment, conducting code reviews and implementing CI/CD pipelines for automated deployments.
+\end{itemize}
+
+\textbf{Custom Business Web Solutions}
+
+\vspace{-1pt}
+
+Delivered enterprise-grade web applications using React/Next.js with focus on accessibility, security, and performance.
+\vspace{-1pt}
+\begin{itemize}
+\item Built server-side rendered applications with Next.js, implementing responsive designs from UI/UX artifacts and wireframes.
+\item Integrated front-end interfaces with RESTful APIs using Postman for testing and ensuring data security with OWASP standards.
+\item Implemented unit testing, automation testing, and cross-browser compatibility ensuring consistent user experience across devices.
+\item Translated business requirements into technical solutions while participating in sprint planning, stand-ups, and retrospectives.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
