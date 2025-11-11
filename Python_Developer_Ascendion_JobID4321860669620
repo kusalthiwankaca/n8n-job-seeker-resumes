@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience building scalable web apps using Python, Django, SQL, and RESTful APIs. Adept at designing secure systems, enhancing performance, and integrating microservices in cloud environments. Proven ability to thrive in fast-paced, team-driven settings and deliver clean, maintainable code. Passionate about backend development and distributed systems architecture.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, SQL, HTML, CSS
+
+\textbf{Frameworks \& Libraries:} Django, React, Node.js, Express, Redux, Bootstrap
+
+\textbf{Databases:} MySQL, PostgreSQL, SQLite, MongoDB
+
+\textbf{Cloud \& DevOps:} Docker, AWS, Nginx, GitHub Actions, Heroku
+
+\textbf{Tools \& Platforms:} Git, Linux, Jira, Postman, VS Code, npm, Yarn
+
+\textbf{API \& Services:} REST APIs, JWT Auth, Payment Gateways, RabbitMQ, OAuth
+
+\textbf{Soft Skills:} Agile Development, Problem Solving, Team Collaboration, Code Reviews, Time Management
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed backend features using Django and optimized SQL queries for improved performance and data reliability.
+\item Designed RESTful APIs and ensured seamless integration with frontend React components and third-party services.
+\item Configured Docker-based environments to streamline development workflows and deployment to cloud platforms.
+\item Implemented secure authentication flows using JWT and role-based access for sensitive areas of web application.
+\item Peer-reviewed code and collaborated on technical design specs to support microservice-based architecture.
+\item Led sprint planning and estimated tasks effectively, contributing to timely and quality-focused product releases.
+\end{itemize}
+
+\textbf{Backend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built scalable Django views and models to support complex business logic and high-volume data processing.
+\item Worked with MySQL to model and maintain relational data, ensuring ACID compliance and optimized transactions.
+\item Integrated RabbitMQ for background job processing and improved system responsiveness during peak usage.
+\item Monitored production performance and resolved bottlenecks across distributed components and services.
+\item Collaborated with frontend and QA teams in Agile sprints to deliver robust backend APIs and fixes on time.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Smart Home Energy Dashboard}
+
+\vspace{-1pt}
+
+Built a dashboard app displaying energy usage in real time using Django, React, and RabbitMQ message queues.
+\vspace{-1pt}
+\begin{itemize}
+\item Architected backend with Django and Celery to handle real-time energy data ingestion and processing efficiently.
+\item Integrated React frontend with secure REST APIs, enabling dynamic charts and usage analytics per household.
+\item Configured RabbitMQ to queue smart meter data updates and distributed data pipelines through Celery workers.
+\item Deployed complete system using Docker and Nginx, ensuring reliable performance and maintainability on cloud.
+\end{itemize}
+
+\textbf{Freelance Job Tracker}
+
+\vspace{-1pt}
+
+A full-stack app to track freelance job applications built with Django, MySQL, and REST API architecture.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed robust data models in MySQL with Django ORM to support job posts, applications, and user roles.
+\item Developed Django views and APIs for full CRUD operations and integrated JWT-powered user authentication.
+\item Styled the front-end using Bootstrap, integrating form validation and pagination for job listings dashboard.
+\item Ensured clean deployments using Docker Compose, automated backups for DB, and GitHub Actions for CI/CD.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
