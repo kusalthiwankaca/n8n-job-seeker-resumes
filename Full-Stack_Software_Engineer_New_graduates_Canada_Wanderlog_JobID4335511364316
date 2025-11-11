@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full-stack developer with 3 years of experience building scalable web and mobile applications using React, React Native, and Node.js. Passionate about creating end-to-end user experiences, improving performance, and integrating diverse tools to deliver efficient digital products. Adept at working across the stack with TypeScript, REST APIs, and testing frameworks in agile, product-led environments.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend:} React, React Native, JavaScript, TypeScript, Redux, HTML5, CSS3
+
+\textbf{Backend:} Node.js, Express.js, REST APIs, JWT, MongoDB, PostgreSQL
+
+\textbf{Testing \& QA:} Jest, React Testing Library, Mocha, Chai, End-to-End Testing, Unit Testing
+
+\textbf{DevOps \& Tools:} Git, Docker, CI/CD, Heroku, Netlify, Postman, Vercel
+
+\textbf{Data \& APIs:} Elasticsearch, Redis, GraphQL, Axios, Web Scraping, Data Pipelines
+
+\textbf{Languages:} JavaScript, TypeScript, Python, SQL
+
+\textbf{Soft Skills:} User-Centered Thinking, Cross-Team Collaboration, Fast Learner, Problem Solving, Product Ownership
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full-Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and maintained full-stack web features using React, Node.js, and MongoDB, improving load performance and UI fluidity.
+\item Worked closely with designers to prototype and iterate quickly on mobile-responsive travel interfaces using React Native.
+\item Integrated hotel search APIs to provide dynamic search and booking flows with minimal latency using Express and Redis.
+\item Refactored front-end components to reduce duplicate logic, improve test coverage, and simplify future development efforts.
+\item Participated in roadmap planning, evaluating tradeoffs, and scoping new tools to align with user growth and retention goals.
+\item Reviewed teammates' code, led test writing efforts, and participated in infrastructure improvements to support faster shipping.
+\end{itemize}
+
+\textbf{Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed user-facing product features with React, TypeScript, and RESTful APIs targeting thousands of active monthly users.
+\item Created automation scripts in Node.js and Python to crawl, clean, and enrich third-party travel content into a usable format.
+\item Collaborated cross-functionally with designers, engineers, and founders to define MVP scopes and deliver lean iterations.
+\item Deployed applications to cloud platforms with Git, Docker, and CI/CD workflows to ensure stable, scalable product releases.
+\item Monitored front-end bugs and regressions across browsers and devices, leading efforts to reduce crash rates on mobile app.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Explora - Travel Itinerary Builder}
+
+\vspace{-1pt}
+
+Designed a feature-rich travel planner web app using React, Express, and MongoDB with collaborative itinerary editing.
+\vspace{-1pt}
+\begin{itemize}
+\item Implemented interactive React components for building day-by-day trip plans with real-time syncing via WebSockets.
+\item Built user auth flow with JWT tokens, protected routes, and modularized session handling on both client and server sides.
+\item Integrated third-party APIs to auto-fetch attractions, hotel data, and maps, streamlining content population for users.
+\item Led testing strategy using Jest and React Testing Library to ensure consistent UI behavior and data integrity across sessions.
+\end{itemize}
+
+\textbf{Nomad Journal}
+
+\vspace{-1pt}
+
+Developed a cross-platform mobile journaling app using React Native focused on travel experiences and offline syncing.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered local-first offline mode using Redux-Persist and SQLite to support logging trips without data connectivity.
+\item Designed intuitive mobile UI using reusable components, native date pickers, and platform-aware styling for Android/iOS.
+\item Implemented back-end services in Express.js for file uploads and journal syncing with secure cloud storage integration.
+\item Added fuzzy search using Elasticsearch to filter journal entries across dates, tags, and locations with instant feedback.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
