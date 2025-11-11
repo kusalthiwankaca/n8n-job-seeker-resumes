@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented React Developer with 3 years of experience building responsive user interfaces and scalable front-end features. Skilled in React, Redux, JavaScript ES6+, and RESTful integrations with a strong grasp of UI/UX principles. Collaborates effectively with cross-functional teams to translate wireframes into performance-optimized, maintainable code.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Languages:} JavaScript, HTML5, CSS3, TypeScript, SQL
+
+\textbf{Frameworks \& Libraries:} React, Redux, Context API, Next.js, Bootstrap
+
+\textbf{Testing \& Debugging:} Jest, React Testing Library, Chrome DevTools, Unit Testing, Integration Testing
+
+\textbf{Version Control:} Git, GitHub, GitLab, Bitbucket, CI/CD Pipelines
+
+\textbf{API \& Data:} RESTful APIs, Axios, Async Fetch, JSON, GraphQL
+
+\textbf{Build \& Deployment:} Webpack, Babel, npm, Yarn, GitHub Actions
+
+\textbf{Soft Skills:} Agile/Scrum, Team Collaboration, Code Reviews, Problem Solving, Adaptability
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{React Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed reusable React components and UI modules, improving code efficiency and consistency across web applications.
+\item Collaborated cross-functionally with designers and backend teams to build intuitive, responsive user interfaces from mockups.
+\item Implemented state management using Redux and Context API, improving data flow and reducing unnecessary re-renders.
+\item Optimized front-end performance through lazy loading, memoization, and code splitting techniques using Webpack.
+\item Integrated dynamic RESTful APIs with Axios, managing asynchronous data and improving client-server communication.
+\item Wrote unit and integration tests using Jest and React Testing Library, enhancing overall test coverage and code quality.
+\end{itemize}
+
+\textbf{Frontend Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Translated UI/UX designs into functional HTML, CSS, and JavaScript code, ensuring responsive behavior across browsers.
+\item Built and styled interactive front-end components using React and Bootstrap, enhancing user interactivity and mobile support.
+\item Collaborated in Agile sprints with backend developers to connect APIs and deliver timely product releases.
+\item Used Git and GitHub for version control and code reviews, promoting clean code practices and continuous integration.
+\item Regularly participated in standups, sprint planning, and QA processes to track progress and ensure delivery alignment.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{SocialEase}
+
+\vspace{-1pt}
+
+A React-based social networking app enabling users to create profiles, connect, and interact in real-time.
+\vspace{-1pt}
+\begin{itemize}
+\item Built responsive React UI components and integrated dynamic user feeds, enhancing real-time communication and engagement.
+\item Employed Redux for global state management to ensure consistent behavior across messaging, profile updates, and posts.
+\item Connected RESTful APIs and implemented async data fetching with Axios to manage user data and content publishing.
+\item Wrote unit tests using Jest and React Testing Library, improving code reliability and ensuring coverage for core features.
+\end{itemize}
+
+\textbf{Virtual Campus}
+
+\vspace{-1pt}
+
+An education platform with user roles enabling virtual classroom collaboration between students and instructors.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed user interfaces using React and Context API to manage authentication flows and classroom interactions.
+\item Collaborated with backend developers to integrate RESTful services for user management and course materials access.
+\item Applied responsive design principles with CSS3 and Flexbox to support smooth experiences across devices and viewports.
+\item Set up testing workflows with Jest and enforced CI/CD practices on GitHub with GitHub Actions for streamlined deployment.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
