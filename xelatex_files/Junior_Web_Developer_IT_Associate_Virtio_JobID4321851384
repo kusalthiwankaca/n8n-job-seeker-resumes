@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Junior Full Stack Developer with 3 years of experience building responsive websites and web applications using HTML, CSS, JavaScript, and modern frameworks like React. Skilled in both front-end and back-end development with practical knowledge of REST APIs, Git version control, and collaborative workflows. Experienced in IT support and troubleshooting Microsoft 365 environments, delivering clear documentation and user-friendly solutions. Strong communicator with a service-oriented mindset, adept at translating client requirements into functional digital products while managing multiple projects independently.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, Python, HTML5, CSS3, SQL, TypeScript
+
+\textbf{Frameworks \& Libraries:} React, Node.js, Express.js, Bootstrap, Tailwind CSS, jQuery
+
+\textbf{Tools \& Platforms:} Git/GitHub, VS Code, Postman, MongoDB, MySQL, REST APIs
+
+\textbf{Cloud \& IT Administration:} Microsoft 365, Google Workspace, AWS basics, Help Desk Support, Troubleshooting
+
+\textbf{Web Development:} Responsive Design, Cross-browser Compatibility, Web Accessibility, Performance Optimization, Version Control
+
+\textbf{Design \& Media:} Figma, Adobe XD, UI/UX Principles, AI Image Generation, Content Creation
+
+\textbf{Professional Skills:} Project Management, Technical Documentation, Client Communication, Problem Solving, Team Collaboration
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive websites and web applications using HTML, CSS, JavaScript, and React for diverse client portfolios.
+\item Built RESTful APIs with Node.js and Express to enable seamless front-end and back-end integration for data-driven platforms.
+\item Collaborated with cross-functional teams using Git and GitHub to maintain clean, version-controlled codebases for projects.
+\item Troubleshot and resolved IT support tickets related to Microsoft 365, documenting solutions for end-user reference materials.
+\item Translated client briefs into functional web solutions, ensuring pixel-perfect designs met accessibility and performance standards.
+\item Managed multiple concurrent projects independently, delivering on-time solutions while maintaining clear communication with stakeholders.
+\end{itemize}
+
+\textbf{Web Developer \& IT Support Specialist -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Created and maintained client-facing websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and usability.
+\item Provided IT help desk support for common technical issues, including account setup, mailbox configuration, and endpoint troubleshooting.
+\item Wrote clean, well-documented code and maintained comprehensive project documentation for seamless team collaboration and handoffs.
+\item Implemented responsive web designs based on mockups, optimizing user experience across desktop, tablet, and mobile devices.
+\item Assisted in automating repetitive workflows using JavaScript and Python scripts to improve operational efficiency for internal teams.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Custom Business Web Solutions}
+
+\vspace{-1pt}
+
+Built responsive client websites and web apps with clean HTML/CSS/JavaScript, translating business needs into solutions.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed custom responsive websites using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and performance.
+\item Collaborated with clients to gather requirements and translate business briefs into functional web applications and designs.
+\item Implemented Git version control workflows for collaboration, code reviews, and maintaining clean, documented codebases.
+\item Created technical documentation and user guides for client handoff, ensuring seamless support and system maintenance.
+\end{itemize}
+
+\textbf{Cloud-Based Learning Management System}
+
+\vspace{-1pt}
+
+Built scalable web platform with React and Node.js, handling client requirements and managing complex user workflows.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed front-end and back-end components using React, Node.js, and MySQL for a client-facing educational platform.
+\item Integrated REST APIs for data exchange between frontend interfaces and backend services with secure authentication methods.
+\item Managed project independently, juggling multiple features and priorities while maintaining clear communication with stakeholders.
+\item Deployed application on AWS cloud infrastructure, troubleshooting technical issues and ensuring reliable system operations.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
