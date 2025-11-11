@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Frontend Developer with 3 years of experience building performant, data-rich web interfaces using React, TypeScript, and modern tooling. Skilled in collaborating with cross-functional teams to develop scalable UI systems that power decision-making tools in fast-paced domains. Passionate about creating seamless user experiences that surface complex data with clarity and speed.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} JavaScript, TypeScript, React, Next.js, Vue, HTML5, CSS3, SCSS
+
+\textbf{Styling \& UI Libraries:} Tailwind CSS, styled-components, Material UI, Ant Design, Bootstrap, CSS Modules
+
+\textbf{Testing Tools:} Jest, React Testing Library, Cypress, Playwright, Enzyme, Mocha
+
+\textbf{Build \& Versioning:} Webpack, Vite, Babel, ESLint, Git, GitHub Actions
+
+\textbf{Data Visualization:} D3.js, Highcharts, Chart.js, Recharts, Plotly
+
+\textbf{DevOps \& Deployment:} AWS S3, Vercel, Netlify, Docker, CI/CD Pipelines
+
+\textbf{Collaboration \& Agile:} JIRA, Confluence, Slack, Figma, Notion, Scrum
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Led development of responsive React interfaces for analytics dashboards used by over 1,000 enterprise users daily.
+\item Integrated TypeScript for improved type safety and maintainability across complex UI components and shared libraries.
+\item Collaborated with backend and product teams to visualize dynamic datasets using Highcharts and D3.js charts.
+\item Built reusable UI components using Tailwind CSS, ensuring consistency and faster development cycles.
+\item Conducted unit and integration testing using Jest and Cypress, boosting test coverage and reducing bugs in production.
+\item Optimized bundle size and initial load using Webpack and lazy-loading techniques for better performance.
+\end{itemize}
+
+\textbf{Software Engineer (Frontend) -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed interactive data-driven frontend modules in Vue and React for financial and administrative reporting tools.
+\item Collaborated with UX designers on component flows and styles using Figma and styled-components libraries.
+\item Deployed frontend applications to AWS S3 and managed CI/CD pipelines to ensure seamless code delivery.
+\item Maintained automated testing framework with Cypress and React Testing Library to support agile deployments.
+\item Contributed to internal UI documentation and design system libraries to improve UI reuse and reduce tech debt.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Performance Analytics Dashboard}
+
+\vspace{-1pt}
+
+Developed a responsive dashboard for real-time performance tracking using React, TypeScript, and Highcharts.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered interactive charts using Highcharts and custom tooltips to render fine-grained performance metrics visually.
+\item Integrated REST APIs for real-time data updates, focusing on efficient state management using React hooks and context.
+\item Styled components using Tailwind CSS and handled theming strategies for light/dark mode support dynamically.
+\item Implemented visual regression and end-to-end tests with Cypress to ensure UI integrity after each deployment.
+\end{itemize}
+
+\textbf{Trading Strategy Simulator}
+
+\vspace{-1pt}
+
+Created a frontend tool to simulate trading strategies and visualize results using D3.js and React.
+\vspace{-1pt}
+\begin{itemize}
+\item Built interactive D3 visualizations to animate market positions, profit/loss curves, and trade entry signals.
+\item Used React state containers for managing high-frequency strategy simulations and trading inputs cleanly.
+\item Integrated with backend APIs to fetch historical price and performance data through REST and WebSockets.
+\item Wrote comprehensive tests in Jest and Playwright covering form logic, charts, and critical user flows.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
