@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Junior Web Developer with 3 years of experience building responsive websites and web apps using HTML, CSS, JavaScript, and React. Adept at resolving IT issues, collaborating in cross-functional teams, and leveraging AI tools for content generation. Demonstrates strong problem-solving skills, a keen eye for design, and a passion for optimizing digital experiences for users and clients alike.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, HTML5, CSS3, VBA
+
+\textbf{Frameworks \& Libraries:} React, Redux, Node.js, Express, jQuery, Bootstrap
+
+\textbf{Web \& App Development:} REST APIs, Responsive Design, Single Page Applications, GitHub, Webpack, NPM
+
+\textbf{Databases:} MongoDB, Firebase, MySQL, SQLite, Mongoose, Prisma
+
+\textbf{Tools \& Platforms:} Git, VS Code, Figma, Postman, Netlify, Vercel
+
+\textbf{AI \& Automation:} Midjourney, Gemini, Zapier, ChatGPT, APIs, AI Content Tools
+
+\textbf{IT \& Technical Support:} Microsoft 365, Google Workspace, Troubleshooting, Help Desk Support, Technical Documentation
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Web Developer \& IT Support Associate -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and deployed responsive websites using HTML, CSS, JavaScript, and Git for both internal and client projects
+\item Provided IT support by resolving software, email, and account issues, improving system availability for internal users
+\item Collaborated with designers and content teams to ensure cohesive UX across websites and user-facing applications
+\item Built small-scale web applications with React and Node.js, integrating APIs and handling front-end/back-end logic
+\item Used AI tools like Midjourney to generate image assets and marketing content to support business presentations
+\item Documented common IT fixes and wrote user handoff manuals, streamlining internal support and knowledge sharing
+\end{itemize}
+
+\textbf{Junior Full Stack Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Implemented feature updates and bug fixes on web applications using JavaScript, React, and MongoDB stack
+\item Built reusable components and ensured cross-browser compatibility to support consistent UI/UX functionality
+\item Assisted with API integration and backend logic using Express and Node.js for data-driven features
+\item Participated in daily standups, provided task updates, and collaborated on GitHub for version control
+\item Helped troubleshoot deployment issues and assisted users during UAT, ensuring timely production rollouts
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{AI-Powered Blogging Platform}
+
+\vspace{-1pt}
+
+Full-stack web app using AI-generated content tools and REST APIs to automate blog publishing and content editing.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed a React frontend with dynamic routing and integrated Tailwind CSS for mobile-first, responsive UI design
+\item Implemented AI-generated content workflows using OpenAI API with customizable prompts for varied blog topics
+\item Built backend API using Node.js and Express to handle content validation, uploads, and MongoDB datastore updates
+\item Enabled user authentication via Firebase Auth and protected blog management features using JWT-based tokens
+\end{itemize}
+
+\textbf{Custom Help Desk Ticketing System}
+
+\vspace{-1pt}
+
+Designed a ticketing platform to manage user IT requests, prioritizing real-time updates and documentation flow.
+\vspace{-1pt}
+\begin{itemize}
+\item Created frontend UI with React and Material UI for admins to log and track technical issue reports in real time
+\item Implemented backend with Node, Express and MongoDB to store tickets, update resolutions, and trigger email alerts
+\item Designed ticket status workflow and admin notes features to facilitate IT team resolution process and escalations
+\item Integrated GitHub for version control and deployed project to Vercel for live test across multiple browser stacks
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
