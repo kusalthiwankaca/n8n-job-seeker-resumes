@@ -1,0 +1,156 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented finance professional with 3 years of experience in full-stack development and technical problem-solving. Skilled in building scalable applications, analyzing complex systems, and collaborating across teams to deliver high-quality solutions. Proficient in modern programming languages and frameworks with strong analytical capabilities. Eager to transition technical expertise into corporate banking, leveraging data analysis, process optimization, and client-facing skills to support business development and credit analysis initiatives.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Financial Analysis \& Tools:} Excel (Advanced Formulas, Pivot Tables, Financial Modeling), PowerPoint (Client Presentations, Pitch Decks), Data Analysis \& Reporting, Financial Statement Analysis, Risk Assessment, Market Research
+
+\textbf{Technical Proficiency:} Python (Data Analysis, Automation), SQL (Database Queries, Reporting), JavaScript, Bloomberg Terminal (Asset), API Integration, Process Automation
+
+\textbf{Business \& Communication:} Client Relationship Management, Stakeholder Communication, Cross-Functional Collaboration, Business Development Support, Documentation \& Reporting, Presentation Skills
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, Java, SQL, HTML/CSS
+
+\textbf{Frameworks \& Libraries:} React.js, Node.js, Express.js, Next.js, Django, Bootstrap
+
+\textbf{Development Tools:} Git \& GitHub, VS Code, Postman, MongoDB, PostgreSQL, RESTful APIs
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained scalable web applications using React and Node.js, improving system performance and user engagement.
+\item Collaborated with cross-functional teams to gather requirements, analyze business needs, and deliver tailored technical solutions.
+\item Created comprehensive documentation and presentations for stakeholders, translating technical concepts into business insights.
+\item Conducted thorough data analysis and testing to identify system bottlenecks, optimize workflows, and reduce processing time.
+\item Implemented RESTful APIs integrating third-party services, enhancing application functionality and client satisfaction metrics.
+\item Supported business development initiatives by building internal tools that automated reporting and improved decision-making speed.
+\end{itemize}
+
+\textbf{Junior Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built responsive user interfaces with React and integrated backend services using Express.js for client-facing applications.
+\item Participated in daily team meetings to coordinate project deliverables, troubleshoot issues, and maintain project timelines.
+\item Analyzed user feedback and system performance data to recommend improvements, enhancing overall application usability by 20\%.
+\item Assisted in preparing technical documentation, client presentations, and progress reports for internal and external stakeholders.
+\item Collaborated with senior developers on database design and optimization, ensuring data integrity and efficient query performance.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Custom Business Web Solutions}
+
+\vspace{-1pt}
+
+Built client-focused business platforms including analytics dashboards and reporting tools for operational efficiency.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed custom web solutions using React and Express.js to streamline client business operations and data management.
+\item Created financial dashboards and reporting systems to track performance metrics and support data-driven decision-making.
+\item Collaborated with stakeholders to gather requirements and deliver tailored solutions aligned with business objectives.
+\item Integrated secure authentication and optimized database queries to ensure reliable access to critical business information.
+\end{itemize}
+
+\textbf{Automated Cryptocurrency Trading Bot}
+
+\vspace{-1pt}
+
+Developed automated trading system with real-time market analysis, risk management, and performance tracking features.
+\vspace{-1pt}
+\begin{itemize}
+\item Built automated trading system in Python with API integration for real-time market data streaming and transaction execution.
+\item Implemented risk assessment algorithms, stop-loss mechanisms, and portfolio management strategies for capital preservation.
+\item Utilized Pandas and NumPy for financial data analysis, backtesting strategies, and optimizing trading performance metrics.
+\item Deployed on AWS with monitoring and detailed logging to track system performance, transaction history, and market trends.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
