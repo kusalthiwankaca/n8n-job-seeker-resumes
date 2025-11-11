@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience building scalable web applications using React, Node.js, and Python. Skilled in creating performant, user-focused features and contributing to modern, agile engineering teams. Eager to grow in a collaborative environment and contribute to Jerry’s mission by delivering robust, high-quality code from day one.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} React, JavaScript, TypeScript, HTML5, CSS3, Redux
+
+\textbf{Backend Development:} Node.js, Express.js, Python, REST APIs, Django, GraphQL
+
+\textbf{Mobile Development:} React Native, Expo, iOS/Android Debugging, Mobile UI/UX, Push Notifications
+
+\textbf{Cloud \& DevOps:} AWS, Docker, CI/CD, S3, EC2, GitHub Actions
+
+\textbf{Databases:} PostgreSQL, MongoDB, SQLite, Redis, DynamoDB, TypeORM
+
+\textbf{Testing \& Quality:} Jest, Mocha, Chai, Postman, Unit Testing, E2E Testing
+
+\textbf{Soft Skills:} Team Collaboration, Agile Development, Code Review, Documentation, Continuous Learning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built and maintained web applications using React, Node.js, and PostgreSQL across customer-focused and admin-facing platforms.
+\item Integrated RESTful APIs and improved data flow with Redux for seamless client-server communication and optimized UI performance.
+\item Refactored legacy codebases and implemented CI/CD pipelines using GitHub Actions to streamline deployment and testing flows.
+\item Collaborated in agile teams to deliver weekly sprints, writing production-ready code with thorough peer reviews and unit tests.
+\item Designed reusable React components that improved code maintainability and sped up UI development across multiple teams.
+\item Configured AWS services including S3 and EC2 to support scalable app deployment and persistent storage for dynamic content.
+\end{itemize}
+
+\textbf{Frontend Developer Intern -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed responsive user interfaces using HTML, CSS, and JavaScript, with a focus on accessibility and mobile compatibility.
+\item Worked closely with designers to translate mockups into pixel-perfect layouts using React and styled-components.
+\item Optimized page load times by lazy-loading assets and reducing bundled JS size through webpack configuration tuning.
+\item Participated in regular stand-ups and sprint planning, gaining hands-on experience with agile development workflows.
+\item Implemented client-side input validation and error handling to improve user feedback and reduce support inquiries.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Vehicle Maintenance Tracker}
+
+\vspace{-1pt}
+
+A full-stack web app that helps users track car maintenance schedules, notifications, and service history.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed React-based frontend with Material UI for an intuitive user dashboard to monitor vehicle service data effectively.
+\item Built RESTful API using Node.js and Express to support CRUD operations for car logs, maintenance entries, and reminders.
+\item Integrated PostgreSQL with Sequelize ORM to manage user authentication, maintenance logs, and historical vehicle data.
+\item Enabled email notifications for upcoming services using a Node mailer system and background cron scheduling tasks.
+\end{itemize}
+
+\textbf{Auto Insurance Quote App}
+
+\vspace{-1pt}
+
+Created an interface simulating real-time insurance quotes using external APIs and geolocation features.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed frontend in React with state management through Redux to handle dynamic quote data and policy filtering.
+\item Connected to mock quote API using Axios, simulating provider-based insurance recommendations based on user input.
+\item Added location-based dropdowns using Google Maps API and implemented pricing logic based on zip code factors.
+\item Deployed app to AWS S3 with custom domain routing, ensuring accessibility across devices with responsive design.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
