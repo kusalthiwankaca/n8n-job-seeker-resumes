@@ -1,0 +1,158 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Detail-oriented Software Developer with 3 years of experience exploring data-rich platforms and building performant systems in Python. Adept at conducting intensive data analysis using SQL, developing end-to-end solutions, and collaborating across teams to solve complex challenges. Thrives in research-heavy environments with a focus on real-world impact and continuous learning.
+
+\vspace{3pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, Java, C++, SQL
+
+\textbf{Data Analysis \& Visualization:} Pandas, NumPy, Matplotlib, Seaborn, Jupyter, Excel
+
+\textbf{Web Development:} React, Node.js, Express, HTML, CSS, Next.js
+
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, Firebase, SQLite, Redis
+
+\textbf{Tools \& Platforms:} Git, Docker, VS Code, Linux, Jira, Postman
+
+\textbf{Machine Learning \& Research:} Scikit-learn, TensorFlow, Data Cleaning, Feature Engineering, Model Evaluation
+
+\textbf{Soft Skills:} Analytical Thinking, Problem Solving, Team Collaboration, Communication, Adaptability
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented backend microservices in Python for processing real-time data streams from external APIs and static datasets.
+\item Developed ETL pipelines that automated data ingestion, transformation, and storage using SQL and cloud storage integrations.
+\item Partnered with frontend engineers to develop interactive dashboards for visualizing processed data in intuitive formats using React.
+\item Wrote modular Python code to run statistical tests and exploratory data analysis on diverse datasets for research validation.
+\item Collaborated with cross-functional teams to brainstorm and test hypotheses derived from user behavior data models.
+\item Conducted root cause analyses to resolve production issues and improve system performance through better data validation routines.
+\end{itemize}
+
+\textbf{Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built full-stack applications leveraging Python, Node.js, and SQL to enable data-driven features for enterprise solutions.
+\item Integrated RESTful APIs for product recommendation and financial data analysis into scalable frontend services.
+\item Utilized PostgreSQL to query, join, and aggregate real-world datasets for analytics workflows in production.
+\item Wrote adaptive UI components in React that respond to realtime data feedback and user interactions with high uptime reliability.
+\item Participated in knowledge sharing sessions and backend reviews to align on clean database schema and project research impact.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Intelligent Job Recommender}
+
+\vspace{-1pt}
+
+Developed an ML-based platform to recommend jobs by processing user preferences and text-ranked job data using TF-IDF scoring.
+\vspace{-1pt}
+\begin{itemize}
+\item Engineered Python modules using TF-IDF and cosine similarity to match job applications with user behavior and skill sets.
+\item Preprocessed and cleaned job description datasets scraped from multiple sources to improve model input integrity.
+\item Built backend APIs with Flask for serving predictions and integrated them into a user-facing React frontend.
+\item Evaluated model accuracy against real user preferences and iteratively improved job ranking algorithms for better relevance.
+\end{itemize}
+
+\textbf{Stock Market Visualizer}
+
+\vspace{-1pt}
+
+Created a web tool for analyzing historical stock trends using real-time data plotting and technical indicator overlays.
+\vspace{-1pt}
+\begin{itemize}
+\item Fetched and normalized stock data via the Yahoo Finance API, supporting multiple tickers and historical timeframes dynamically.
+\item Plotted price movement charts using Matplotlib and added overlays for SMA, EMA, RSI to aid statistical pattern discovery.
+\item Designed clean UI with React and chart.js for responsive visualization on both web and mobile browsers.
+\item Managed project codebase with Git, maintaining modular Python scripts for data retrieval and transformation logic.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
