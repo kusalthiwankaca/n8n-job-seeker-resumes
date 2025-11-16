@@ -6,6 +6,9 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{parskip}
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
 
 % Set main font - Roboto Condensed Light for thinner letters
 \IfFontExistsTF{Roboto Condensed}{
@@ -48,7 +51,7 @@ linkedin.com/in/kusal-thiwanka
 
 Software Engineer with 3 years of experience building and maintaining scalable full-stack applications across cloud and on-premise environments. Proficient in Python, Java, and modern frameworks like React and Spring Boot, with strong expertise in both relational and non-relational databases. Skilled in collaborating with cross-functional teams to deliver robust solutions through complete SDLC, from requirements gathering to production deployment. Passionate about financial technology and committed to writing clean, maintainable code.
 
-\vspace{3pt}
+\vspace{8pt}
 
 \textbf{TECHNICAL SKILLS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
@@ -89,7 +92,7 @@ Software Engineer with 3 years of experience building and maintaining scalable f
 \item Participated in Agile ceremonies including sprint planning, daily standups, and retrospectives to ensure timely delivery.
 \end{itemize}
 
-\textbf{Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+\textbf{Associate Software Engineer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
 
 \vspace{-1pt}
 
