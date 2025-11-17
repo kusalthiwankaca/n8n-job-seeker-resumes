@@ -51,7 +51,7 @@ linkedin.com/in/kusal-thiwanka
 
 Software Engineer with 3 years of experience building and maintaining scalable full-stack applications across cloud and on-premise environments. Proficient in Python, Java, and modern frameworks like React and Spring Boot, with strong expertise in both relational and non-relational databases. Skilled in collaborating with cross-functional teams to deliver robust solutions through complete SDLC, from requirements gathering to production deployment. Passionate about financial technology and committed to writing clean, maintainable code.
 
-\vspace{8pt}
+\vspace{5pt}
 
 \textbf{TECHNICAL SKILLS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
@@ -72,7 +72,7 @@ Software Engineer with 3 years of experience building and maintaining scalable f
 
 \textbf{Software Engineering:} RESTful APIs, Microservices, Agile/Scrum, System Design, Code Review
 
-\vspace{8pt}
+\vspace{5pt}
 
 \textbf{WORK EXPERIENCE}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
@@ -104,7 +104,7 @@ Software Engineer with 3 years of experience building and maintaining scalable f
 \item Supported production systems by troubleshooting incidents, analyzing logs, and implementing fixes to resolve critical issues.
 \end{itemize}
 
-\vspace{6pt}
+\vspace{5pt}
 
 \textbf{RELATED PROJECTS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
@@ -121,7 +121,6 @@ Built a scalable full-stack LMS using Python and React, serving 6K+ students wit
 \item Developed full lifecycle application using Python, React, and MySQL with complete specifications and production-quality code.
 \item Designed and implemented database schema with optimized SQL queries supporting high concurrent user loads and scalability.
 \item Created automated test suites for functional, regression, and performance testing ensuring quality and reliability standards.
-\item Deployed using CI/CD pipelines with automated deployment scripts on AWS, supporting production environment and end users.
 \end{itemize}
 
 \textbf{Custom Business Web Solutions}
@@ -134,7 +133,6 @@ Engineered multiple enterprise web applications including POS and inventory syst
 \item Collaborated with business teams to conduct gap analysis, gather requirements, and deliver scalable enterprise solutions.
 \item Designed relational database schemas and wrote optimized SQL scripts for MySQL and PostgreSQL across multiple projects.
 \item Built and maintained production applications using Python, JavaScript, and modern frameworks with clean, refactorable code.
-\item Implemented automated deployment pipelines, conducted code reviews, and supported solutions in production environments.
 \end{itemize}
 
 \textbf{Custom Business Web Solutions}
@@ -147,10 +145,9 @@ Engineered multiple enterprise web applications including POS and inventory syst
 \item Collaborated with business teams to conduct gap analysis, gather requirements, and deliver scalable enterprise solutions.
 \item Designed relational database schemas and wrote optimized SQL scripts for MySQL and PostgreSQL across multiple projects.
 \item Built and maintained production applications using Python, JavaScript, and modern frameworks with clean, refactorable code.
-\item Implemented automated deployment pipelines, conducted code reviews, and supported solutions in production environments.
 \end{itemize}
 
-\vspace{6pt}
+\vspace{5pt}
 
 \textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
