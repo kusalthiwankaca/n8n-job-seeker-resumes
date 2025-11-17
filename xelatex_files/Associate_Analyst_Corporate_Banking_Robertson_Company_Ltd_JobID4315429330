@@ -6,6 +6,9 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{parskip}
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
 
 % Set main font - Roboto Condensed Light for thinner letters
 \IfFontExistsTF{Roboto Condensed}{
@@ -32,7 +35,7 @@
 \begin{document}
 
 \begin{center}
-{\LARGE\textbf{Kusal Thiwanka}}\\[1pt]
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
 \href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
 (647) 677{-}2260\hspace{2em}%
 Toronto, ON\hspace{2em}
@@ -46,93 +49,105 @@ linkedin.com/in/kusal-thiwanka
 
 \vspace{-2pt}
 
-Detail-oriented finance professional with 3 years of experience in full-stack development and technical problem-solving. Skilled in building scalable applications, analyzing complex systems, and collaborating across teams to deliver high-quality solutions. Proficient in modern programming languages and frameworks with strong analytical capabilities. Eager to transition technical expertise into corporate banking, leveraging data analysis, process optimization, and client-facing skills to support business development and credit analysis initiatives.
+Software Engineer with 3 years of experience building and maintaining scalable full-stack applications across cloud and on-premise environments. Proficient in Python, Java, and modern frameworks like React and Spring Boot, with strong expertise in both relational and non-relational databases. Skilled in collaborating with cross-functional teams to deliver robust solutions through complete SDLC, from requirements gathering to production deployment. Passionate about financial technology and committed to writing clean, maintainable code.
 
-\vspace{3pt}
+\vspace{5pt}
 
 \textbf{TECHNICAL SKILLS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
 
 \vspace{-2pt}
 
-\textbf{Financial Analysis \& Tools:} Excel (Advanced Formulas, Pivot Tables, Financial Modeling), PowerPoint (Client Presentations, Pitch Decks), Data Analysis \& Reporting, Financial Statement Analysis, Risk Assessment, Market Research
+\textbf{Programming Languages:} Python, Java, JavaScript, TypeScript, SQL
 
-\textbf{Technical Proficiency:} Python (Data Analysis, Automation), SQL (Database Queries, Reporting), JavaScript, Bloomberg Terminal (Asset), API Integration, Process Automation
+\textbf{Frameworks \& Libraries:} React, Spring Boot, Node.js, Express.js, Django
 
-\textbf{Business \& Communication:} Client Relationship Management, Stakeholder Communication, Cross-Functional Collaboration, Business Development Support, Documentation \& Reporting, Presentation Skills
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, Oracle, Redis
 
-\textbf{Programming Languages:} JavaScript, TypeScript, Python, Java, SQL, HTML/CSS
+\textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, Jenkins, CI/CD Pipelines
 
-\textbf{Frameworks \& Libraries:} React.js, Node.js, Express.js, Next.js, Django, Bootstrap
+\textbf{Development Tools:} Git, JIRA, Postman, Maven, Gradle
 
-\textbf{Development Tools:} Git \& GitHub, VS Code, Postman, MongoDB, PostgreSQL, RESTful APIs
+\textbf{Testing \& Automation:} JUnit, Pytest, Selenium, Jest, Test-Driven Development
 
-\vspace{8pt}
+\textbf{Software Engineering:} RESTful APIs, Microservices, Agile/Scrum, System Design, Code Review
+
+\vspace{5pt}
 
 \textbf{WORK EXPERIENCE}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
 
 \vspace{-2pt}
 
-\textbf{Software Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
 
 \vspace{-1pt}
 
 \begin{itemize}
-\item Developed and maintained scalable web applications using React and Node.js, improving system performance and user engagement.
-\item Collaborated with cross-functional teams to gather requirements, analyze business needs, and deliver tailored technical solutions.
-\item Created comprehensive documentation and presentations for stakeholders, translating technical concepts into business insights.
-\item Conducted thorough data analysis and testing to identify system bottlenecks, optimize workflows, and reduce processing time.
-\item Implemented RESTful APIs integrating third-party services, enhancing application functionality and client satisfaction metrics.
-\item Supported business development initiatives by building internal tools that automated reporting and improved decision-making speed.
+\item Developed and maintained enterprise applications using Java Spring Boot and React, improving system performance by 25\%.
+\item Collaborated with business analysts and architects to gather requirements and design scalable solutions for complex workflows.
+\item Designed and optimized PostgreSQL database schemas, reducing query execution time and enhancing data retrieval efficiency.
+\item Implemented automated testing frameworks using JUnit and Selenium, achieving 85\% code coverage across critical modules.
+\item Built CI/CD pipelines using Jenkins and Docker to streamline deployment processes and minimize production downtime.
+\item Participated in Agile ceremonies including sprint planning, daily standups, and retrospectives to ensure timely delivery.
 \end{itemize}
 
-\textbf{Junior Full Stack Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+\textbf{Associate Software Engineer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
 
 \vspace{-1pt}
 
 \begin{itemize}
-\item Built responsive user interfaces with React and integrated backend services using Express.js for client-facing applications.
-\item Participated in daily team meetings to coordinate project deliverables, troubleshoot issues, and maintain project timelines.
-\item Analyzed user feedback and system performance data to recommend improvements, enhancing overall application usability by 20\%.
-\item Assisted in preparing technical documentation, client presentations, and progress reports for internal and external stakeholders.
-\item Collaborated with senior developers on database design and optimization, ensuring data integrity and efficient query performance.
+\item Built responsive web applications with React and Node.js, handling REST API integration and state management using Redux.
+\item Wrote SQL scripts for data migration and transformation tasks, ensuring data integrity across multiple database environments.
+\item Refactored legacy codebases to modern standards, improving maintainability and reducing technical debt by 30\%.
+\item Conducted code reviews and mentored junior developers on best practices, design patterns, and testing methodologies.
+\item Supported production systems by troubleshooting incidents, analyzing logs, and implementing fixes to resolve critical issues.
 \end{itemize}
 
-\vspace{6pt}
+\vspace{5pt}
 
 \textbf{RELATED PROJECTS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
 
 \vspace{-2pt}
 
+\textbf{Cloud-Based Learning Management System}
+
+\vspace{-1pt}
+
+Built a scalable full-stack LMS using Python and React, serving 6K+ students with automated testing and deployment.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed full lifecycle application using Python, React, and MySQL with complete specifications and production-quality code.
+\item Designed and implemented database schema with optimized SQL queries supporting high concurrent user loads and scalability.
+\item Created automated test suites for functional, regression, and performance testing ensuring quality and reliability standards.
+\end{itemize}
+
 \textbf{Custom Business Web Solutions}
 
 \vspace{-1pt}
 
-Built client-focused business platforms including analytics dashboards and reporting tools for operational efficiency.
+Engineered multiple enterprise web applications including POS and inventory systems with database design and integration.
 \vspace{-1pt}
 \begin{itemize}
-\item Developed custom web solutions using React and Express.js to streamline client business operations and data management.
-\item Created financial dashboards and reporting systems to track performance metrics and support data-driven decision-making.
-\item Collaborated with stakeholders to gather requirements and deliver tailored solutions aligned with business objectives.
-\item Integrated secure authentication and optimized database queries to ensure reliable access to critical business information.
+\item Collaborated with business teams to conduct gap analysis, gather requirements, and deliver scalable enterprise solutions.
+\item Designed relational database schemas and wrote optimized SQL scripts for MySQL and PostgreSQL across multiple projects.
+\item Built and maintained production applications using Python, JavaScript, and modern frameworks with clean, refactorable code.
 \end{itemize}
 
-\textbf{Automated Cryptocurrency Trading Bot}
+\textbf{Custom Business Web Solutions}
 
 \vspace{-1pt}
 
-Developed automated trading system with real-time market analysis, risk management, and performance tracking features.
+Engineered multiple enterprise web applications including POS and inventory systems with database design and integration.
 \vspace{-1pt}
 \begin{itemize}
-\item Built automated trading system in Python with API integration for real-time market data streaming and transaction execution.
-\item Implemented risk assessment algorithms, stop-loss mechanisms, and portfolio management strategies for capital preservation.
-\item Utilized Pandas and NumPy for financial data analysis, backtesting strategies, and optimizing trading performance metrics.
-\item Deployed on AWS with monitoring and detailed logging to track system performance, transaction history, and market trends.
+\item Collaborated with business teams to conduct gap analysis, gather requirements, and deliver scalable enterprise solutions.
+\item Designed relational database schemas and wrote optimized SQL scripts for MySQL and PostgreSQL across multiple projects.
+\item Built and maintained production applications using Python, JavaScript, and modern frameworks with clean, refactorable code.
 \end{itemize}
 
-\vspace{6pt}
+\vspace{5pt}
 
 \textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
 \noindent\rule{\textwidth}{1pt}
