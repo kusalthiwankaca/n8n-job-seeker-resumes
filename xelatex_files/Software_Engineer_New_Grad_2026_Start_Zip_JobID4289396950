@@ -1,0 +1,175 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 3 years of experience building scalable web applications using React, TypeScript, and Python. Skilled in designing responsive frontend interfaces, developing RESTful APIs, and collaborating with cross-functional teams to deliver user-centric solutions. Proficient in modern development practices including CI/CD pipelines, test-driven development, and agile methodologies. Experienced in startup environments where quick iteration and adaptability are essential to product success.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, HTML5, CSS3, SQL
+
+\textbf{Frontend Development:} React, Redux, Next.js, Tailwind CSS, Material-UI, Responsive Design
+
+\textbf{Backend Development:} Node.js, Express.js, RESTful APIs, GraphQL, Django, Flask
+
+\textbf{Database \& Cloud:} PostgreSQL, MongoDB, MySQL, AWS, Firebase, Redis
+
+\textbf{Tools \& Platforms:} Git, Docker, Webpack, Jest, Postman, VS Code
+
+\textbf{Development Practices:} Agile Methodology, CI/CD, Test-Driven Development, Code Review, API Design, Debugging
+
+\textbf{Soft Skills:} Cross-functional Collaboration, Problem Solving, Technical Communication, Ownership Mindset, Adaptability
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Designed and implemented responsive web applications using React and TypeScript, improving user engagement across platforms.
+\item Developed RESTful APIs with Node.js and Express to support frontend features and integrate third-party services seamlessly.
+\item Collaborated with product managers and designers to translate business requirements into technical specifications and solutions.
+\item Optimized application performance through code refactoring and database query improvements, reducing page load times notably.
+\item Participated in code reviews and maintained comprehensive documentation to ensure code quality and knowledge sharing across teams.
+\item Built reusable component libraries and established frontend architecture patterns to accelerate development velocity for new features.
+\end{itemize}
+
+\textbf{Software Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed and maintained web applications using JavaScript frameworks, delivering features that enhanced user experience significantly.
+\item Integrated APIs and external services to expand application functionality and enable seamless data flow between multiple systems.
+\item Wrote unit and integration tests using Jest to ensure code reliability and reduce production bugs before deployment cycles.
+\item Worked in agile sprints to deliver iterative product improvements while adapting quickly to changing project requirements.
+\item Debugged and resolved critical production issues, collaborating with cross-functional teams to implement effective long-term fixes.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System}
+
+\vspace{-1pt}
+
+Built a scalable, consumer-grade LMS platform serving 6K+ users with intuitive UX and real-time collaboration features.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed full-stack LMS using React, Node.js, and MySQL with focus on user experience and code quality.
+\item Built RESTful APIs and real-time dashboards enabling teachers to track student progress and engagement metrics efficiently.
+\item Deployed scalable architecture on AWS with optimized database queries, achieving reliable performance for 6,000+ concurrent users.
+\item Collaborated cross-functionally to gather requirements, scope features, and ship maintainable, extensible code solutions.
+\end{itemize}
+
+\textbf{PROSPR  Real-Time Chat Application for Accessibility}
+
+\vspace{-1pt}
+
+Developed a real-time communication platform with GraphQL APIs and accessibility-first design for inclusive user experience.
+\vspace{-1pt}
+\begin{itemize}
+\item Built scalable chat application using React, TypeScript, Node.js, and GraphQL with focus on clean architecture patterns.
+\item Integrated AI-powered speech services and designed accessible UI components following best practices for inclusive design.
+\item Implemented WebSocket connections and optimized frontend performance to deliver seamless real-time messaging at scale.
+\item Deployed resilient application on AWS using Docker, with monitoring and logging to ensure high availability and reliability.
+\end{itemize}
+
+\textbf{Custom Business Web Solutions}
+
+\vspace{-1pt}
+
+Engineered multiple full-stack web applications with Python and React, delivering high-quality features for diverse clients.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed scalable web applications using React, TypeScript, and Python with GraphQL and REST APIs for complex business logic.
+\item Worked closely with stakeholders to understand requirements, scope technical challenges, and ship thoughtful product solutions.
+\item Implemented secure authentication, payment processing with Stripe API, and real-time inventory systems with optimized performance.
+\item Wrote extensible, maintainable code with comprehensive testing and documentation to support rapid feature iteration and growth.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
