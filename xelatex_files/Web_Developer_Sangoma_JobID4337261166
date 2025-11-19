@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Web Developer with 3 years of experience building responsive, accessible, and high-performance digital experiences. Specialized in translating Figma designs into pixel-perfect interfaces using HTML5, CSS3, JavaScript, and React. Proven expertise in WordPress customization, theme development, and implementing SEO best practices. Skilled in ensuring WCAG compliance and optimizing websites for speed and cross-browser compatibility. Collaborative team player with strong problem-solving abilities and attention to detail.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Frontend Development:} HTML5, CSS3, JavaScript (ES6+), React, SASS, Tailwind CSS, Bootstrap
+
+\textbf{CMS \& Backend:} WordPress, PHP, Node.js, Custom Theme Development, Plugin Integration
+
+\textbf{Design \& Tools:} Figma, Responsive Design, Cross-Browser Compatibility, Mobile-First Development
+
+\textbf{Performance \& Optimization:} SEO Best Practices, Web Performance Optimization, Page Speed Insights, Caching Strategies
+
+\textbf{Accessibility \& Standards:} WCAG Compliance, Accessible Web Development, Semantic HTML, ARIA Implementation
+
+\textbf{Development Tools:} Git, GitHub, VS Code, Chrome DevTools, npm, Webpack
+
+\textbf{Integration \& APIs:} REST APIs, Google Tag Manager, Third-Party Integrations, JSON, AJAX
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Translated Figma mockups into responsive, pixel-perfect web pages using HTML5, CSS3, and JavaScript for marketing campaigns.
+\item Developed and maintained WordPress themes and templates, ensuring optimal performance and scalability across devices.
+\item Implemented SEO strategies including structured metadata, schema markup, and content optimization to improve search rankings.
+\item Ensured WCAG 2.1 AA compliance across all web properties by implementing accessible design patterns and semantic HTML.
+\item Collaborated with designers and marketers to deliver user-centric landing pages that enhanced conversion rates.
+\item Optimized website performance through code minification, image compression, and efficient CSS/JavaScript loading strategies.
+\end{itemize}
+
+\textbf{Web Developer -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built interactive components and standalone pages using React, integrating REST APIs for dynamic content delivery.
+\item Managed WordPress customizations including plugin integration, custom post types, and theme modifications for clients.
+\item Conducted code reviews and testing to maintain high-quality standards and ensure cross-browser compatibility.
+\item Utilized Git for version control and collaborated with development teams using Agile methodologies and sprint planning.
+\item Implemented responsive design principles using SASS and Tailwind CSS to create mobile-first, accessible web interfaces.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Custom Business Web Solutions}
+
+\vspace{-1pt}
+
+Delivered responsive, SEO-optimized web solutions including e-commerce, POS, and landing pages for diverse clients.
+\vspace{-1pt}
+\begin{itemize}
+\item Built responsive, accessible websites using React, HTML5, CSS3, and SASS following modern design and WCAG standards.
+\item Integrated secure payment processing, inventory systems, and client-specific features with REST APIs and third-party tools.
+\item Optimized site performance, SEO metadata, and cross-browser compatibility to enhance user engagement and search visibility.
+\item Collaborated closely with clients and designers to translate business requirements into pixel-perfect, user-centric interfaces.
+\end{itemize}
+
+\textbf{PROSPR  Real-Time Chat Application for Accessibility}
+
+\vspace{-1pt}
+
+Created an accessible chat app for low-vision users, implementing WCAG-compliant UI and assistive technology integration.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed a real-time chat interface using React, Node.js, and Socket.io with full WCAG accessibility compliance.
+\item Integrated AWS Polly and Azure Speech Services to provide text-to-speech and voice-to-text features for inclusive communication.
+\item Conducted accessibility testing with screen readers and assistive tools to ensure usability for users with visual impairments.
+\item Deployed scalable Docker containers on AWS App Runner, optimizing performance and ensuring reliable, low-latency user experiences.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
