@@ -101,7 +101,7 @@ Frontend Developer with 3 years of experience building scalable web applications
 
 \begin{itemize}
 \item Built dynamic user interfaces with modern JavaScript frameworks while adhering to responsive design principles and best practices.
-\item Collaborated with design teams to translate wireframes and mockups into functional, pixel-perfect web applications using HTML5 and CSS3.
+\item Collaborated with design teams to translate wireframes and mockups into functional, pixel-perfect web apps using HTML5/CSS3.
 \item Configured build systems using Webpack and Gulp to automate workflows and optimize asset delivery for production environments.
 \item Implemented SASS-based styling architecture that enabled scalable and maintainable stylesheet organization across large codebases.
 \item Participated in code reviews and version control workflows using Git, ensuring code quality and team collaboration standards.
@@ -138,19 +138,6 @@ Developed an accessible real-time chat app with React, Node.js, and Socket.io fo
 \item Integrated AWS Polly and Azure Speech Services for text-to-speech and voice-to-text, enhancing usability for all users.
 \item Tested with assistive technologies to ensure inclusive design and optimized GUI performance for low-latency communication.
 \item Deployed on AWS with Docker containers, ensuring scalability, high availability, and seamless cross-platform responsiveness.
-\end{itemize}
-
-\textbf{Custom Business Web Solutions}
-
-\vspace{-1pt}
-
-Built POS systems, e-commerce sites, and inventory platforms with React, Next.js, and secure payment integrations.
-\vspace{-1pt}
-\begin{itemize}
-\item Designed and developed custom web solutions using React, Next.js, and Express.js with responsive, mobile-first designs.
-\item Implemented secure authentication, inventory tracking, and Stripe API payment processing with RESTful API integration.
-\item Collaborated with clients to translate business requirements into scalable, testable, and maintainable frontend components.
-\item Optimized UI performance, SEO, and cross-browser compatibility using modern build tools and component-based architecture.
 \end{itemize}
 
 \vspace{6pt}
