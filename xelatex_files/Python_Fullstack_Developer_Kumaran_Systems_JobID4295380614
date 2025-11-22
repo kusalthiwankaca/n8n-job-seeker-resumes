@@ -1,0 +1,164 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Full Stack Developer with expertise in Python, FastAPI, and modern JavaScript frameworks including Vue.js. Proven track record in designing scalable web applications, building robust REST APIs, and implementing comprehensive testing strategies. Strong proficiency in Git version control, unit testing, and cross-functional collaboration within Agile environments. Passionate about writing clean, maintainable code and continuously improving development processes through emerging technologies and best practices.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, SQL, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} FastAPI, Vue.js, React, Django, Flask, Node.js
+
+\textbf{Database \& Data Management:} PostgreSQL, MySQL, MongoDB, SQLite, DynamoDB
+
+\textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, CI/CD, GitHub Actions, Terraform
+
+\textbf{Software Development Practices:} Agile, Unit Testing, TDD, Code Reviews, Version Control, REST API
+
+\textbf{Computer Science Fundamentals:} Data Structures, Algorithms, OOP, Design Patterns, Clean Architecture
+
+\textbf{Systems \& Networking:} Git, Unix/Linux, Security Best Practices, API Design, Performance Optimization
+
+\textbf{Soft Skills:} Problem Solving, Communication, Collaboration, Attention to Detail, Adaptability, Continuous Learning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Full Stack Developer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed scalable full stack web applications using Python, FastAPI, JavaScript, and React to deliver robust and maintainable solutions.
+\item Built and maintained RESTful APIs with FastAPI, optimizing backend performance and ensuring seamless integration with frontend components.
+\item Implemented comprehensive unit testing for backend services and utilized Git version control following branching and merging best practices.
+\item Deployed cloud-based applications on AWS using Docker and CI/CD pipelines, ensuring consistent uptime and high system reliability.
+\item Collaborated with cross-functional teams through Agile ceremonies, code reviews, and pair programming to deliver high-quality features.
+\item Led backend development initiatives while mentoring junior developers on coding standards, testing strategies, and deployment workflows.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Contributed to enterprise web applications across frontend and backend components using Python, JavaScript, and modern frameworks.
+\item Assisted in designing and implementing core features for Proposal Management and Mailroom Tracking Systems with focus on maintainability.
+\item Collaborated with cross-functional teams to gather requirements, perform testing, and support deployment phases within Agile workflows.
+\item Gained hands-on experience in full stack development, API design, and secure coding practices following industry standards.
+\item Participated in project reviews to identify improvements in performance, scalability, and code quality across development lifecycle.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable LMS using Python backend and React frontend enabling 6K+ students to access lessons, quizzes, and progress tracking.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed a full stack LMS using React, Python, and MySQL to support online education with scalable architecture.
+\item Integrated lesson uploads, interactive quizzes, and real-time performance tracking dashboards for teachers and students.
+\item Implemented secure authentication, role-based access control, and optimized database queries for high concurrent user loads.
+\item Deployed platform on AWS with CDN caching and SSL encryption, ensuring reliable access and performance for over 6,000 students.
+\end{itemize}
+
+\textbf{Custom Business Web Solutions} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Developed POS systems, e-commerce platforms, and inventory management solutions with secure APIs and responsive design.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed custom web applications using Python, FastAPI, React, and Vue.js for diverse business requirements.
+\item Implemented secure authentication, inventory tracking, and payment processing with Stripe API integration and comprehensive testing.
+\item Collaborated with clients to gather requirements and translate business needs into scalable, maintainable web solutions.
+\item Optimized API performance, UI responsiveness, and SEO across all client projects to enhance user engagement and satisfaction.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
