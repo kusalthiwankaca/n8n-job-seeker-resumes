@@ -1,0 +1,156 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Client-focused professional with proven technical problem-solving abilities and strong communication skills developed through software engineering roles. Experienced in understanding complex systems, translating technical concepts for diverse audiences, and delivering solutions that meet client needs. Adept at building relationships, identifying opportunities, and working collaboratively in fast-paced environments to achieve goals and enhance customer satisfaction.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Client Service \& Communication:} Customer engagement, Problem resolution, Active listening, Needs assessment, Relationship building
+
+\textbf{Banking \& Financial Operations:} Account management, Product knowledge, Transaction processing, Compliance awareness, Service excellence
+
+\textbf{Technical \& Analytical Skills:} Data analysis, Process optimization, System navigation, Documentation, Quality assurance
+
+\textbf{Soft Skills:} Communication, Collaboration, Adaptability, Accountability, Client focus, Initiative
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Engaged with stakeholders to understand requirements and deliver solutions that enhanced user experience and system functionality.
+\item Resolved complex technical issues through systematic analysis, clear communication, and collaboration with cross-functional teams.
+\item Identified opportunities to improve processes and implemented enhancements that increased efficiency and customer satisfaction.
+\item Built strong working relationships within Agile teams through effective communication, active participation, and shared accountability.
+\item Delivered consistent results by managing multiple priorities, meeting deadlines, and maintaining high quality standards throughout projects.
+\item Supported team members through knowledge sharing, collaborative problem solving, and fostering a positive work environment.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Provided support for enterprise applications by responding to user inquiries and resolving technical issues in a timely manner.
+\item Collaborated with team members to gather requirements, understand client needs, and deliver solutions aligned with business objectives.
+\item Participated in testing and quality assurance activities to ensure systems met performance standards and user expectations.
+\item Developed strong product knowledge through hands-on experience and continuous learning in a fast-paced professional environment.
+\item Demonstrated accountability by taking ownership of assigned tasks and following through to successful completion and client satisfaction.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable learning platform serving 6K+ students with interactive features, demonstrating client-focused solution delivery.
+\vspace{-1pt}
+\begin{itemize}
+\item Identified user needs and developed a comprehensive platform that enabled accessible online education during challenging circumstances.
+\item Created intuitive interfaces and tracking systems that helped educators monitor progress and support individual student success.
+\item Implemented secure access controls and authentication to protect user data while ensuring seamless platform availability.
+\item Deployed reliable infrastructure supporting thousands of concurrent users, demonstrating commitment to service excellence and uptime.
+\end{itemize}
+
+\textbf{PROSPR  Real-Time Chat Application for Accessibility} -- \emph{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{-1pt}
+
+Developed an inclusive communication platform for users with accessibility needs, prioritizing user experience and engagement.
+\vspace{-1pt}
+\begin{itemize}
+\item Collaborated with team members to understand diverse user needs and deliver an accessible solution benefiting underserved communities.
+\item Integrated voice and text services to enhance communication options and improve overall user satisfaction and engagement.
+\item Followed accessibility best practices and conducted testing to ensure the platform met high standards of usability for all users.
+\item Deployed a reliable, scalable platform that demonstrated commitment to inclusive service delivery and client-centered design.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
