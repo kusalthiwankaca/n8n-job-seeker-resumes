@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Web Developer with 3+ years of experience building and optimizing scalable web applications using JavaScript, React, PHP, and Python. Proven track record in WordPress development, third-party API integration, and performance optimization. Skilled in AWS cloud services, RESTful API design, and CI/CD automation. Experienced in refactoring legacy systems while implementing modern solutions to improve maintainability and load handling. Collaborative team player with strong problem-solving abilities.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, PHP, Python, SQL, HTML5, CSS3, TypeScript, Bash
+
+\textbf{Frameworks \& Libraries:} React, Redux, Node.js, Express.js, Django, Bootstrap, jQuery
+
+\textbf{Database \& Data Management:} MySQL, PostgreSQL, MongoDB, DynamoDB, SQLite, Redis
+
+\textbf{Cloud \& DevOps:} AWS, AWS S3, CloudFront, Lambda, Docker, CI/CD, GitHub Actions
+
+\textbf{Development Practices:} Agile, Scrum, REST API, Git, Code Reviews, Performance Optimization
+
+\textbf{Web Technologies:} WordPress, SEO, Responsive Design, API Integration, Version Control
+
+\textbf{Soft Skills:} Problem Solving, Communication, Collaboration, Adaptability, Technical Documentation, Ownership
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed full stack web applications using JavaScript, React, and Node.js, improving e-commerce platform functionality and user experience.
+\item Optimized SQL queries and integrated third-party APIs with secure authentication to enhance system reliability and performance.
+\item Deployed cloud-based applications using AWS, Docker, and CI/CD pipelines ensuring 99.9\% uptime and seamless continuous deployment.
+\item Refactored legacy code and replaced inefficient plugins with custom solutions reducing page load times and improving maintainability.
+\item Collaborated within Agile teams through code reviews and sprint planning to deliver high-quality features on tight deadlines.
+\item Mentored junior developers on WordPress best practices, API integration, and deployment strategies improving overall team productivity.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Contributed to full stack development of enterprise web applications using modern JavaScript frameworks and backend technologies.
+\item Integrated RESTful APIs and third-party services to support proposal management and tracking system functionality.
+\item Collaborated with cross functional teams to gather requirements, perform testing, and support deployment ensuring project success.
+\item Applied performance optimization techniques and debugging tools to identify bottlenecks and improve application load handling.
+\item Participated in Agile workflows including sprint planning and retrospectives to continuously improve development processes and code quality.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable LMS enabling 6K+ students to learn with notes, videos, and interactive quizzes using React and Node.js.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed full stack LMS using React, Node.js, and MySQL with secure authentication and role-based access for teachers and students.
+\item Integrated lesson uploads, quizzes, and real-time performance tracking dashboards optimizing user engagement and learning outcomes.
+\item Optimized database queries and implemented caching strategies to handle high concurrent usage with minimal latency.
+\item Deployed on AWS with CloudFront CDN, SSL encryption, and load balancing ensuring reliable access for over 6,000 active students.
+\end{itemize}
+
+\textbf{Custom Business Web Solutions} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built POS systems, e-commerce sites, and inventory management solutions with secure, responsive design improving client workflows.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed custom web applications using React, Next.js, and Express.js tailored to unique client business requirements.
+\item Implemented secure authentication, inventory tracking, and payment processing with Stripe API integration ensuring transaction security.
+\item Collaborated closely with clients to translate business needs into scalable technical solutions with iterative feedback cycles.
+\item Optimized UI performance, responsiveness, and SEO across all projects to enhance user engagement and improve search rankings.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
