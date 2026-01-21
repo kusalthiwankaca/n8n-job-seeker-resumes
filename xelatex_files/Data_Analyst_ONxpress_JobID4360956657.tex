@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with proven experience in full stack development, data integration, and cloud infrastructure. Skilled in Python, JavaScript, SQL, and Power BI with hands-on expertise in building scalable applications, automating workflows, and transforming data into actionable insights. Experienced in Agile environments, collaborating with cross-functional teams to deliver high-quality solutions that drive operational efficiency and business outcomes.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, SQL, PHP, HTML, CSS
+
+\textbf{Data \& Analytics:} Power BI, ETL Pipelines, Data Visualization, BigQuery, Data Modeling, DAX
+
+\textbf{Database \& Data Management:} PostgreSQL, MySQL, MongoDB, SQLite, Database Design
+
+\textbf{Cloud \& DevOps:} AWS, GCP, Docker, Kubernetes, CI/CD, GitHub Actions
+
+\textbf{Frameworks \& Tools:} React, Node.js, Django, Flask, FastAPI, REST API
+
+\textbf{Software Development Practices:} Agile, Scrum, Testing, Automation, SDLC, Requirements Analysis
+
+\textbf{Soft Skills:} Analytical Thinking, Communication, Team Collaboration, Problem Solving, Adaptability, Ownership
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed scalable full stack web applications using JavaScript, React, and Node.js to enhance functionality and user experience.
+\item Implemented RESTful APIs, optimized SQL queries, and integrated secure systems to improve reliability and operational performance.
+\item Deployed and maintained cloud-based applications using AWS, Docker, and CI/CD pipelines ensuring consistent uptime and availability.
+\item Collaborated within Agile teams through code reviews, sprint planning, and cross-functional communication to deliver quality outcomes.
+\item Applied test-driven development and secure coding standards throughout SDLC improving maintainability and reducing production issues.
+\item Led backend development for multiple applications while mentoring junior developers on best coding and deployment best practices.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing enterprise web and mobile applications across both frontend and backend components using modern frameworks.
+\item Contributed to the design and implementation of the Proposal Management and Mailroom Tracking Systems for operational efficiency.
+\item Worked closely with cross-functional teams to gather requirements, perform user acceptance testing, and support deployment phases.
+\item Gained hands-on experience in full stack development, software testing, and secure coding practices within Agile workflows.
+\item Collaborated in project reviews to identify improvements in performance, scalability, and code quality for ongoing initiatives.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable LMS enabling 6K+ students to learn with notes, videos, and interactive quizzes using modern web technologies.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed a full-stack LMS using React, Node.js, and MySQL to support online education with interactive features.
+\item Integrated modules for lesson uploads, quizzes, and performance tracking with real-time dashboards for educators and students.
+\item Implemented secure authentication, role-based access control, and optimized database queries for high concurrent user activity.
+\item Deployed the platform on AWS with CDN caching and SSL encryption ensuring reliable access for over 6,000 active student users.
+\end{itemize}
+
+\textbf{Enterprise Vulnerability Assessment and Patching Automation} -- \emph{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{-1pt}
+
+Automated vulnerability scanning and patching to strengthen enterprise security and reduce manual operational effort significantly.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed automated workflows using Python and Jenkins for vulnerability scanning and patch deployment across infrastructure.
+\item Integrated Nessus API for real-time vulnerability reporting and risk prioritization enabling proactive security response measures.
+\item Created dashboards and alert systems to track security compliance and remediation progress for stakeholders and security teams.
+\item Reduced manual intervention by 60\% and accelerated patch cycles through full CI/CD automation and streamlined deployment pipelines.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
