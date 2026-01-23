@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Full Stack Developer with 3+ years of experience designing, building, and deploying scalable web applications and microservices using Node.js, JavaScript, React, and Angular. Proven expertise in developing RESTful APIs, implementing CI/CD pipelines, and leveraging containerization with Docker and Kubernetes. Skilled in Agile methodologies, database design with SQL Server and MySQL, and collaborating with cross-functional teams to deliver high-quality solutions that enhance performance and user experience.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, SQL, HTML5, CSS3
+
+\textbf{Frontend Technologies:} React, Angular, Next.js, Vue.js, Bootstrap, Material UI
+
+\textbf{Backend \& APIs:} Node.js, Express.js, REST API, Microservices, GraphQL
+
+\textbf{Databases:} MySQL, MS SQL Server, PostgreSQL, MongoDB
+
+\textbf{Cloud \& DevOps:} Docker, Kubernetes, OpenShift, AWS, CI/CD, GitHub Actions
+
+\textbf{Testing \& Development Practices:} Unit Testing, Integration Testing, Agile, Scrum, Code Reviews, TDD
+
+\textbf{Soft Skills:} Communication, Collaboration, Adaptability, Problem Solving, Ownership
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed scalable full stack web applications using JavaScript, React, Node.js, and Angular to enhance functionality and user experience.
+\item Designed and maintained RESTful APIs and microservices optimizing performance, scalability, and responsiveness of applications.
+\item Deployed containerized applications using Docker and Kubernetes ensuring consistent uptime, reliability, and efficient cloud services.
+\item Collaborated within Agile teams conducting code reviews, sprint planning, and testing to deliver high-quality, maintainable solutions.
+\item Implemented CI/CD pipelines and automation testing strategies improving deployment efficiency and reducing production issues.
+\item Led backend development for multiple applications while mentoring junior developers on best practices and technical design.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing enterprise-level web applications across frontend and backend using modern frameworks and technologies.
+\item Contributed to design and implementation of internal systems collaborating with cross-functional teams throughout the SDLC.
+\item Worked closely with development teams to gather requirements, perform thorough testing, and support deployment activities.
+\item Gained hands-on experience in full stack development, API integration, and secure coding within Agile workflows and environments.
+\item Participated in post-implementation reviews identifying improvements in performance, scalability, and code maintainability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable LMS using Node.js and React enabling 6K+ students to learn with notes, videos, quizzes, and tracking features.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed a full stack LMS using React, Node.js, and MySQL to support online education with interactive modules.
+\item Implemented RESTful APIs, real-time progress dashboards, and performance tracking for teachers ensuring responsive user experience.
+\item Integrated secure authentication, role-based access control, and optimized SQL queries for high concurrent usage and scalability.
+\item Deployed the platform on AWS with containerization and SSL encryption ensuring reliable access for over 6,000 active students.
+\end{itemize}
+
+\textbf{PROSPR  Real-Time Chat Application for Accessibility} -- \emph{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{-1pt}
+
+Developed an inclusive real-time chat app using Node.js and React integrating accessibility features for low-vision users.
+\vspace{-1pt}
+\begin{itemize}
+\item Built a real-time chat application using React, Node.js, and WebSockets with accessibility-focused UI design and testing.
+\item Integrated cloud-based speech services enabling text-to-speech and voice-to-text communication for inclusive user experience.
+\item Followed WCAG accessibility standards and tested with assistive technologies ensuring compliance and usability for all users.
+\item Deployed on AWS using Docker containers for scalable, low-latency communication with automated CI/CD pipelines and monitoring.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
