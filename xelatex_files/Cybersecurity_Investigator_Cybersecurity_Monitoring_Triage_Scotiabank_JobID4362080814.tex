@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with hands-on experience in full stack development, cloud infrastructure, and cybersecurity implementation. Skilled in Python, JavaScript, SQL, and AWS with proven ability to build secure, scalable applications and automate security workflows. Experienced in vulnerability assessment, incident response automation, and applying security best practices across SDLC. Strong analytical and problem-solving skills with excellent communication abilities. Adaptable team player eager to contribute technical expertise to cybersecurity monitoring and threat investigation within a dynamic CSOC environment.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, SQL, Bash, PowerShell, PHP
+
+\textbf{Cybersecurity \& Monitoring:} SIEM, Threat Intelligence, Incident Response, Vulnerability Management, Malware Analysis, Phishing Investigation
+
+\textbf{Systems \& Networking:} Networking Principles, VPN, Active Directory, Linux System Administration, Windows Server
+
+\textbf{Cloud \& DevOps:} AWS, Docker, CI/CD Pipelines, Infrastructure as Code, Kubernetes
+
+\textbf{Security Tools \& Practices:} OWASP, API Security, Encryption, Risk Assessments, Digital Forensics, MITRE ATT\&CK
+
+\textbf{Database \& Data Management:} PostgreSQL, MySQL, MongoDB, SQL Server, Data Visualization
+
+\textbf{Soft Skills:} Communication, Collaboration, Analytical Thinking, Adaptability, Ownership, Problem Solving
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed secure full stack web applications using JavaScript, React, and Node.js while implementing OWASP security standards and encryption.
+\item Built and optimized RESTful APIs with secure authentication mechanisms including OAuth and JWT to protect sensitive transaction data.
+\item Deployed cloud-based applications on AWS using Docker and CI/CD pipelines ensuring high availability and rapid incident response capabilities.
+\item Collaborated within Agile teams conducting code reviews and threat modeling to identify vulnerabilities and enforce secure coding practices.
+\item Applied security best practices throughout SDLC including vulnerability scanning, penetration testing, and remediation of identified risks.
+\item Led backend development and mentored junior developers on secure architecture design, threat detection, and compliance with security policies.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing enterprise-level applications while implementing security controls and monitoring for potential threats and anomalies.
+\item Contributed to design and implementation of secure systems following industry standards for data protection and access management.
+\item Worked closely with cross functional teams to perform security testing, log analysis, and support incident response during deployment phases.
+\item Gained hands-on experience in secure coding, vulnerability assessment, and applying security frameworks within Agile development workflows.
+\item Collaborated in project reviews to identify security improvements, assess risks, and recommend remediation strategies for enhanced protection.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Enterprise Vulnerability Assessment and Patching Automation} -- \emph{Group Capstone Project, Seneca Polytechnic }
+
+\vspace{-1pt}
+
+Automated vulnerability scanning and patching workflows to strengthen enterprise security posture and reduce manual remediation efforts.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed automated security workflows using Python and Jenkins for continuous vulnerability scanning and rapid patch deployment cycles.
+\item Integrated Nessus API for real-time vulnerability detection, risk scoring, and prioritization of critical security threats across infrastructure.
+\item Created security dashboards and alert systems to track compliance metrics, remediation progress, and threat intelligence indicators effectively.
+\item Reduced manual security intervention by 60\% and accelerated patch cycles through full CI/CD automation and incident response orchestration.
+\end{itemize}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a secure, scalable LMS supporting 6K+ users with robust authentication, encrypted data transmission, and access control mechanisms.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed and developed a full stack LMS using React, Node.js, and MySQL with secure authentication and role-based access control implementation.
+\item Integrated modules for content delivery, assessments, and performance tracking with real-time monitoring dashboards and activity logging systems.
+\item Implemented security measures including encrypted authentication, SQL injection prevention, and optimized database queries for high traffic loads.
+\item Deployed the platform on AWS with SSL/TLS encryption, CDN caching, and monitoring tools ensuring secure access for over 6,000 active users.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
