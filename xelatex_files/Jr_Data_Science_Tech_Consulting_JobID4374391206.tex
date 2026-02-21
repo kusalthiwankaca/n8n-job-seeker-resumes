@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with experience in full stack development, cloud architecture, and data-driven solutions using Python, SQL, and modern frameworks. Proven ability to design and deploy scalable applications leveraging AWS, Docker, and CI/CD pipelines. Strong foundation in database management, API development, and automation with hands-on experience in machine learning integrations and ETL workflows. Eager to apply technical expertise in data science consulting roles.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, SQL, JavaScript, Bash, PowerShell
+
+\textbf{Data \& Analytics:} pandas, ETL Pipelines, Data Warehousing, BigQuery, PostgreSQL, MySQL
+
+\textbf{Cloud \& DevOps:} AWS, AWS Lambda, AWS S3, AWS EC2, Docker, GitLab
+
+\textbf{Frameworks \& Tools:} Django, Flask, FastAPI, Node.js, React
+
+\textbf{Machine Learning \& AI:} Machine Learning APIs, AI Integration, LLM API, Prompt Engineering
+
+\textbf{Software Development:} Agile, CI/CD, REST API, Testing, Version Control
+
+\textbf{Soft Skills:} Communication, Collaboration, Adaptability, Problem Solving, Analytical Thinking
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed scalable full stack applications using Python, JavaScript, and React with integrated SQL databases and cloud deployments.
+\item Built and optimized RESTful APIs, implemented secure authentication, and improved database query performance for high-traffic systems.
+\item Deployed cloud-based solutions on AWS using Docker, Lambda, S3, and CI/CD pipelines ensuring consistent uptime and scalability.
+\item Collaborated in Agile teams performing code reviews, sprint planning, and technical documentation for cross-functional delivery.
+\item Applied secure coding standards, unit testing, and version control throughout SDLC reducing production bugs and technical debt.
+\item Mentored team members on backend development, data pipeline design, automation workflows, and cloud infrastructure best practices.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing enterprise applications using Python, SQL, and frontend frameworks across multiple project lifecycles.
+\item Contributed to design and implementation of data management systems with integrated tracking, reporting, and analytics features.
+\item Worked closely with cross-functional teams to gather requirements, perform testing, and support deployment in Agile workflows.
+\item Gained hands-on experience in full stack development, database design, cloud services, and secure coding within structured teams.
+\item Participated in code reviews and project retrospectives to identify improvements in performance, scalability, and maintainability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Automated Cryptocurrency Trading Bot} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built an automated Python trading bot using Binance API and real-time data streaming with integrated risk control mechanisms.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed Python-based trading bot leveraging Binance API and WebSocket for real-time market data streaming and trade execution.
+\item Implemented machine learning-driven strategies, stop-loss algorithms, and automated order management for dynamic risk control.
+\item Utilized pandas and NumPy for data analysis, backtesting, and performance optimization to improve trading decision accuracy.
+\item Deployed bot on AWS EC2 with Docker ensuring 24/7 uptime, monitoring, detailed logging, and automated alert notifications.
+\end{itemize}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Designed a scalable LMS serving 6K+ students with integrated content delivery, quizzes, and real-time progress tracking.
+\vspace{-1pt}
+\begin{itemize}
+\item Built full stack LMS using Python, React, and SQL with modules for lesson uploads, quizzes, and real-time progress dashboards.
+\item Implemented secure authentication, role-based access controls, and optimized SQL queries to handle high concurrent user traffic.
+\item Deployed platform on AWS with S3 storage, CDN caching, SSL encryption, and automated backups for reliable student access.
+\item Integrated analytics dashboards for educators to monitor student performance, engagement metrics, and course completion rates.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
