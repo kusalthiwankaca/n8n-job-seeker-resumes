@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with expertise in cloud infrastructure, automation, and CI/CD pipeline design. Proven experience deploying scalable applications using AWS, Docker, Kubernetes, and Infrastructure as Code tools including Terraform and CloudFormation. Skilled in building automated workflows with Jenkins and GitHub Actions while maintaining Linux environments and implementing secure, high-availability systems. Strong collaborator with adaptability and ownership mindset.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} Python, JavaScript, PHP, SQL, Bash, PowerShell
+
+\textbf{Cloud Platforms \& Infrastructure:} AWS, Google Cloud Platform, Docker, Kubernetes, Terraform, CloudFormation
+
+\textbf{CI/CD \& Automation:} Jenkins, GitHub Actions, GitLab CI/CD, Ansible, Infrastructure as Code
+
+\textbf{Databases \& Data Management:} PostgreSQL, MySQL, MongoDB, SQL Server
+
+\textbf{Systems \& Networking:} Linux, Ubuntu, Windows Server, Networking principles, Load Balancing, VPN
+
+\textbf{Security \& Monitoring:} IAM, Encryption, CloudWatch, Logging, OWASP, API Security
+
+\textbf{Soft Skills:} Communication, Collaboration, Problem Solving, Adaptability, Ownership, Continuous Learning
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Deployed and maintained cloud-based applications using AWS, Docker, and CI/CD pipelines ensuring high availability and uptime.
+\item Built and automated Infrastructure as Code solutions with Terraform and CloudFormation to streamline cloud resource provisioning.
+\item Configured Jenkins and GitHub Actions pipelines for continuous integration and deployment improving release velocity and reliability.
+\item Implemented monitoring and logging using CloudWatch and centralized logging tools to quickly identify and resolve production issues.
+\item Collaborated within Agile teams on infrastructure automation initiatives ensuring secure and scalable deployment architectures.
+\item Managed Linux server environments and optimized system performance through scripting and automated configuration management tools.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in deploying enterprise applications on cloud infrastructure and contributed to automation of deployment workflows.
+\item Supported database administration tasks including backup strategies, performance tuning, and query optimization for production systems.
+\item Participated in infrastructure migration projects using CI/CD pipelines and Infrastructure as Code tools for cloud transitions.
+\item Collaborated with cross functional teams to gather requirements and implement scalable, secure, and maintainable cloud solutions.
+\item Gained hands-on experience with Linux system administration, networking principles, and automated testing within Agile workflows.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Enterprise Vulnerability Assessment and Patching Automation} -- \emph{Group Capstone Project, Seneca Polytechnic }
+
+\vspace{-1pt}
+
+Automated vulnerability scanning and patching workflows to strengthen enterprise security and reduce manual operational effort.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed automated CI/CD workflows using Python and Jenkins for vulnerability scanning and automated patch deployment processes.
+\item Integrated Nessus API for real-time vulnerability reporting and risk prioritization to accelerate security remediation cycles.
+\item Created centralized dashboards and alert systems to track security compliance and monitor patch deployment across infrastructure.
+\item Reduced manual intervention by 60\% and accelerated patch cycles through full automation and Infrastructure as Code implementation.
+\end{itemize}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built scalable LMS on AWS enabling 6K+ students to learn with secure infrastructure, high availability, and performance optimization.
+\vspace{-1pt}
+\begin{itemize}
+\item Deployed full-stack LMS on AWS using Docker containers and automated CI/CD pipelines for consistent and reliable application delivery.
+\item Configured AWS infrastructure including EC2, RDS, S3, and CloudFront CDN to ensure high availability and low-latency content delivery.
+\item Implemented Infrastructure as Code using Terraform to automate cloud resource provisioning and environment configuration management.
+\item Configured monitoring with CloudWatch and centralized logging to track system performance and quickly resolve production incidents.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
