@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Full Stack Developer with 2+ years of experience building scalable web applications using JavaScript, TypeScript, React, and Node.js. Proven expertise in developing RESTful APIs, microservices architecture, and distributed systems deployed on AWS with Docker and CI/CD pipelines. Skilled in modern JavaScript frameworks including Vue.js, with strong HTML5 and CSS3 capabilities. Experienced in Agile environments, code reviews, and collaborating across cross-functional teams to deliver high-availability platforms serving thousands of concurrent users.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming Languages:} JavaScript (ES2015+), TypeScript, Python, PHP, SQL, HTML5, CSS3
+
+\textbf{Frameworks \& Libraries:} React, Vue.js, Node.js, Express.js, Django, Bootstrap
+
+\textbf{Database \& Data Management:} PostgreSQL, MySQL, MongoDB, Redis, SQLite
+
+\textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, CI/CD, GitHub Actions, Terraform
+
+\textbf{Architecture \& Design:} RESTful APIs, Microservices, Distributed Systems, OOP, Design Patterns
+
+\textbf{Testing \& Quality:} Jest, Unit Testing, Integration Testing, TDD, Code Reviews
+
+\textbf{Soft Skills:} Communication, Collaboration, Ownership, Adaptability, Knowledge Sharing
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed scalable full stack applications using JavaScript, React, and Node.js serving thousands of concurrent users daily.
+\item Designed and implemented RESTful APIs with optimized database queries and microservices architecture for high availability systems.
+\item Deployed cloud-based applications on AWS using Docker containers and CI/CD pipelines ensuring consistent uptime and reliability.
+\item Collaborated with product and engineering teams through daily standups, code reviews, and Agile sprint planning sessions.
+\item Applied test-driven development and secure coding standards throughout entire SDLC improving maintainability and code quality.
+\item Took ownership of production code, managing incidents and complex time-critical issues while mentoring junior developers on best practices.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Contributed to enterprise web applications across frontend and backend components using modern JavaScript frameworks and OOP principles.
+\item Participated in end-to-end software development lifecycle including design, implementation, debugging, testing, and maintenance phases.
+\item Collaborated with cross-functional teams to gather requirements, perform code reviews, and support deployment of scalable solutions.
+\item Gained hands-on experience with distributed systems, RESTful APIs, and secure coding practices within Agile Scrum workflows.
+\item Delivered well-documented, reusable, and maintainable code while continuously learning from senior engineers and sharing knowledge.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable LMS serving 6K+ students with notes, videos, quizzes, and real-time dashboards using modern JavaScript frameworks.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed full stack LMS using React, Node.js, and MySQL with RESTful APIs supporting high concurrent usage and distributed architecture.
+\item Integrated lesson uploads, interactive quizzes, and performance tracking with real-time progress dashboards for seamless user experience.
+\item Implemented secure authentication, role-based access control, and optimized database queries ensuring data integrity and system performance.
+\item Deployed on AWS with Docker, CDN caching, and SSL encryption ensuring high availability and reliable access for thousands of users daily.
+\end{itemize}
+
+\textbf{PROSPR " Real-Time Chat Application for Accessibility} -- \emph{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{-1pt}
+
+Developed inclusive real-time chat app with accessibility features using React, Node.js, and WebSocket for scalable communication.
+\vspace{-1pt}
+\begin{itemize}
+\item Built real-time chat application using React, Node.js, and Socket.io with microservices architecture and accessibility-focused UI design.
+\item Integrated AWS services and speech APIs enabling text-to-speech and voice-to-text communication for enhanced user accessibility.
+\item Followed industry standards for accessible web design and tested with assistive technologies ensuring inclusive, usable software for all users.
+\item Deployed on AWS with Docker containers for scalable, highly available, low-latency distributed communication serving multiple concurrent sessions.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
