@@ -1,0 +1,164 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven DevSecOps Engineer with 3+ years of experience designing, implementing, and maintaining CI/CD pipelines using GitHub Actions, Python automation, and cloud platforms including AWS, GCP, and Azure. Expertise in secure pipeline development, Infrastructure as Code, containerization with Docker and Kubernetes, and vulnerability management. Proven ability to optimize DevSecOps workflows, troubleshoot operational issues, and collaborate with cross-functional teams to enhance security, reliability, and performance in fast-paced enterprise environments.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Programming \& Scripting:} Python, Bash, PowerShell, JavaScript, SQL, Shell Scripting
+
+\textbf{CI/CD \& DevSecOps Tools:} GitHub Actions, Jenkins, GitLab CI/CD, Azure DevOps, CI/CD Pipelines, Release Management
+
+\textbf{Cloud Platforms \& Services:} Google Cloud Platform, Microsoft Azure, AWS, AWS Lambda, AWS S3, CloudWatch
+
+\textbf{Containerization \& Orchestration:} Docker, Kubernetes, Docker Compose, Kubernetes Clusters, Container Technologies
+
+\textbf{Infrastructure \& Configuration Management:} Terraform, Infrastructure as Code, Ansible, CloudFormation, Version Control
+
+\textbf{Security \& Compliance:} OWASP, API Security, Encryption, IAM, Vulnerability Management, Threat Intelligence
+
+\textbf{Monitoring \& Observability:} Cloud Monitoring, Cloud Logging, CloudWatch, Logging, Incident Response
+
+\textbf{Soft Skills:} Communication, Collaboration, Problem Solving, Adaptability, Technical Documentation, Ownership
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Deployed and maintained cloud-based applications using AWS, Docker, and CI/CD pipelines ensuring consistent uptime and availability.
+\item Built and optimized GitHub Actions workflows for automated build, test, and deployment processes improving release efficiency.
+\item Implemented secure coding standards, vulnerability scanning, and IAM policies throughout SDLC reducing security risks significantly.
+\item Developed Python scripts for automation, tooling, and pipeline integration to streamline operational workflows and reduce manual effort.
+\item Collaborated with cross-functional teams through Agile workflows to troubleshoot pipeline failures and resolve operational issues.
+\item Documented pipeline changes, processes, and runbooks to support development teams and enhance knowledge sharing across engineering.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing enterprise-level applications using secure coding practices and testing within Agile development workflows.
+\item Contributed to designing and implementing scalable backend systems with optimized database queries and API integration.
+\item Worked closely with cross-functional teams to gather requirements, perform testing, and support deployment phases across projects.
+\item Gained hands-on experience in CI/CD pipeline support, cloud deployments, and performance optimization in production environments.
+\item Collaborated in project reviews to identify improvements in system performance, scalability, security, and code maintainability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Enterprise Vulnerability Assessment and Patching Automation} -- \emph{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{-1pt}
+
+Automated vulnerability scanning and patching to strengthen enterprise security and reduce manual effort by 60 percent.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed automated workflows using Python and Jenkins for vulnerability scanning, risk prioritization, and patch deployment.
+\item Integrated Nessus API for real-time vulnerability reporting, security compliance tracking, and remediation progress monitoring.
+\item Created dashboards and alert systems to track security posture, compliance metrics, and operational remediation timelines.
+\item Reduced manual intervention by 60 percent and accelerated patch cycles through full CI/CD automation and secure pipeline practices.
+\end{itemize}
+
+\textbf{Automated Cryptocurrency Trading Bot} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Created a Python trading bot using Binance API and WebSocket for automated trade execution with risk control and live monitoring.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed a fully automated trading bot in Python using Binance API and WebSocket for real-time data streaming and order execution.
+\item Implemented dynamic trading strategies, stop-loss mechanisms, and backtesting using Pandas and NumPy for improved trading accuracy.
+\item Deployed using Docker on AWS EC2 for 24/7 uptime, reliability, and monitoring with detailed logging and error handling mechanisms.
+\item Integrated secure secrets management, environment variable configuration, and automated alerting for operational incident response.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
