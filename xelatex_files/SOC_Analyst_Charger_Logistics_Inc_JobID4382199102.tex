@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with hands-on experience in threat hunting, incident response, and security operations. Proficient in Python, PowerShell, Bash scripting, and SIEM platforms with demonstrated expertise in vulnerability management, malware analysis, and MITRE ATT\&CK framework. Proven track record in developing automated security workflows, digital forensics, and proactive threat detection within complex environments. Adept at collaboration and continuous learning.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Security Operations \& Threat Intelligence:} SIEM Platforms, Threat Hunting, Incident Response, Digital Forensics, MITRE ATT\&CK, Malware Analysis
+
+\textbf{Scripting \& Automation:} Python, PowerShell, Bash, Shell Scripting, Automation, API Integration
+
+\textbf{Vulnerability \& Risk Management:} Vulnerability Management Tools, Risk Assessments, Phishing Investigation, Sandbox Analysis, Compliance
+
+\textbf{Systems \& Networking:} Active Directory, Networking Principles, Linux Administration, Windows Server, VPN, IAM
+
+\textbf{Cloud \& DevOps:} AWS, Docker, CI/CD Pipelines, GitHub Actions, Infrastructure as Code, Monitoring
+
+\textbf{Development \& Database:} SQL, PostgreSQL, MySQL, REST API, Node.js, React
+
+\textbf{Soft Skills:} Communication, Collaboration, Adaptability, Problem Solving, Analytical Thinking, Ownership
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Developed automated security workflows using Python and PowerShell to enhance threat detection and incident response capabilities.
+\item Integrated SIEM platforms with RESTful APIs and optimized queries to identify anomalies and improve real-time monitoring coverage.
+\item Deployed cloud-based security solutions using AWS, Docker, and CI/CD pipelines ensuring continuous uptime and secure configurations.
+\item Collaborated within Agile teams through security reviews, sprint planning, and cross-functional alignment to ensure compliance.
+\item Applied secure coding standards, vulnerability assessments, and proactive threat modeling throughout SDLC to reduce risk exposure.
+\item Led backend security automation initiatives while mentoring team members on security best practices and detection strategies.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in developing security-focused applications incorporating authentication, authorization, and access control mechanisms.
+\item Contributed to incident response processes by analyzing logs, performing malware investigations, and documenting findings.
+\item Worked closely with security teams to gather requirements, perform testing, and support secure deployment phases.
+\item Gained hands-on experience in threat hunting, security monitoring, and secure coding within Agile security operations workflows.
+\item Collaborated in security reviews to identify improvements in detection coverage, response time, and system resilience.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Enterprise Vulnerability Assessment and Patching Automation} -- \emph{Group Capstone Project, Seneca Polytechnic }
+
+\vspace{-1pt}
+
+Automated vulnerability scanning and patching to strengthen enterprise security and reduce manual effort.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed automated workflows using Python and Jenkins for vulnerability scanning and patch deployment reducing manual intervention.
+\item Integrated Nessus API for real-time vulnerability reporting aligned with MITRE ATT\&CK framework and risk prioritization strategies.
+\item Created security dashboards and alert systems to track compliance, remediation progress, and emerging threat patterns effectively.
+\item Reduced manual intervention by 60\% and accelerated patch cycles through full CI/CD automation enhancing security posture.
+\end{itemize}
+
+\textbf{Automated Cryptocurrency Trading Bot} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Created a Python trading bot using Binance API and WebSocket to automate trade execution with risk control and live monitoring.
+\vspace{-1pt}
+\begin{itemize}
+\item Developed a fully automated bot in Python using API integration and WebSocket for real-time data streaming and event monitoring.
+\item Implemented dynamic strategies, risk controls, and execution algorithms incorporating anomaly detection and threat modeling principles.
+\item Integrated Pandas and NumPy for data analysis and pattern recognition to improve accuracy and reduce false positives in execution.
+\item Deployed using Docker on AWS EC2 for continuous uptime, reliability, and comprehensive logging aligned with security best practices.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
