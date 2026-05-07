@@ -1,0 +1,164 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven Software Engineer with 2+ years of expertise building and deploying cloud infrastructure, DevOps pipelines, and scalable full stack systems. Proficient in Kubernetes, AWS, GCP, Terraform, Docker, and CI/CD automation with hands-on experience in infrastructure-as-code, secure deployments, and monitoring. Skilled in designing resilient cloud architectures, optimizing infrastructure for performance and reliability, and collaborating across engineering teams to deliver enterprise-grade solutions.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud \& Infrastructure:} AWS, GCP, Kubernetes, Docker, Terraform, Infrastructure as Code
+
+\textbf{DevOps \& CI/CD:} GitHub Actions, GitLab CI/CD, Jenkins, CI/CD Pipelines, Automation
+
+\textbf{Networking \& Security:} VPC, Load Balancers, IAM, VPN, SSL/TLS, Security Best Practices
+
+\textbf{Observability \& Monitoring:} CloudWatch, Cloud Logging, Cloud Monitoring, Logging, Monitoring
+
+\textbf{Programming \& Scripting:} Python, Bash, JavaScript, Node.js, Shell Scripting, PowerShell
+
+\textbf{Databases \& Storage:} PostgreSQL, MySQL, MongoDB, S3, Cloud Storage, Redis
+
+\textbf{Software Development Practices:} Agile, Scrum, Code Reviews, Testing, Documentation, System Design
+
+\textbf{Soft Skills:} Collaboration, Communication, Adaptability, Ownership, Problem Solving
+
+\vspace{8pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Deployed and maintained scalable cloud infrastructure on AWS using Docker, Kubernetes, and CI/CD pipelines for consistent uptime.
+\item Built and optimized infrastructure-as-code workflows using Terraform and CloudFormation for environment provisioning automation.
+\item Implemented secure networking, load balancing, IAM policies, and monitoring with CloudWatch to ensure system reliability and security.
+\item Developed RESTful APIs and backend services using Node.js and Python, integrating with cloud-native storage and database solutions.
+\item Collaborated across Agile teams through code reviews, sprint planning, and pair programming to deliver high-quality infrastructure solutions.
+\item Automated deployment pipelines using GitHub Actions and GitLab CI/CD, reducing deployment time and improving operational efficiency.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Assisted in deploying cloud-based enterprise applications on AWS and GCP, gaining hands-on experience with infrastructure provisioning.
+\item Contributed to building CI/CD pipelines and automated testing frameworks to support continuous integration and deployment workflows.
+\item Worked closely with cross-functional teams to gather infrastructure requirements, perform testing, and support production deployments.
+\item Gained practical experience with containerization using Docker, cloud networking concepts, and secure coding within Agile environments.
+\item Collaborated in project reviews to identify infrastructure improvements in performance, scalability, and operational maintainability.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud-Based Learning Management System} -- \emph{Personal Project}
+
+\vspace{-1pt}
+
+Built a scalable LMS on AWS supporting 6K+ students with automated deployments, monitoring, and cloud infrastructure optimization.
+\vspace{-1pt}
+\begin{itemize}
+\item Designed cloud infrastructure on AWS using EC2, S3, and RDS with auto-scaling and load balancing for high concurrent user traffic.
+\item Deployed the full-stack application using Docker containers and CI/CD pipelines for automated releases and rollback capabilities.
+\item Configured CloudWatch monitoring, logging, and alerting to track system health, performance metrics, and operational incidents.
+\item Implemented secure networking with VPC, SSL/TLS encryption, IAM roles, and security best practices for data protection compliance.
+\end{itemize}
+
+\textbf{PROSPR " Real-Time Chat Application for Accessibility} -- \emph{Group Capstone Project, Seneca Polytechnic}
+
+\vspace{-1pt}
+
+Deployed a real-time chat app on AWS using Docker, App Runner, and cloud infrastructure for scalable, low-latency communication.
+\vspace{-1pt}
+\begin{itemize}
+\item Deployed containerized application using Docker on AWS App Runner with automated scaling and infrastructure-as-code provisioning.
+\item Configured cloud networking, load balancers, and VPC settings to ensure secure, low-latency real-time communication for users.
+\item Integrated AWS and Azure cloud services including Polly and Speech Services with secure IAM policies and API Gateway configurations.
+\item Implemented monitoring and logging using CloudWatch and Cloud Logging to track application performance and troubleshoot production issues.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
