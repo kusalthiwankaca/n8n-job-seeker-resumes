@@ -1,0 +1,162 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{fontspec}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.3in, right=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\usepackage[none]{hyphenat}
+\sloppy
+\emergencystretch=3em
+
+% Set main font - Roboto Condensed Light for thinner letters
+\IfFontExistsTF{Roboto Condensed}{
+  \setmainfont{Roboto Condensed}[
+    UprightFont=*-Light, 
+    BoldFont=*-Regular
+  ]
+}{
+  \setmainfont{TeX Gyre Heros} % bundled with TeX Live; safe on latexonline
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=15pt,topsep=2pt,itemsep=0pt,parsep=0pt,before=\vspace{-2pt},after=\vspace{2pt}}
+
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{Kusal Thiwanka}}\\[3pt]
+\href{mailto:mhkusalthiwanka@gmail.com}{mhkusalthiwanka@gmail.com}\hspace{2em}%
+(647) 677{-}2260\hspace{2em}%
+Toronto, ON\hspace{2em}
+linkedin.com/in/kusal-thiwanka
+\end{center}
+
+\vspace{6pt}
+
+\textbf{PROFESSIONAL SUMMARY}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+Results-driven cybersecurity professional with expertise in threat intelligence, vulnerability assessment, incident response, and cloud security. Holds a Postgraduate Certificate in Cybersecurity \& Threat Management (Honours) from Seneca College and an AWS Certified Solutions Architect credential. Background in software engineering provides a strong foundation in understanding application-layer threats and adversary techniques. Adept at researching emerging cyber threats across open and deep web sources, analyzing threat actor activity, and delivering timely, actionable intelligence to protect enterprise environments.
+
+\vspace{8pt}
+
+\textbf{TECHNICAL SKILLS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Offensive Security:} Penetration Testing, Ethical Hacking, Vulnerability Exploitation, Metasploit, Burp Suite, Nmap
+
+\textbf{Defensive Security:} SIEM (Splunk, IBM QRadar), IDS/IPS, Threat Intelligence \& Analysis, Incident Response, Digital Forensics
+
+\textbf{Vulnerability Management:} Nessus, OpenVAS, CVE Triage, Risk Prioritization, Patch Automation, Configuration Auditing
+
+\textbf{Cloud \& Infrastructure:} AWS (Certified), Cloud Security Architecture, IAM, VPC, S3 Security, Linux/Unix Administration
+
+\textbf{Programming \& Scripting:} Python, Bash, PowerShell, JavaScript (ReactJS), Django, Security Automation
+
+\textbf{Compliance \& Frameworks:} NIST CSF, ISO 27001, CIS Controls, MITRE ATT\&CK, Incident Response Lifecycle (PICERL)
+
+\textbf{Soft Skills:} Research \& Analysis, Communication, Collaboration, Critical Thinking, Adaptability, Attention to Detail
+
+\vspace{8pt}
+
+\textbf{RELATED PROJECTS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{SolarWinds Supply Chain Attack  Incident Analysis \& Threat Intelligence Report} -- \emph{Case Study  Cybersecurity \& Threat Management}
+
+\vspace{-1pt}
+
+Analyzed the SolarWinds SUNBURST supply chain attack, profiling threat actor TTPs and assessing impact on targeted organizations.
+\vspace{-1pt}
+\begin{itemize}
+\item Reconstructed the full attack chain from the trojanized Orion update to lateral movement and data exfiltration across victims.
+\item Mapped adversary tactics, techniques, and procedures (TTPs) to the MITRE ATT\&CK framework for structured threat actor profiling.
+\item Assessed organizational impact scope across government agencies, Fortune 500 firms, and critical infrastructure sector providers.
+\item Documented detection gaps, defensive recommendations, and vendor risk controls to strengthen supply chain security posture.
+\end{itemize}
+
+\textbf{Enterprise Vulnerability Assessment \& Patch Automation} -- \emph{Capstone  Cybersecurity \& Threat Management}
+
+\vspace{-1pt}
+
+Executed an end-to-end enterprise vulnerability assessment program spanning 50+ endpoints across segmented network zones.
+\vspace{-1pt}
+\begin{itemize}
+\item Used Nessus and OpenVAS to identify and classify vulnerabilities by CVSS severity, producing a structured remediation roadmap.
+\item Automated patch deployment with Python and Bash scripting, reducing manual effort and accelerating mean time to remediate (MTTR).
+\item Applied CVSS risk scoring to prioritize critical CVE remediation, effectively reducing the organization's overall attack surface.
+\item Generated a formal vulnerability assessment report per NIST SP 800-115 to meet compliance requirements and inform stakeholders.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{WORK EXPERIENCE}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Software Engineer -- KILATECH (Pvt) Ltd}, \textbf{Sri Lanka} \hfill Apr 2020 -- Dec 2022
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Built three Shopify apps with secure SDLC practices to protect code integrity and prevent common web application vulnerabilities.
+\item Built a Video Content Protection Service applying token-based auth and server-side controls to prevent unauthorized media access.
+\item Configured PostgreSQL replication and hardened Nginx/Apache servers, reinforcing CIA Triad principles in production environments.
+\item Built backend services in Django and ReactJS, gaining OWASP Top 10 exposure including SQLi, XSS, CSRF, and IDOR vulnerabilities.
+\item Applied threat modeling during development cycles to identify application attack surfaces and reduce overall security exposure.
+\item Monitored production systems for anomalies, developing skills in identifying behavioral patterns linked to potential security threats.
+\end{itemize}
+
+\textbf{Software Engineer Trainee -- FMI (Pvt) Ltd, Sri Lanka} \hfill Apr 2019 -- Dec 2019
+
+\vspace{-1pt}
+
+\begin{itemize}
+\item Supported development of a Proposal Management System and Mailroom Tracking System, gaining exposure to access control practices.
+\item Participated in software testing and debugging, building skills in identifying logic flaws relevant to security code review.
+\item Assisted with integration testing and documentation, developing analytical skills applicable to threat investigation and analysis.
+\item Gained exposure to enterprise data workflows and access controls, building foundational information security awareness.
+\item Collaborated with teams across SDLC stages, strengthening communication and analytical skills applicable to security operations.
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{EDUCATION \& CERTIFICATIONS}\\[-8pt]
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{-2pt}
+
+\textbf{Cloud Architecture \& Administration Postgraduate Certificate (Hons)} \hfill Jan 2024 -- Aug 2024
+
+Seneca College, Toronto, Canada
+
+\textbf{Cybersecurity \& Threat Management Postgraduate Certificate (Hons)} \hfill Jan 2023 -- Aug 2023
+
+Seneca College, Toronto, Canada
+
+\textbf{Information Technology Bachelor of Science (Hons)} \hfill Jan 2016 -- Mar 2020
+
+University of Colombo, Colombo, Sri Lanka
+
+\textbf{AWS Certified Solutions Architect - Associate (Certification)} \hfill Aug 2024
+
+\end{document}
